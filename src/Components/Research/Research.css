@@ -1,0 +1,65 @@
+.outerres{
+    margin-top: 100px;
+}
+.container21 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: 10px;
+  }
+  
+  .card21 {
+    width: 100%;  
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+     
+  }
+  
+  .image21 {
+    width: 35%;
+  }
+  
+  .image21 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .description21 {
+    width: calc(65% - 10px); /* Adjust as needed */
+    padding: 10px;
+    color: #000;
+  }
+  
+  .description21 h3 {
+    /* margin-top: 0; */
+    margin-bottom: 23px;
+    margin-top: 16px;
+    font-size: 15px;
+  }
+  
+  .description21 p {
+    margin-bottom: 10px;
+  }
+  
+  .description21 button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Clearfix for card container */
+  .container21::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.card21:hover{
+  transform: scale(1.02); /* Apply scale transformation on hover */
+  
+}

@@ -1,0 +1,169 @@
+/* Navbar container */
+nav {
+    width: 100%;
+    color: white;
+    padding: 4px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    font-weight: bold;
+  }
+  
+  /* Logo styles */
+  .logo {
+    height: 45px;
+    width: 80px;
+    filter: brightness(150%);
+  }
+  
+  /* Navbar items */
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  /* Navbar item hover effect */
+  nav ul li:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Sticky navbar style */
+  .dark-nav {
+    background: #9c111a;
+    transition: 0.5s;
+  }
+  
+  /* Menu icon styles */
+  #menuIcon {
+    width: 30px;
+    cursor: pointer;
+    top: 22px;
+    right: 90px;
+  }
+  
+  /* Labs dropdown container */
+  .labs-dropdown {
+    position: relative;
+  }
+  
+  /* Labs dropdown menu styles */
+  .labs-dropdown-menu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Position below the Labs button */
+    left: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 8px 0;
+    z-index: 1;
+    min-width: 200px;
+  }
+  
+  /* Labs dropdown list items */
+  .labs-dropdown-menu li {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  /* Link styles within Labs dropdown */
+  .labs-dropdown-menu li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for Labs dropdown links */
+  .labs-dropdown-menu li a:hover {
+    background-color: #cd3030;
+    color: white;
+  }
+  
+  /* Show Labs dropdown menu on hover */
+  .labs-dropdown:hover .labs-dropdown-menu {
+    display: block;
+  }
+  
+  /* Menubhai container (menu icon container) */
+  .menubhai {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+  }
+  
+  /* Dropdown content styling */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    color:#000000;
+    min-width: 160px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: -80px;
+    top: 30px;
+  }
+  
+  .dropdown-content ul li {
+    font-size: 14px;
+  }
+  
+  /* Dropdown menu link hover effect */
+  .dropdown-content a:hover {
+    background-color: #cd3030;
+  }
+  
+  /* Show dropdown on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Larger screens, adjust logo and list item margins */
+  @media (max-width: 1000px) {
+    .logo {
+      width: 140px;
+    }
+    nav ul li {
+      margin: 10px 15px;
+    }
+  }
+  
+  /* Smaller screens (mobile menu) */
+  @media (max-width: 840px) {
+    nav {
+      padding: 15px 0;
+    }
+    nav ul {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: #212ea0;
+      z-index: -1;
+      width: 200px;
+      padding-top: 70px;
+      transition: 0.5s;
+    }
+    nav ul li {
+      display: block;
+      margin: 25px 40px;
+    }
+    #menuIcon {
+      display: block;
+      width: 30px;
+      cursor: pointer;
+    }
+    .hide-mobile-menu {
+      right: -200px;
+    }
+  }
+  

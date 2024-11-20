@@ -1,0 +1,32 @@
+.container8 {
+    max-width: 1000px;
+    margin: 100px  ;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .fotu8  {
+    max-width: 100%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  
+  .description8 {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .description8 h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    color: black;
+  }
+  
+  .description8 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgb(6, 54, 113);
+  }
+  
