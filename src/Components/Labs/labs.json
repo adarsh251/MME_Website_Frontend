@@ -702,44 +702,71 @@
         "equipments": [
           {
             "name": "Computerized Universal Testing Machine (Spec. 60T)",
-            "image": "/New BTP/Material Characterization Lab/Computerized Universal Testing Machine (Spec. 60T)",
-            "description": "The Computerised Universal Testing Machine (UTM), Specification 60T, is an advanced instrument used to determine the mechanical properties of materials, including tensile strength, compressive strength, and bending strength. With a maximum capacity of 60 tons, it is designed to handle a wide range of materials such as metals, polymers, and composites."
-          },
+            "image": "/New BTP/Material Characterization Laboratory/Computerized Universal Testing Machine.JPG",
+            "description": [
+              "The Computerised Universal Testing Machine (UTM), Specification 60T, is an advanced instrument used to determine the mechanical properties of materials, including tensile strength, compressive strength, and bending strength. With a maximum capacity of 60 tons, it is designed to handle a wide range of materials such as metals, polymers, and composites.",
+              "This machine operates with a computerized control system, allowing precise measurement and real-time monitoring of forces applied to a test specimen. The material is mounted between the grips or supports, and a controlled load is applied. Sensors and software record the material's response, providing data on parameters like stress, strain, and breaking point. The UTM is widely utilized in material science research, quality control, and industrial applications. It enables engineers to evaluate the performance of materials under different loading conditions, ensuring they meet safety and durability standards for various engineering and manufacturing purposes."
+            ]
+            },
           {
             "name": "Brinell Hardness Tester",
-            "image": "/New BTP/Material Characterization Lab/Brinell Hardness Tester",
-            "description": "The Brinell Hardness Tester is a device used to measure the hardness of a material by determining its Brinell Hardness Number (BHN). It is widely used in quality control and material testing across industries such as metallurgy, automotive, and manufacturing to evaluate materials like metals, alloys, and composites."
-          },
+            "image": "/New BTP/Material Characterization Laboratory/Brinell Hardness Tester .jpg",
+            "description": [
+              "The Brinell Hardness Tester is a device used to measure the hardness of a material by determining its Brinell Hardness Number (BHN). This test provides insights into a material's resistance to deformation under an applied load, which is critical for assessing its suitability for various applications.",
+              "The apparatus works by pressing a hard steel or tungsten carbide ball of a specific diameter onto the surface of the test material under a controlled load for a fixed duration. Once the load is removed, the diameter of the indentation left on the material is measured using a microscope or optical device. The BHN is calculated using the applied load, the diameter of the ball, and the size of the indentation. The Brinell Hardness Tester is widely used in quality control and material testing across industries such as metallurgy, automotive, and manufacturing to evaluate materials like metals, alloys, and composites."
+            ]
+            },
           {
             "name": "Rockwell Hardness Tester",
-            "image": "/New BTP/Material Characterization Lab/Rockwell Hardness Tester",
-            "description": "The Rockwell Hardness Tester is an essential tool for determining the Rockwell hardness of a material. This method is widely used due to its speed, simplicity, and ability to test a wide range of materials like metals, plastics, and ceramics."
-          },
+            "image": "/New BTP/Material Characterization Laboratory/Rockwell Hardness Tester .jpg",
+            "description": [
+              "The Rockwell Hardness Tester is an essential tool for determining the Rockwell hardness of a material, which measures its resistance to deformation under an applied load. This method is widely used due to its speed, simplicity, and ability to test a wide range of materials.",
+              "The equipment operates by pressing a steel or carbide ball or a conical diamond (depending on the test scale) into the material's surface under a specific preliminary load. Afterward, a major load is applied, and the depth of the resulting indentation is measured. The hardness value is displayed directly on the machine's dial or digital display, eliminating the need for manual calculations. The Rockwell Hardness Tester is extensively used in industries such as metallurgy, manufacturing, and quality control for evaluating metals, plastics, and ceramics. It helps in material selection, ensuring reliability and performance in applications ranging from construction to automotive engineering."
+            ]
+            },
           {
-            "name": "Digital Impact Testing Machine for Charpy & Izod Test (Toughness Test)",
-            "image": "/New BTP/Material Characterization Lab/Digital Impact Testing Machine for Charpy & Izod Test (Toughness Test)",
-            "description": "The Digital Impact Testing Machine for Charpy and Izod Tests is a specialized device designed to determine the toughness property of materials. It is widely used in material characterization laboratories for evaluating metals, plastics, and composites."
-          },
+            "name": "Digital Impact Testing Machine.jpg",
+            "image": "/New BTP/Material Characterization Laboratory/Digital Impact Testing Machine.jpg",
+            "description": [
+              "The Digital Impact Testing Machine for Charpy and Izod Tests is a specialized device designed to determine the toughness property of materials. Toughness indicates a material's ability to absorb energy and withstand sudden impacts without fracturing, which is critical for assessing its performance under dynamic loads.",
+              "The equipment consists of a pendulum hammer, a specimen holder, and a digital display system. In the Charpy test, the specimen is supported as a beam, while in the Izod test, it is clamped vertically. The pendulum is released to strike the notched specimen, and the machine measures the energy absorbed during the fracture. This energy value is displayed digitally, ensuring precise and quick readings. The Digital Impact Testing Machine is widely used in material characterization laboratories for evaluating metals, plastics, and composites. Its applications include quality control, research, and development, helping industries ensure materials meet safety and performance standards in engineering and manufacturing."
+            ]
+            },
           {
             "name": "Pin-On-Disc Wear Testing Machine",
-            "image": "/New BTP/Material Characterization Lab/Pin-On-Disc Wear Testing Machine",
-            "description": "The Pin on Disc Wear Testing Machine is designed to determine the wear rate between two metal surfaces under controlled conditions, simulating metal-to-metal interaction. It is commonly used in material characterization to study wear mechanisms in metals, coatings, and composites."
-          },
+            "image": "/New BTP/Material Characterization Laboratory/Pin On Disc Wear Testing Machine .jpg",
+            "description": [
+              "The Pin on Disc Wear Testing Machine is designed to determine the wear rate between two metal surfaces under controlled conditions, simulating metal-to-metal interaction. It is a critical tool in evaluating the tribological properties of materials, such as wear resistance and frictional behavior.",
+              "This equipment consists of a rotating disc and a stationary pin, which is pressed against the disc under a specific load. The disc is driven by a motor at a controlled speed, and the wear is measured by monitoring the weight loss of the pin or disc before and after testing. The frictional force can also be recorded during the test. The machine is commonly used in material characterization to study wear mechanisms in metals, coatings, and composites. It provides valuable data for industries like automotive, aerospace, and manufacturing, enabling the development of durable materials and improving component performance in real-world applications."
+            ]
+            },
           {
             "name": "ERICHSEN Cupping Tester Model EC",
-            "image": "/New BTP/Material Characterization Lab/ERICHSEN Cupping Tester Model EC",
-            "description": "The ERICHSEN Cupping Tester Model EC is an essential tool used to evaluate the formability of sheet metal materials. It helps assess the quality and suitability of materials for forming processes such as stamping and drawing."
-          },
+            "image": "/New BTP/Material Characterization Laboratory/ERICHSEN Cupping Tester .JPG",
+            "description": [
+              "The ERICHSEN Cupping Tester Model EC is an essential tool used to evaluate the formability of sheet metal materials. It determines the material's ability to undergo plastic deformation without failure when subjected to a forming operation.",
+              "This equipment works by clamping a metal sheet securely and then pressing a spherical or semi-spherical punch into the sheet until visible cracks appear. The depth of the punch penetration at the point of cracking is recorded as the Erichsen Cupping Index, which indicates the material's formability.",
+              "Widely used in industries like automotive, aerospace, and manufacturing, this tester helps assess the quality and suitability of materials for forming processes such as stamping and drawing. By providing insights into material ductility and deformation limits, it ensures optimal material selection and minimizes defects in finished components, thus improving product reliability and manufacturing efficiency."
+            ]
+            },
           {
             "name": "Torsional Testing Machine",
-            "image": "/New BTP/Material Characterization Lab/Torsional Testing Machine",
-            "description": "The Torsional Testing Machine is used to determine the torsional rigidity, strength, and behavior of materials under twisting loads. It is essential for evaluating materials subjected to torque, such as shafts and structural components."
-          },
+            "image": "/New BTP/Material Characterization Laboratory/Torsional Testing M_C.jpg",
+            "description": [
+              "The Torsional Testing Machine is used to determine the torsional rigidity, strength, and behavior of materials under twisting loads. This equipment is essential for evaluating materials that are subjected to torque during their application, such as shafts, rods, and other structural components.",
+              "The machine operates by securely clamping the specimen between two jaws. One end is fixed, while the other is rotated to apply a twisting moment or torque. The equipment measures the angle of twist and the corresponding torque applied until the material fails or reaches its elastic limit. These measurements are used to calculate the material's torsional rigidity and shear modulus.",
+              "This testing is crucial in industries like automotive, aerospace, and manufacturing, where components experience torsional stresses. The results guide material selection and design processes to ensure safety, reliability, and optimal performance in torsion-loaded applications."
+            ]
+            },
           {
             "name": "Digital Fatigue Testing Machine",
-            "image": "/New BTP/Material Characterization Lab/Digital Fatigue Testing Machine",
-            "description": "The Digital Fatigue Testing Machine is used to determine the fatigue characteristics of materials under cyclic loading. It is essential for evaluating the durability and life expectancy of components subjected to cyclic loading in industries like automotive, aerospace, and civil engineering."
-          }
+            "image": "/New BTP/Material Characterization Laboratory/Digital Fatigue Testing Machine.jpg",
+            "description": [
+              "The Digital Fatigue Testing Machine is used to determine the fatigue characteristics of materials, such as the number of cycles a material can withstand under repeated stress before failure. It is essential for evaluating the durability and life expectancy of components subjected to cyclic loading.",
+              "The machine applies a variable cyclic load (tension, compression, or bending) to a specimen. The stress level, frequency, and type of load can be set digitally. Sensors and a digital interface record the number of cycles endured until the material develops fatigue cracks or fails. This data helps plot an S-N curve (stress vs. number of cycles) to assess the fatigue limit of the material.",
+              "This equipment is widely used in industries like automotive, aerospace, and civil engineering to ensure materials meet safety and performance standards. The insights guide the design of components to resist failure under cyclic loading conditions."
+            ]
+            }
         ]
       },
       {
