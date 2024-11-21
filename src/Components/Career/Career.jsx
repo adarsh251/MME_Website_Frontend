@@ -105,6 +105,70 @@ const Career = () => {
         
       </div>
     </div>
+    <div className="card10">
+      <div className="image10">
+        <img src={car7} alt="Image 1"/>
+      </div>
+      <div className="description10">
+        <h2>Manufacturing Engineer:</h2>
+        <p>Manufacturing engineers focus on improving production processes, optimizing workflows, and ensuring the efficient use of resources. They work with automation, robotics, and machinery to increase the quality and speed of manufacturing operations, commonly found in industries such as automotive and electronics.
+        </p>
+        
+      </div>
+    </div>
+    <div className="card10">
+      <div className="image10">
+        <img src={car7} alt="Image 1"/>
+      </div>
+      <div className="description10">
+        <h2>Aerospace Engineer:</h2>
+        <p>Aerospace engineers design, develop, and test aircraft, spacecraft, and related systems. They work on propulsion systems, aerodynamics, and materials to ensure safety, efficiency, and performance. Careers in this field include roles in defense, commercial aviation, and space exploration.        </p>
+        
+      </div>
+    </div>
+    <div className="card10">
+      <div className="image10">
+        <img src={car7} alt="Image 1"/>
+      </div>
+      <div className="description10">
+        <h2>Automotive Engineer:</h2>
+        <p>Automotive engineers design and develop vehicles and vehicle components, focusing on performance, safety, and sustainability. They work on areas such as powertrain systems, vehicle dynamics, and electric vehicles, contributing to innovations in the automotive industry.</p>
+        
+      </div>
+    </div>
+    <div className="card10">
+      <div className="image10">
+        <img src={car7} alt="Image 1"/>
+      </div>
+      <div className="description10">
+        <h2>Design Engineer:</h2>
+        <p>Design engineers create and develop mechanical components, systems, and products. They use computer-aided design (CAD) software to draft and test their concepts, ensuring functionality, safety, and manufacturability, often working in industries like automotive, aerospace, and consumer electronics.</p>
+        
+      </div>
+    </div>
+    <div className="card10">
+      <div className="image10">
+        <img src={car7} alt="Image 1"/>
+      </div>
+      <div className="description10">
+        <h2>Energy Engineer
+        :</h2>
+        <p>Energy engineers focus on optimizing energy production, distribution, and consumption in sectors like renewable energy, oil, and gas. They design systems for efficient power generation, manage energy resources, and work on sustainable energy solutions such as solar, wind, and bioenergy.
+        </p>
+        
+      </div>
+    </div>
+    <div className="card10">
+      <div className="image10">
+        <img src={car7} alt="Image 1"/>
+      </div>
+      <div className="description10">
+        <h2>Marine Engineer:</h2>
+        <p>Marine engineers design, develop, and maintain ships, boats, and offshore structures. They work on propulsion systems, electrical systems, and other mechanical components critical for the safe and efficient operation of vessels. Marine engineers are employed in shipping, defense, and offshore oil and gas industries.</p>
+        
+      </div>
+    </div>
+
     </div>
 
 

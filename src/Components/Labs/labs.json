@@ -1246,109 +1246,231 @@
         "equipments": [
           {
             "name": "Flex ECU Application Software",
-            "image": "/New BTP/Automobiles Lab/Flex ECU Application Software",
-            "description": "The Flex ECU Application Software is used for engine control unit (ECU) programming, testing, and customization. It facilitates calibration, tuning, and monitoring of vehicle ECUs to adjust parameters such as fuel injection, ignition timing, air-fuel ratios, and other critical engine functions."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/ECU Simulator.jpg",
+            "description": [
+              "The Flex ECU Application Software is used for engine control unit (ECU) programming, testing, and customization. Its primary purpose is to facilitate the calibration, tuning, and monitoring of vehicle ECUs, allowing technicians to adjust parameters related to fuel injection, ignition timing, air-fuel ratios, and other critical engine functions for enhanced performance or efficiency.",
+              
+              "This software connects to the ECU through a specialized interface, enabling users to access real-time data, perform diagnostics, and implement software upgrades. It is widely used in tuning applications where users seek to maximize the performance of the engine by fine-tuning the ECU parameters to achieve desired results, such as increased horsepower, fuel economy, or emissions reduction.",
+              
+              "Additionally, it supports reverse engineering and reprogramming of ECUs, making it essential for research, development, and customization in motorsports and vehicle modifications."
+            ]
+            },
           {
             "name": "Internal Combustion Engine Application",
-            "image": "/New BTP/Automobiles Lab/Internal Combustion Engine Application",
-            "description": "The Internal Combustion Engine (ICE) Application setup analyzes engine performance under various conditions. It includes an ICE connected to measuring instruments, sensors, and data acquisition systems to capture fuel consumption, torque, speed, emissions, and temperature."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Internal Combustion Engine Application.jpg",
+            "description": [
+              "The Internal Combustion Engine (ICE) Application is designed to study and analyze the performance of an engine under various operating conditions. This setup includes an ICE connected to measuring instruments, sensors, and data acquisition systems that capture key parameters such as fuel consumption, torque, speed, emissions, and temperature.",
+            
+              "By running the engine at different loads, speeds, and throttle positions, researchers can observe its efficiency, fuel economy, power output, and emissions. This data is essential for understanding the impact of variables like air-fuel mixture, ignition timing, and compression ratio on engine performance.",
+            
+              "The setup is widely used in research and development for optimizing engine design, improving fuel efficiency, and meeting emission standards. It provides a hands-on learning experience for students and professionals, enabling them to visualize engine dynamics and apply theoretical concepts to practical testing, ultimately advancing automotive technology."
+            ]
+            },
           {
             "name": "Flex ECU Based On The Gasoline ECU",
-            "image": "/New BTP/Automobiles Lab/Flex ECU Based On The Gasoline ECU",
-            "description": "The Flex ECU based on a gasoline ECU enables real-time monitoring and control of engine functions like fuel injection, ignition timing, and air-fuel ratio. It collects data from various sensors for engine testing and development, optimizing performance and meeting emissions standards."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Flex ECU Based On The Gasoline ECU.jpg",
+            "description": [
+              "The Flex ECU based on a gasoline ECU is a versatile engine control unit designed to interface seamlessly between automotive sensors, actuators, and application software. This ECU is crucial in engine testing and development as it allows for real-time monitoring and control of engine functions, such as fuel injection, ignition timing, and air-fuel ratio.",
+            
+              "The Flex ECU collects data from various sensors (e.g., temperature, pressure, oxygen sensors) and communicates it to application software for analysis and optimization. In testing environments, the Flex ECU enables engineers to simulate different driving conditions and modify control parameters, helping them evaluate how the engine responds to changes.",
+            
+              "By adjusting actuator settings like throttle position and valve timing, engineers can fine-tune performance and efficiency. The Flex ECU’s adaptability also makes it useful for calibrating systems to meet emissions standards, troubleshoot issues, and optimize vehicle drivability. It bridges hardware and software, facilitating comprehensive engine system testing and development."
+            ]
+            },
           {
             "name": "Raspberry Pi-3 Model B/Arduino",
-            "image": "/New BTP/Automobiles Lab/Raspberry Pi-3 Model B/Arduino",
-            "description": "Raspberry Pi 3 Model B and Arduino are used for interfacing between model-based systems like ABS, EPS, power windows, and actual hardware components. They allow simulation and real-time testing of control algorithms on embedded systems."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Raspberry Pi-3 Model B Arduino.jpg",
+            "description": [
+              "The Raspberry Pi 3 Model B and Arduino are used for interfacing between the model-based design of systems like Anti-lock Braking Systems (ABS), Electric Power Steering (EPS), power windows, and their actual hardware components. These platforms serve as a bridge, allowing the simulation and control models developed on software to be tested and executed in real-time on physical systems.",
+            
+              "In model-based design, engineers create control algorithms and test scenarios in simulation environments. The Raspberry Pi and Arduino can then execute these algorithms and control the actual hardware components through sensors and actuators. For example, in ABS, the Raspberry Pi or Arduino can process data from wheel sensors and send commands to modulate brake pressure.",
+            
+              "These platforms allow for rapid prototyping, real-time testing, and debugging of embedded systems, ensuring that the algorithms perform correctly before final integration into the vehicle’s ECUs. This process accelerates development and ensures system reliability."
+            ]
+            },
           {
             "name": "ABS Simulator",
-            "image": "/New BTP/Automobiles Lab/ABS Simulator",
-            "description": "An ABS Simulator is used to study Anti-lock Braking Systems (ABS) by generating signals simulating wheel speed, brake pressure, and other parameters, allowing engineers to test the ABS response and fine-tune its algorithms."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/ABS Simulator.jpg",
+            "description": [
+              "An ABS Simulator is used to study and test the functionality of Anti-lock Braking Systems (ABS) in a controlled environment without requiring a physical vehicle. It simulates the braking dynamics, allowing engineers to analyze the system's behavior during different driving conditions, such as emergency braking or slippery road surfaces.",
+            
+              "The ABS Simulator mimics the vehicle's braking system by generating signals that simulate wheel speed, brake pressure, and other relevant parameters. Engineers can use the simulator to evaluate the ABS response, such as modulating brake pressure to prevent skidding and maintain vehicle stability. It is also used for fine-tuning ABS algorithms and performing diagnostic tests on the system. By providing a safe and repeatable environment, the ABS simulator accelerates the development and testing process of ABS systems before integration into actual vehicles."
+            ]
+            },
           {
             "name": "ECU Simulator",
-            "image": "/New BTP/Automobiles Lab/ECU Simulator",
-            "description": "An ECU Simulator replicates the behavior of an Electronic Control Unit, enabling testing and validation of control algorithms and sensor-actuator responses in a virtual environment."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/ECU Simulator.jpg",
+            "description": [
+              "An ECU Simulator is used to understand and analyze the function of an Electronic Control Unit (ECU) in a virtual environment. It replicates the behavior of real ECUs that control various vehicle functions, such as engine management, braking systems, and infotainment, by emulating their inputs, outputs, and communication protocols.",
+            
+              "The ECU simulator allows engineers to test and validate control algorithms, sensors, and actuators in a controlled, virtual setting without the need for actual hardware. It interfaces with software-based models and provides simulated signals that mimic real-world data from sensors or user inputs. The simulator can be used to evaluate the ECU's response to different driving conditions, sensor failures, or component interactions, facilitating debugging and optimization before physical integration. By offering a risk-free environment, the ECU simulator enables faster prototyping, system tuning, and troubleshooting, ensuring that the ECU's performance meets safety, reliability, and efficiency standards in the final product."
+            ]
+            },
           {
-            "name": "Electronic Throttle Control With Accelerator Pedal Rig",
-            "image": "/New BTP/Automobiles Lab/Electronic Throttle Control With Accelerator Pedal Rig",
-            "description": "This rig simulates the interaction between the accelerator pedal and throttle body, allowing engineers to test the electronic throttle control system’s performance and response."
-          },
+            "name": "Electronic Throttle Control With Accelerator Pedal Rig.jpg",
+            "image": "/New BTP/Automotive Engineering Laboratory/Electronic Throttle Control With Accelerator Pedal Rig.jpg",
+            "description": [
+              "The Electronic Throttle Control (ETC) with Accelerator Pedal Rig is used to study and understand the function of electronic throttle systems in a virtual environment. It simulates the interaction between the accelerator pedal and the vehicle’s throttle body, which is responsible for regulating engine power based on driver input.",
+            
+              "The rig consists of an accelerator pedal sensor, an actuator that controls throttle position, and software to emulate engine control module (ECM) behavior. When the driver presses the accelerator pedal, the sensor transmits the position data to the ECM, which adjusts the throttle opening to control engine speed. In a virtual environment, this setup allows engineers to test the responsiveness and behavior of the ETC system under various conditions without needing a physical vehicle.",
+            
+              "The simulator aids in optimizing control algorithms, troubleshooting issues, and improving performance. It also enables safe and efficient testing of throttle response, driveability, and system reliability before integration into actual vehicles."
+            ]
+            },
           {
             "name": "Electric Van",
-            "image": "/New BTP/Automobiles Lab/Electric Van",
-            "description": "An in-house fabricated Electric Van is used to test and optimize electric vehicle components like the battery, motor, and charging system under real-world driving conditions."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Electric-Van.jpg",
+            "description": [
+              "An Electric Van that is in-house fabricated is used to understand and evaluate the performance of electric vehicles (EVs). It serves as a platform for testing and experimenting with various EV components, including the battery pack, electric motor, charging system, and power electronics, in a real-world setting.",
+            
+              "Engineers use the electric van to simulate different driving conditions, such as acceleration, braking, and energy consumption, to study the efficiency and range of the vehicle. The in-house fabrication allows for customization, enabling the van to be equipped with specific sensors and control systems that measure parameters like battery health, energy regeneration, and motor performance.",
+            
+              "This platform is also used for optimizing vehicle control strategies, including regenerative braking and energy management. By testing various components and configurations in-house, engineers can troubleshoot, validate, and fine-tune the electric vehicle’s performance before scaling production or integrating it into commercial applications."
+            ]
+            },
           {
             "name": "2 DOF Vehicle Driving Simulator",
-            "image": "/New BTP/Automobiles Lab/2 DOF Vehicle Driving Simulator",
-            "description": "A 2 DOF Vehicle Driving Simulator replicates vehicle dynamics such as pitch and roll to study driver control, handling, and safety features in a virtual environment."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/2 DOF Vehicle Driving Simulator.jpg",
+            "description": [
+              "A 2 DOF (Degrees of Freedom) Vehicle Driving Simulator is used to study and analyze the driving behavior of a vehicle in a virtual environment. The simulator provides a realistic, interactive platform where engineers and researchers can assess how a vehicle behaves under various driving conditions without the need for a physical vehicle.",
+            
+              "The '2 DOF' refers to the simulator's ability to replicate two types of motion, typically pitch and roll, which are crucial for simulating vehicle dynamics such as acceleration, braking, and cornering. The system includes a driving seat, steering wheel, pedals, and motion actuators that mimic the vehicle’s response to user input. It interfaces with a virtual environment that simulates road conditions, vehicle performance, and traffic scenarios.",
+            
+              "This setup allows for the evaluation of driver control, vehicle handling, and safety features under different conditions, such as slippery roads or emergency maneuvers. It is invaluable for developing and testing advanced driver assistance systems (ADAS) and vehicle control algorithms."
+            ]
+            },
           {
             "name": "Diffused Light Polariscope",
-            "image": "/New BTP/Automobiles Lab/Diffused Light Polariscope",
-            "description": "The Diffused Light Polariscope detects and analyzes stress patterns in materials, such as glass and plastics, by utilizing polarized light to reveal internal stresses."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Diffused Light Polariscope.jpg",
+            "description": [
+              "A Diffused Light Polariscope (DLP) is a specialized optical instrument used to detect and analyze stress patterns in transparent or semi-transparent materials. It operates on the principle of polarized light, which interacts with the internal stresses in a material, revealing their distribution.",
+            
+              "The device consists of a light source, polarizing filters, and sometimes a retardation plate. The light source emits diffused light, which passes through a polarizing filter to produce polarized light. The test sample is placed between crossed polarizers, and any internal stresses cause the polarized light to split into components, producing interference patterns visible as fringes.",
+            
+              "DLPs are widely used in material science, quality control, and manufacturing to evaluate residual stresses in glass, plastics, and other transparent materials. By identifying stress concentrations, they help prevent material failure and ensure product reliability, particularly in industries like optics, aerospace, and electronics."
+            ]
+            },
           {
             "name": "Model of Steering System",
-            "image": "/New BTP/Automobiles Lab/Model of Steering System",
-            "description": "A steering system model simulates the key components of a vehicle's steering mechanism to study how driver input translates into wheel movement and vehicle handling."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Model of Steering system.jpg",
+            "description": [
+              "A model of a steering system is used to simulate and demonstrate the principles of vehicle steering mechanics. It represents the key components of a steering mechanism, such as the steering wheel, steering column, rack and pinion, linkages, and wheels, to study how input from the driver translates into wheel movement.",
+            
+              "The model helps in understanding different types of steering systems, including manual, power-assisted, and electronic steering. It allows users to observe how forces are transmitted from the steering wheel to the wheels, and how the geometry of the steering mechanism affects the vehicle's handling and stability.",
+            
+              "Steering system models are commonly used in automotive engineering education, design testing, and research. They are employed to study steering dynamics, improve vehicle handling, and test various steering configurations. By using the model, engineers can analyze performance, identify potential issues, and develop more efficient and responsive steering systems."
+            ]
+            },
           {
             "name": "Model of Passenger Car Electrical Wiring System",
-            "image": "/New BTP/Automobiles Lab/Model of Passenger Car Electrical Wiring System",
-            "description": "This model demonstrates the layout and functioning of electrical circuits in a vehicle, helping engineers understand electrical power distribution and diagnose issues."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Model of Passenger Car- Electrical Wiring System.jpg",
+            "description": [
+              "A model of a passenger car electrical wiring system is used to demonstrate and study the layout and functioning of the electrical circuits in a vehicle. It represents the key components such as the battery, alternator, fuses, wiring harnesses, lights, switches, and other electrical devices like the ignition system, power windows, and infotainment systems.",
+              
+              "The model helps in understanding the distribution of electrical power throughout the car and how different electrical components are interconnected. It provides a hands-on learning tool for understanding circuit protection, grounding, and the flow of current through various systems.",
+              
+              "This model is primarily used in automotive education, training, and troubleshooting. It allows engineers and technicians to practice diagnosing faults, repairing wiring issues, and ensuring that the electrical system operates safely and efficiently. By using the model, one can visualize and test electrical connections before implementing them in a real vehicle."
+            ]
+            },
           {
             "name": "Cut Section Model of Disc Brake System",
-            "image": "/New BTP/Automobiles Lab/Cut Section Model of Disc Brake System",
-            "description": "A cut section model of a disc brake system visually explains its internal components, such as the brake rotor and pads, showing how friction is used to slow down or stop a vehicle."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Cut Section Model of Disc Brake System.jpg",
+            "description": [
+              "A cut section model of a disc brake system is used to visually demonstrate the internal components and working principles of a disc brake. The model typically features a cutaway view of the brake rotor, brake pads, caliper, and the hydraulic or mechanical linkages that apply force to the pads. By exposing the internal structure, it allows for a clearer understanding of how the frictional force is generated to slow down or stop a vehicle.",
+              
+              "The cut section model helps to illustrate key elements such as the rotation of the disc, the interaction between the brake pads and the rotor, and the role of hydraulic pressure in actuating the calipers. It also showcases the design of the cooling vents within the rotor to dissipate heat.",
+              
+              "This model is widely used in automotive engineering education, training, and research to teach brake system functionality, diagnose performance issues, and improve disc brake designs for enhanced safety and efficiency."
+            ]
+            },
           {
             "name": "Cut Section Model of Drum Brake Unit",
-            "image": "/New BTP/Automobiles Lab/Cut Section Model of Drum Brake Unit",
-            "description": "This model illustrates the operation of a drum brake system by showing the internal components like brake shoes, wheel cylinders, and the force application to the drum."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Cut Section Model of Drum Brake Unit.jpg",
+            "description": [
+              "A cut section model of a drum brake unit is used to visually demonstrate the internal components and working principles of a drum brake system. The model features a cutaway view of the brake drum, brake shoes, wheel cylinder, and the linkages that operate the system. It allows for a clear understanding of how braking force is applied to slow down or stop a vehicle.",
+              
+              "In the drum brake system, hydraulic pressure from the master cylinder pushes the wheel cylinder, forcing the brake shoes outward to contact the inner surface of the rotating drum, generating friction. The cut section model illustrates how the shoes expand, how the drum rotates, and the interaction between the shoes and the drum surface.",
+              
+              "This model is commonly used in automotive education and training to explain drum brake operation, diagnose issues like brake shoe wear or uneven pressure distribution, and improve brake system design for better performance and safety."
+            ]
+            },
           {
             "name": "Cut Section Model of Power Windows with One Door",
-            "image": "/New BTP/Automobiles Lab/Cut Section Model of Power Windows with One Door",
-            "description": "This cut section model demonstrates the inner workings of a power window system, showing how the motor, regulator, and electrical circuits control window movement."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Cut Section Model of Power Windows with One door.jpg",
+            "description": [
+              "A cut section model of power windows with one door is used to demonstrate the internal mechanism and operation of a power window system in a vehicle. The model typically features a cutaway view of the door panel, motor, regulator, and associated components such as the window lift, switches, and wiring.",
+              
+              "This model helps to visually explain how the power window operates, where the electric motor drives a gear mechanism (regulator) to move the window up or down within the door frame. It shows the interaction between the motor, regulator, and window glass, highlighting the role of electrical circuits in controlling the movement. The cut section also reveals safety features like anti-pinch mechanisms, which prevent the window from closing if an obstruction is detected.",
+              
+              "Primarily used in automotive education and training, this model allows students and technicians to understand the working principle, diagnose faults, and gain insights into the design and maintenance of power window systems."
+            ]
+            },
           {
             "name": "Demonstration Board of Electronic Ignition System of 4 Wheeler Automobile",
-            "image": "/New BTP/Automobiles Lab/Demonstration Board of Electronic Ignition System of 4 Wheeler Automobile",
-            "description": "This demonstration board showcases the components and function of an electronic ignition system, explaining how the ECM controls ignition timing for improved performance and efficiency."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Demonstration Board of Electronic Ignition System of 4 Wheeler Automobile.jpg",
+            "description": [
+              "A demonstration board of the electronic ignition system in a 4-wheeler automobile is used to showcase the functioning and components of a modern electronic ignition system. This board typically includes a display of components such as the ignition coil, distributor, sensor, control module, spark plugs, and wiring. It is designed to simulate the ignition process in a vehicle, where the electronic control module (ECM) manages the timing and firing of the spark plugs to ignite the air-fuel mixture in the engine.",
+              
+              "The model helps explain how the system replaces traditional mechanical points with electronic sensors and circuits to control ignition timing more precisely. It also illustrates how the system adjusts the spark based on engine parameters like speed and load for better fuel efficiency and performance.",
+              
+              "Used in automotive education and training, the demonstration board enables students and technicians to understand the system's operation, diagnose issues, and learn how electronic ignition systems contribute to vehicle performance and reliability."
+            ]
+            },
           {
             "name": "Cut Section Model of Complete Both Side MacPherson Suspension Strut with Drive Shaft",
-            "image": "/New BTP/Automobiles Lab/Cut Section Model of Complete Both Side MacPherson Suspension Strut with Drive Shaft",
-            "description": "This model shows the complete MacPherson suspension strut and drive shaft, demonstrating how these components absorb shocks and maintain stability in a vehicle."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Cut Section Model of Complete Both Side MacPherson Suspension Strut with Drive Shaft.jpg",
+            "description": [
+              "A cut section model of a complete MacPherson suspension strut with a drive shaft is used to demonstrate the working principles and components of this common automotive suspension system. The model features a cutaway view of the strut assembly, which includes the coil spring, shock absorber, strut mount, steering knuckle, and the drive shaft. This allows for a detailed view of how the suspension system absorbs shocks and helps maintain vehicle stability by controlling wheel movement.",
+              
+              "The MacPherson strut combines the shock absorber and spring into a single unit, allowing for efficient space utilization and reduced weight. The drive shaft is connected to the wheel hub, transmitting power from the engine to the wheels. This model demonstrates how these components work together to support the vehicle’s weight, absorb road shocks, and maintain proper wheel alignment.",
+              
+              "Used in automotive education and training, the cut section model helps in understanding suspension dynamics, diagnosing issues, and improving suspension system design."
+            ]
+            },
           {
             "name": "Demonstration Board of Fuel Supply System of Diesel Engine (Working)",
-            "image": "/New BTP/Automobiles Lab/Demonstration Board of Fuel Supply System of Diesel Engine",
-            "description": "The fuel supply system model for a diesel engine demonstrates how fuel is delivered from the tank through the pump and injectors to the combustion chamber for efficient engine operation."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Demonstration Board of Fuel Supply System of Diesel Engine Working.jpg",
+            "description": [
+              "A demonstration board of the fuel supply system of a diesel engine is used to illustrate the components and operation of the system that delivers fuel to the engine for combustion. The model typically includes components such as the fuel tank, fuel pump, fuel filter, injectors, and fuel lines, along with the necessary connections to show the flow of fuel.",
+              
+              "This system works by transferring fuel from the tank through the pump, which pressurizes the fuel and delivers it to the injectors. The injectors atomize the fuel into the combustion chamber, where it mixes with air and ignites under pressure, powering the engine. The demonstration board helps in understanding how each part of the fuel system works together to ensure efficient fuel delivery and combustion.",
+              
+              "Used in automotive engineering education and training, this board enables students and technicians to visualize the fuel flow, troubleshoot issues like blockages or pressure problems, and learn about the system's role in engine performance and fuel efficiency."
+            ]
+            },
           {
             "name": "Subsonic Wind Tunnel",
-            "image": "/New BTP/Automobiles Lab/Subsonic Wind Tunnel",
-            "description": "A subsonic wind tunnel is used to study aerodynamic properties by simulating airflow over models and measuring lift, drag, and turbulence to optimize vehicle and aircraft designs."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Subsonic Wind Tunnel.jpg",
+            "description": [
+              "A subsonic wind tunnel is used to study the aerodynamic properties of objects at speeds below the speed of sound (Mach 1). It is designed to simulate airflow over models of aircraft, vehicles, or other structures in a controlled environment to analyze forces like lift, drag, and turbulence. The wind tunnel consists of a test section where the model is placed, and air is pumped through the tunnel at subsonic speeds, typically ranging from 0 to 0.8 Mach.",
+              
+              "The model is equipped with sensors to measure forces and pressure distribution, while visual tools like smoke or laser lights can be used to observe airflow patterns around the model. The results from the wind tunnel provide valuable data on aerodynamic performance, helping in the design of more efficient and stable vehicles, aircraft, and structures.",
+              
+              "Subsonic wind tunnels are widely used in aerospace engineering, automotive testing, and research to optimize designs for better performance, fuel efficiency, and safety."
+            ]
+            },
           {
             "name": "Multi-Tube Manometer",
-            "image": "/New BTP/Automobiles Lab/Multi-Tube Manometer",
-            "description": "The multi-tube manometer measures pressure differences in fluids, helping engineers analyze fluid behavior and troubleshoot pressure-related issues."
-          },
+            "image": "/New BTP/Automotive Engineering Laboratory/Multi Tube Manometer.jpg",
+            "description": [
+              "A multi-tube manometer is an instrument used to measure pressure differences in fluids, typically in fluid mechanics and engineering applications. It consists of multiple vertical tubes filled with a liquid, such as mercury or water, connected at both ends to two points in a fluid system where pressure is to be measured. The pressure difference between the two points causes the liquid level in the tubes to rise or fall, providing a visual representation of the pressure difference.",
+              
+              "Each tube in the manometer corresponds to a different measurement, allowing for the comparison of pressure differences at multiple points in a system simultaneously. The manometer is often used in laboratory settings, HVAC systems, and fluid flow experiments to measure pressure drops across filters, pipes, or air ducts.",
+              
+              "It is used for accurate and precise pressure measurements, helping in the analysis of fluid behavior, system efficiency, and troubleshooting pressure-related issues in various engineering fields."
+            ]
+            },
           {
             "name": "Cut Section Model of Complete Both Side Double Wishbone Suspension Strut with Drive Shaft",
-            "image": "/New BTP/Automobiles Lab/Cut Section Model of Complete Both Side Double Wishbone Suspension Strut with Drive Shaft",
-            "description": "This model illustrates the double wishbone suspension system with a drive shaft, showcasing how this configuration enhances handling and stability in vehicles."
-          }
+            "image": "/New BTP/Automotive Engineering Laboratory/Cut Section Model of Complete Both Side Double Wishbone Suspension Strut with Drive Shaft.jpg",
+            "description": [
+              "A cut section model of a complete double wishbone suspension strut with a drive shaft is used to demonstrate the components and working principles of this suspension system, which is commonly used in modern vehicles for improved handling and stability. The model features a cutaway view of the double wishbone suspension, including the upper and lower control arms (wishbones), struts, coil springs, shock absorbers, and the drive shaft.",
+              
+              "The double wishbone setup allows for better control over wheel alignment and movement, providing improved ride comfort and cornering performance. The drive shaft transmits power from the engine to the wheels, integrating with the suspension system to support vehicle dynamics.",
+              
+              "Used in automotive education and training, this model helps students and engineers understand the suspension's role in vehicle handling, its design benefits, and how each component functions together. It is also useful for diagnosing suspension-related issues and improving suspension system designs for enhanced vehicle performance and safety."
+            ]
+            }
         ]
       }, 
       {
@@ -1356,139 +1478,272 @@
         "equipments": [
           {
             "name": "Surface Roughness Tester",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Surface Roughness Tester",
-            "description": "A precision instrument used to measure the roughness or texture of a material's surface. It quantifies surface irregularities or deviations from a perfectly smooth surface, which are critical for understanding the material's functionality in various applications like friction, wear, and appearance."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Surface Roughness Tester.jpg",
+            "description": [
+              "A surface roughness tester is a precision instrument used to measure the roughness or texture of a material's surface. It quantifies surface irregularities or deviations from a perfectly smooth surface, which are critical for understanding the material's functionality in various applications like friction, wear, and appearance.",
+              
+              "The tester typically consists of a probe that moves along the surface being tested. The probe detects minute variations in the surface height, generating a profile that is analyzed to determine roughness parameters such as Ra (average roughness) and Rz (maximum height of the profile). The results help engineers assess whether the surface finish meets specified standards for manufacturing or design purposes.",
+              
+              "Surface roughness testers are used in industries like automotive, aerospace, and manufacturing to ensure the proper surface finish of components, ensuring they perform optimally. They are valuable in quality control and R&D for testing different materials and machining processes for precise surface finishes."
+            ]
+            },
           {
             "name": "Temperature Measuring Setup",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Temperature Measuring Setup",
-            "description": "An instrument used to accurately measure the temperature of a system or environment, consisting of temperature sensors, a display or data acquisition system, and a power supply."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Temperature Measuring Setup.jpg",
+            "description": [
+              "A temperature measuring setup is an instrument used to accurately measure the temperature of a system or environment. It typically consists of temperature sensors (such as thermocouples, resistance temperature detectors (RTDs), or thermistors), a display or data acquisition system, and a power supply. The sensors detect temperature changes and convert them into electrical signals, which are then processed and displayed as a temperature reading.",
+              
+              "The setup can be used in a variety of applications, including industrial processes, HVAC systems, scientific research, and equipment testing. It is crucial for monitoring and controlling temperature-sensitive processes, such as in manufacturing, chemical reactions, or thermal testing of materials.",
+              
+              "Temperature measuring setups are used to ensure that systems operate within the required temperature range, prevent overheating or freezing, and ensure the safety and efficiency of processes. In a lab setting, they are employed to calibrate and test temperature-sensitive equipment, enabling precise measurements in experiments and product development."
+            ]
+            },
           {
             "name": "Force Measuring Setup",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Force Measuring Setup",
-            "description": "An instrument used to measure the magnitude of force applied to an object or system, consisting of a load cell or force transducer, a display unit, and necessary mounting fixtures."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Force Measuring Setup.jpg",
+            "description": [
+              "A force measuring setup is an instrument used to measure the magnitude of force applied to an object or system. It typically consists of a load cell or force transducer, a display unit or data acquisition system, and necessary mounting fixtures. The load cell, which is the core component, converts the applied force into an electrical signal that can be measured and displayed.",
+              
+              "The setup is used in various applications such as material testing, structural testing, manufacturing, and research to quantify forces like compression, tension, or shear. It is essential for testing the strength, durability, and performance of materials, as well as for calibrating other equipment.",
+              
+              "In industrial settings, force measuring setups help ensure product quality by verifying force limits during assembly or testing. In labs, they are used to study material behavior under different loads, evaluate the performance of mechanical systems, and perform experiments requiring precise force measurement."
+            ]
+            },
           {
             "name": "Torque Measuring Setup",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Torque Measuring Setup",
-            "description": "An instrument used to measure the rotational force or torque applied to a shaft or mechanical component, typically consisting of a torque sensor or transducer, and a display or data acquisition system."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Torque Measuring Setup.jpg",
+            "description": [
+              "A torque measuring setup is an instrument used to measure the rotational force or torque applied to a shaft or mechanical component. The setup typically consists of a torque sensor or transducer, which is capable of detecting the twisting force, and a display or data acquisition system that provides the measured torque value. The sensor is designed to be compact and rugged, making it suitable for heavy-duty applications where high durability and reliability are crucial.",
+              
+              "The setup is compensated for axial and bending moments, ensuring high accuracy even in challenging conditions where external forces may interfere with the measurement. This compensation helps to eliminate errors caused by misalignment or mechanical stress.",
+              
+              "Torque measuring setups are used in industries like automotive, aerospace, and manufacturing to test the performance of engines, drivetrains, and mechanical systems. They are essential for assessing power transmission, optimizing designs, and ensuring that equipment operates within specified torque limits for safety and efficiency."
+            ]
+            },
           {
             "name": "Linear Air Track Apparatus",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Linear Air Track Apparatus",
-            "description": "Used to study the principles of motion, conservation of momentum, and collisions, consisting of a long, horizontal track with a low-friction surface, typically supported by a cushion of air."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Linear Air Track Apparatus.jpg",
+            "description": [
+              "A linear air track apparatus is used to study the principles of motion, conservation of momentum, and collisions in physics experiments. It consists of a long, horizontal track with a low-friction surface, typically supported by a cushion of air, allowing gliders to move along the track with minimal resistance.",
+              
+              "The apparatus is used to demonstrate the motion of objects under different conditions, such as uniform motion or accelerated motion. It allows for experiments on the conservation of momentum by studying collisions between gliders, either through manual methods (where gliders are manually pushed together) or magnetic methods (where magnets are used to control the motion or collision of the gliders).",
+              
+              "By analyzing the motion and velocities of the gliders before and after collisions, students can directly observe the conservation of momentum in elastic or inelastic collisions. The setup is commonly used in educational settings to provide hands-on experience in fundamental concepts of mechanics and physics."
+            ]
+            },
           {
             "name": "Dial Gauge Calibration Setup",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Dial Gauge Calibration Setup",
-            "description": "Used to accurately calibrate dial gauges with a measurement range of 0-25mm and a least count (L.C.) of 0.001mm, using a precision measuring surface such as a micrometer or standard reference block."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Dial Gauge Calibration Setup.jpg",
+            "description": [
+              "A dial gauge calibration setup is used to accurately calibrate dial gauges with a measurement range of 0-25mm and a least count (L.C.) of 0.001mm. The setup consists of a precision measuring surface, such as a micrometer or standard reference block, and a fixture to hold the dial gauge in place. The reference surface provides known, precise measurements to compare against the readings of the dial gauge.",
+              
+              "The calibration process involves placing the dial gauge in contact with the reference surface and adjusting the gauge's needle or reading to match the known values at different measurement points. This ensures that the dial gauge provides accurate and consistent readings when used in various applications, such as measuring linear displacement, thickness, or alignment in machining, quality control, and mechanical testing.",
+              
+              "The dial gauge calibration setup is crucial for ensuring the precision and reliability of measuring instruments, which is essential in industries that require high levels of accuracy, such as manufacturing and engineering."
+            ]
+            },
           {
             "name": "Height Gauge",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Height Gauge",
-            "description": "A precision instrument used to measure the height or vertical dimensions of objects with high accuracy, typically consisting of a vertical column, a measuring probe, and a base."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Height gauge.jfif",
+            "description": [
+              "A height gauge is a precision instrument used to measure the height or vertical dimensions of objects with high accuracy. It typically consists of a vertical column, a measuring probe or scriber, and a base, which allows the gauge to be placed on a flat surface like a surface plate. The gauge is often equipped with a micrometer screw or digital display for precise readings.",
+              
+              "Height gauges are commonly used in mechanical engineering, quality control, and manufacturing to measure the height of components, check for surface flatness, or mark precise reference points on workpieces. The base of the height gauge ensures that measurements are taken from a stable, consistent reference surface.",
+              
+              "The instrument is also used in combination with a dial indicator or digital scale to measure deviations from the intended height, helping to verify the dimensions of components to ensure they meet design specifications. Height gauges are essential for ensuring the accuracy of machined parts and assemblies."
+            ]
+            },
           {
             "name": "Profile Projector",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Profile Projector",
-            "description": "An optical measuring instrument used to project a magnified image of an object's profile onto a screen for precise measurement and inspection."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Profile-Projector.jpg",
+            "description": [
+              "A profile projector is an optical measuring instrument used to project a magnified image of an object's profile onto a screen for precise measurement and inspection. It consists of a light source, lenses, and a screen where the shadow or silhouette of the part is projected. The object is placed on a stage, and the projector's optics create a scaled image, allowing operators to inspect the part’s shape and dimensions.",
+              
+              "Profile projectors are commonly used in small parts machine shops or production lines by quality control teams to inspect components for accuracy, especially in precision manufacturing. The projected image allows for easy measurement of complex profiles, contours, and geometric features such as holes, angles, and radii, with the help of overlay grids or digital measurement tools.",
+              
+              "This equipment ensures that parts meet specified tolerances, contributing to quality control and enhancing the efficiency of manufacturing processes by quickly identifying defects or deviations from design specifications."
+            ]
+            },
           {
             "name": "Floating Carriage Micrometer",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Floating Carriage Micrometer",
-            "description": "A precision instrument used for the accurate measurement of thread plug gauges, ensuring measurements are taken along the correct axis, even for irregular or tapered surfaces."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Floating Carriage Micrometer.jpg",
+            "description": [
+              "A floating carriage micrometer is a precision instrument used for the accurate measurement of thread plug gauges, which are essential in checking the dimensions of internal threads in mechanical parts. This micrometer consists of a frame with a movable anvil and a spindle, where the plug gauge is placed for measurement. The floating carriage allows the micrometer to adapt to the contour of the gauge, ensuring that the measurement is taken along the correct axis, even for irregular or tapered surfaces.",
+              
+              "It is primarily used to measure the minor diameter, major diameter, and effective diameter of threaded parts. The minor diameter refers to the smallest diameter of the internal thread, the major diameter is the largest, and the effective diameter is the functional diameter of the thread that affects its engagement with a mating part.",
+              
+              "Used in precision engineering and quality control, the floating carriage micrometer ensures that thread plug gauges conform to tight tolerances, critical for ensuring proper fit and function of threaded components."
+            ]
+            },
           {
             "name": "Sine Bar",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Sine Bar",
-            "description": "A precision measuring tool used to measure or set angles with high accuracy, typically used in conjunction with slip gauge blocks to set or measure the angles of components."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Sine-bar.jpg",
+            "description": [
+              "A sine bar is a precision measuring tool used to measure or set angles with high accuracy. The sine bar consists of a hardened, calibrated steel bar with two accurately ground cylinders (rollers) at its ends. It is typically used in conjunction with slip gauge blocks to set or measure the angles of components or workpieces.",
+              
+              "To use the sine bar for angular measurement, the bar is placed on a flat surface, and slip gauge blocks are stacked under one of the rollers to achieve the desired height. The angle is determined by the sine of the angle being equal to the ratio of the height of the slip gauges to the length of the sine bar. For example, using a 200mm sine bar, the height of the slip gauge stack determines the angle, calculated using the sine formula.",
+              
+              "Sine bars are commonly used in machining and quality control to measure or set precise angles for parts and tools, ensuring they meet required specifications in industries such as aerospace and automotive."
+            ]
+            },
           {
             "name": "3-D Coordinate Measuring Machine",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/3-D Coordinate Measuring Machine",
-            "description": "A precision instrument used to measure the geometry of physical objects by sensing discrete points on the surface of the object with a probe, capturing 3D coordinates for accurate measurement."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/3-D Coordinate Measuring Machine.jpg",
+            "description": [
+              "A 3-D coordinate measuring machine (CMM) is a precision instrument used to measure the geometry of physical objects by sensing discrete points on the surface of the object with a probe. The CMM typically consists of a probe (mechanical, optical, or laser), a movable arm or bridge, and a computer system that processes the data.",
+              
+              "To use the CMM, the object is placed on a fixed platform, and the probe is directed to various points on the object's surface. The machine records the 3D coordinates of each point, allowing for the precise measurement of complex shapes, dimensions, and features such as holes, slots, or contours. The collected data is then analyzed to check if the part meets the required specifications and tolerances.",
+              
+              "CMMs are widely used in quality control, manufacturing, and research to ensure the accuracy and precision of machined parts, molds, and assemblies, improving product quality and reducing errors in production."
+            ]
+            },
           {
             "name": "Gear Tooth Vernier",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Gear Tooth Vernier",
-            "description": "A specialized measuring instrument used to precisely measure the thickness of gear teeth and dimensions of hobs, form tools, and thread tools."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Gear tooth Vernier.jfif",
+            "description": [
+              "A gear tooth vernier is a specialized measuring instrument used to precisely measure the thickness of gear teeth, as well as the dimensions of hobs, form tools, and thread tools. It consists of a set of calibrated jaws with a micrometer screw or a digital scale that allows for accurate measurement of the tooth thickness, pitch, and profile.",
+              
+              "To use the gear tooth vernier, the tool is placed between the teeth of a gear, and the jaws are adjusted to measure the thickness at a specific point along the tooth's profile. The instrument typically allows measurements at various positions, such as at the pitch circle or at the base, to ensure consistent gear geometry.",
+              
+              "Gear tooth vernieres are essential in the manufacturing and inspection of gears to ensure that they meet precise design specifications and function correctly in mechanical systems. They are widely used in gear manufacturing, automotive industries, and quality control processes for ensuring optimal gear performance and fit."
+            ]
+            },
           {
             "name": "Slip Gauge",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Slip Gauge",
-            "description": "A precision measuring tool used to establish or verify exact lengths with high accuracy, consisting of calibrated blocks that can be stacked together to achieve a desired measurement."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Slip gauge.jfif",
+            "description": [
+              "A slip gauge, also known as a gauge block, is a precision measuring tool used to establish or verify exact lengths with high accuracy. Slip gauges consist of a set of steel or carbide blocks, each of which is calibrated to a specific length. These blocks can be stacked together to achieve a desired measurement.",
+              
+              "To use a slip gauge, the blocks are stacked in combinations on a surface plate or other flat reference surface. By aligning the blocks precisely, the user can obtain a required length with a very high degree of accuracy, often up to micrometer levels. The individual blocks are made with extremely tight tolerances, and the total length is calculated by adding the individual block lengths.",
+              
+              "Slip gauges are widely used in calibration, quality control, and precision machining to ensure that measuring instruments, such as micrometers and height gauges, are accurate. They are also used for setting or verifying the dimensions of parts, ensuring high precision in manufacturing."
+            ]
+            },
           {
             "name": "Straight Edge",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Straight Edge",
-            "description": "A simple measuring tool used to draw straight lines or check the straightness of a surface or object, typically made from metal, wood, or plastic."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Straight edge.jfif",
+            "description": [
+              "A straight edge is a simple measuring tool used to draw straight lines or check the straightness of a surface or object. Typically made from metal, wood, or plastic, it consists of a long, flat, and rigid body with a precisely straight edge. If the straight edge has equally spaced markings along its length, it is referred to as a ruler, which can also be used for measuring distances.",
+              "To use a straight edge, the user places it along a surface or object that needs to be checked for straightness. The edge of the tool acts as a reference to identify any deviations or warping in the surface. In the case of drawing lines, the straight edge ensures that the lines are perfectly straight.",
+              "Straight edges are commonly used in technical drawing, woodworking, and manufacturing to ensure the precision and accuracy of measurements and designs, particularly when creating or verifying straight lines in construction or machining."
+            ]
+            },
           {
             "name": "Ring Gauge",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Ring Gauge",
-            "description": "A precision tool used to measure the external dimensions of cylindrical parts, specifically their diameter, ensuring that the outer diameter of a workpiece fits within the desired tolerance range."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Ring Gauge.jfif",
+            "description": [
+              "A ring gauge is a precision tool used to measure the external dimensions of cylindrical parts, specifically their diameter. It consists of a ring with a hole that is precisely made to a specific size. The ring gauge is used to check whether the outer diameter of a workpiece fits within the desired tolerance range.",
+              "To use a ring gauge, the workpiece is inserted into the ring, and the fit is checked. If the workpiece fits snugly inside the gauge without excessive play, it is within the specified tolerance range. If it is too loose or too tight, the workpiece is considered out of specification.",
+              "Ring gauges are typically used in quality control and manufacturing processes to inspect shafts, pins, and other cylindrical components. They ensure that parts meet the required dimensional accuracy and are crucial for maintaining consistent quality in mechanical assemblies, such as engines and machinery."
+            ]
+            },
           {
             "name": "Filler Gauge",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Filler Gauge",
-            "description": "A filler gauge, also known as a feeler gauge, is a precision measuring tool used to measure the clearance or gap between two parts. It consists of a series of thin, flat metal blades, each with a different thickness, typically marked in thousandths of an inch or millimeters."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Filler Gauge.jfif",
+            "description": [
+              "A filler gauge is used to measure the clearance or gap between two parts. It consists of a series of thin, flat metal blades, each with a different thickness, typically marked in thousandths of an inch or millimeters. The blades are assembled together in a holder for easy handling and storage.",
+              "To use a filler gauge, the appropriate blade is selected based on the required measurement and inserted into the gap or clearance between two parts. The blade should fit snugly in the space, but not too tightly, indicating that the clearance matches the thickness of the blade. If the blade can be inserted without resistance, a larger blade is selected, and the process is repeated until the correct clearance is determined.",
+              "Filler gauges are widely used in engineering, automotive, and manufacturing applications for checking clearances in engine parts, bearings, valve settings, and other machinery to ensure proper fit and function."
+            ]
+            },
           {
             "name": "Snap Gauge",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Snap Gauge",
-            "description": "A snap gauge is a precision measuring tool used to measure the external dimensions, such as the diameter or thickness, of cylindrical or flat workpieces. It consists of two adjustable arms or jaws, a set of anvils, and a measuring scale."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Snap gauge.jfif",
+            "description": [
+              "A snap gauge is a precision measuring tool used to measure the external dimensions, such as the diameter or thickness, of cylindrical or flat workpieces. It typically consists of two adjustable arms or jaws, a set of anvils, and a measuring scale. Snap gauges are designed for quick and efficient measurements during manufacturing or quality control processes.",
+              "To use a snap gauge, the workpiece is placed between the two arms or jaws, which are then snapped shut around the part. The dimensions of the part are read directly from the scale or a digital display. Snap gauges are often used in production lines for rapid and repetitive measurements, ensuring parts meet the required tolerances.",
+              "Snap gauges are commonly used in industries such as automotive, aerospace, and machining for checking shafts, pins, and other components. Their quick measurement capabilities make them ideal for high-volume production environments, providing fast, accurate checks of part dimensions."
+            ]
+            },
           {
             "name": "V-Block",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/V-Block",
-            "description": "A V-block is a precision tool used to securely hold cylindrical workpieces, such as shafts or rods, during machining operations like milling, drilling, or grinding. The V-shaped groove in the block is designed to accommodate the cylindrical shape of the workpiece."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/V- Block.jfif",
+            "description": [
+              "A V-block is a precision tool used to securely hold cylindrical workpieces, such as shafts or rods, during machining operations like milling, drilling, or grinding. The V-shaped groove in the block is designed to accommodate the cylindrical shape of the workpiece, ensuring it is held firmly in place for accurate measurements or machining.",
+              "To use a V-block, the cylindrical workpiece is placed in the V-shaped groove, where it is aligned and held securely. The V-block is then clamped to the machine's work surface or tool station, allowing precise operations to be performed on the workpiece. Some V-blocks may also include holes for additional clamping or for mounting the block to a work surface.",
+              "V-blocks are commonly used in machining, quality control, and assembly work to inspect cylindrical parts, measure diameters, or perform precise cutting and drilling tasks. Their stability and versatility make them indispensable in industries such as automotive, aerospace, and metalworking."
+            ]
+            },
           {
             "name": "Pitch Gauge",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Pitch Gauge",
-            "description": "A pitch gauge is a precision measuring tool used to measure the pitch of threads on screws, bolts, or other threaded components. The pitch refers to the distance between adjacent threads, which is critical for ensuring the correct fit and function of threaded parts."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Pitch Gauge.jfif",
+            "description": [
+              "A pitch gauge is a precision measuring tool used to measure the pitch of threads on screws, bolts, or other threaded components. The pitch refers to the distance between adjacent threads, which is a critical measurement for ensuring the correct fit and function of threaded parts. The pitch gauge consists of a set of blades or leaves, each marked with a specific thread pitch measurement.",
+              "To use a pitch gauge, the user selects the appropriate blade with the matching thread pitch and places it in contact with the threads of the part being measured. The blade should fit perfectly into the threads without any gaps or force. By comparing the gauge blade with the threads, the user can determine the pitch of the threaded component.",
+              "Pitch gauges are commonly used in mechanical engineering, manufacturing, and quality control to inspect and verify thread dimensions. They ensure that threaded parts meet the required specifications for proper assembly and function in mechanical systems."
+            ]
+            },
           {
             "name": "Go & No-Go Gauge",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Go & No-Go Gauge",
-            "description": "A Go and No-Go gauge is a precision tool used to check whether a part’s dimensions are within specified tolerance limits. It consists of two parts: the 'Go' gauge to check minimum acceptable size and the 'No-Go' gauge to check maximum allowable size."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Go & No Go gauge.jfif",
+            "description": [
+              "A Go and No-Go gauge is a precision tool used to check whether a part’s dimensions are within specified tolerance limits. It consists of two parts: the \"Go\" gauge and the \"No-Go\" gauge. The \"Go\" gauge is used to check if the part is within the minimum acceptable size, while the \"No-Go\" gauge checks if the part exceeds the maximum allowable size.",
+              "To use the gauge, the part is tested first with the \"Go\" gauge. If the part fits or passes through the \"Go\" gauge, it is considered to meet the minimum requirement. Then, the part is checked with the \"No-Go\" gauge. If the part does not fit or pass through the \"No-Go\" gauge, it is within the maximum tolerance. If it fits, the part is out of specification.",
+              "Go and No-Go gauges are commonly used in manufacturing, automotive, and engineering industries to ensure components meet precise dimensional requirements, ensuring quality and proper fit in assembly."
+            ]
+            },
           {
             "name": "Surface Plate",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Surface Plate",
-            "description": "A surface plate is a solid, flat reference plane used for precision inspection, marking out, and tooling setup. Made from materials such as granite, cast iron, or steel, it provides a stable and smooth base for measuring and checking the flatness, dimensions, and geometry of components."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Surface Plate.jfif",
+            "description": [
+              "A surface plate is a solid, flat reference plane used for precision inspection, marking out, and tooling setup. Made from materials such as granite, cast iron, or steel, the surface plate provides a stable and smooth base for measuring and checking the flatness, dimensions, and geometry of components in manufacturing or quality control.",
+              "To use a surface plate, the component to be inspected is placed on the plate, and measurements or alignments are made using other precision tools, such as micrometers, calipers, or height gauges. The flatness and stability of the surface plate ensure accurate measurements, as any irregularities on the surface can affect the results.",
+              "Surface plates are widely used in mechanical workshops, quality control labs, and assembly lines for checking the precision of machined parts and for layout work, ensuring that parts meet design specifications. They are essential for maintaining high standards of quality in industries like aerospace, automotive, and manufacturing."
+            ]
+            },
           {
             "name": "Micro Weight Balance",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Micro Weight Balance",
-            "description": "A micro weight balance, also known as a microbalance, is a highly sensitive instrument used to measure the mass of objects with extremely low weight, often in the range of milligrams or even micrograms."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Micro-Weight-Balance.jpg",
+            "description": [
+              "A micro weight balance, also known as a microbalance, is a highly sensitive instrument used to measure the mass of objects with extremely low weight, often in the range of milligrams or even micrograms (millionths of a gram). These balances are designed for precise measurements, typically used in laboratories or research settings where accuracy is critical.",
+              "To use a microbalance, the object is placed on the weighing pan, and the balance measures the tiny force exerted by the object in response to electromagnetic or mechanical forces. The measured weight is then displayed digitally or analogically, with extremely high resolution and minimal error.",
+              "Micro weight balances are commonly used in fields such as chemistry, pharmaceuticals, and material science, where measuring small amounts of substances (such as powders, chemicals, or small components) is essential. They ensure accurate formulations, quality control, and precise scientific analysis, making them vital in research and industrial applications where small mass measurements are required."
+            ]
+            },
           {
             "name": "Micrometer",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Micrometer",
-            "description": "A micrometer is a precision measuring tool used to measure the thickness, depth, or length of an object with high accuracy, typically in the range of micrometers (millionths of a meter). It consists of a spindle and anvil that form a measuring gap."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Micrometre.jfif",
+            "description": [
+              "A micrometer is a precision measuring tool used to measure the thickness, depth, or length of an object with high accuracy, typically in the range of micrometers (millionths of a meter). It consists of a spindle and anvil that form a measuring gap, with a calibrated screw mechanism to measure the distance between the two surfaces.",
+              "To use a micrometer, the object is placed between the anvil and spindle, and the thimble or rotating sleeve is turned to bring the spindle into contact with the object. The micrometer has a scale that allows for precise measurement of the gap between the anvil and spindle, which corresponds to the dimensions of the object being measured.",
+              "Micrometers are widely used in mechanical engineering, machining, and manufacturing for measuring small components like shafts, rods, or machine parts to ensure they meet exact tolerances. Their precision and accuracy make them essential for high-quality production and inspection tasks."
+            ]
+            },
           {
             "name": "Vernier Caliper",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Vernier Caliper",
-            "description": "A Vernier caliper is a precision measuring instrument used to measure the internal and external dimensions of objects, as well as their depths. It consists of a main scale and a sliding Vernier scale that provides precise measurements with high accuracy."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Vernier calliper.jfif",
+            "description": [
+              "A Vernier caliper is a precision measuring instrument used to measure the internal and external dimensions of objects, as well as their depths. It consists of a main scale and a sliding Vernier scale that provides precise measurements with high accuracy, typically down to 0.02 mm or 0.001 inches.",
+              "To use a Vernier caliper, the object is placed between the main scale and the sliding Vernier scale. The sliding scale is adjusted until it touches the object, and the measurement is read by aligning the marks on the Vernier scale with those on the main scale. The measurement is a combination of the readings from both scales, giving a highly accurate result.",
+              "Vernier calipers are commonly used in mechanical engineering, machining, and quality control to measure the dimensions of small to medium-sized components, such as shafts, rods, or parts with irregular shapes, ensuring precise fitting and manufacturing tolerances."
+            ]
+            },
           {
             "name": "Depth Gauge",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Depth Gauge",
-            "description": "A depth gauge is a precision instrument used to measure the depth of holes, recesses, or grooves in a workpiece. It consists of a probe or measuring rod that is mounted on a scale, allowing the user to measure the depth of a cavity or indentation accurately."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Depth gauge.jfif",
+            "description": [
+              "A depth gauge is a precision instrument used to measure the depth of holes, recesses, or grooves in a workpiece. It consists of a probe or measuring rod that is mounted on a scale, allowing the user to measure the depth of a cavity or indentation accurately. Depth gauges typically have a micrometer or Vernier scale for fine adjustments and accurate readings.",
+              "To use a depth gauge, the user places the base of the instrument on the surface of the workpiece, with the probe extending into the hole or recess. The depth is then measured by adjusting the scale or reading the measurement directly from the graduated scale or digital display.",
+              "Depth gauges are commonly used in machining, quality control, and manufacturing to ensure that the depth of holes or cavities in parts meets design specifications. They are particularly useful for checking the depth of drilled holes, slots, or other features where precise depth control is crucial."
+            ]
+            },
           {
             "name": "Bevel Protector",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Bevel Protector",
-            "description": "A bevel protector is a tool used to measure and protect the angles or bevels on the edges of materials, typically in machining, construction, or metalworking. It ensures that the beveled edges of components meet precise specifications."
-          },
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Bevel Protector.jfif",
+            "description": [
+              "A bevel protector is a tool used to measure and protect the angles or bevels on the edges of materials, typically in machining, construction, or metalworking. It is designed to ensure that the beveled edges of components meet precise specifications, providing accurate angle measurements or settings for cutting, grinding, or finishing operations.",
+              "To use a bevel protector, the device is placed along the beveled edge of a workpiece. It may have an adjustable scale or fixed angle that aligns with the edge to verify the angle's accuracy. The protector is often used in combination with other measuring instruments to maintain the correct bevel angle, ensuring consistency and precision in manufacturing processes.",
+              "Bevel protectors are widely used in industries like construction, automotive, and fabrication, where precise edge angles are essential. They help prevent errors during cutting or finishing processes and ensure that the final product meets design requirements."
+            ]
+            },
           {
             "name": "Dial Gauge",
-            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Dial Gauge",
-            "description": "A dial gauge is a precision instrument used to measure small linear displacements with high accuracy, typically in the range of micrometers or thousandths of an inch. It consists of a dial face with a needle that moves in response to a mechanical probe."
-          }
+            "image": "/New BTP/Measurement Instrumentation and Control Laboratory/Dial gauge.jfif",
+            "description": [
+              "A dial gauge is a precision instrument used to measure small linear displacements with high accuracy, typically in the range of micrometers or thousandths of an inch. It consists of a dial face with a needle that moves in response to a mechanical probe that comes into contact with the surface being measured. The dial gauge is often used in applications such as checking the flatness, alignment, and roundness of components.",
+              "To use a dial gauge, the probe is placed on the surface or part being measured, and any movement or displacement causes the needle to rotate on the dial. The reading on the dial indicates the amount of deviation or movement, which is critical for quality control in precision engineering."
+            ]
+            }
         ]
       }
     ]

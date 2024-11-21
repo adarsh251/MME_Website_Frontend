@@ -1,5 +1,5 @@
 import React from 'react'
-import './Research.css'
+import './LabEquipment.css'
 import labsData from '../Labs/labs.json'
 import { Link, useParams } from 'react-router-dom'
 import { getImageURL } from '../../utils/Image/image-utils'

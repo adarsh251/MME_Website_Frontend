@@ -1,0 +1,87 @@
+.outerres {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid layout */
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.container21 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card21 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image21 {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image21 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image fills the container */
+  object-position: center;
+}
+
+.description21 {
+  padding: 15px;
+  color: #000;
+  flex-grow: 1; /* Ensure description section expands to fill available space */
+}
+
+.description21 h3 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.description21 p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.description21 button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.description21 button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Hover effect for cards */
+.card21:hover {
+  transform: scale(1.05); /* Slightly zoom-in effect on hover */
+}
+
+.card21:active {
+  transform: scale(1); /* Remove zoom effect when clicked */
+}

@@ -12,7 +12,8 @@ const Epage3 = () => {
     <img className='fotu8' src={provide3} alt="Description Image"/>
     <div class="description8">
 
-      <p>Our dedicated workshop provides a well-equipped and conducive environment for hands-on welding training, research, and development activities. Equipped with state-of-the-art welding machines, tools, and safety equipment, our workshop is designed to simulate real-world welding conditions and facilitate practical learning experiences. Whether you're practicing welding techniques, conducting experiments, or working on welding projects, our workshop offers the resources and support you need to achieve your goals.</p>
+      <p>Our department houses state-of-the-art workshops, providing students with a hands-on learning environment for practical experiments, research, and project work. Equipped with cutting-edge tools, machines, and safety systems, these workshops offer a real-world setting for exploring various engineering domains, from mechatronics to manufacturing. Whether working on projects, conducting experiments, or exploring new techniques, our workshops foster creativity, technical expertise, and problem-solving skills, preparing students for real-world engineering challenges.
+      </p>
     </div>
   </div>
       

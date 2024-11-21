@@ -12,8 +12,9 @@ const Epage1 = () => {
     <img className='fotu8' src={provide1} alt="Description Image"/>
     <div className="description8">
     
-      <p> We offer industrial consultancy services to businesses and organizations in the welding industry. Our experienced faculties provide professional advice, technical assistance, and solutions to help companies improve their welding processes, optimize productivity, and address specific challenges or issues they may encounter. Whether it's developing welding procedures, conducting welding inspections, or troubleshooting welding problems, our consultancy services are tailored to meet the unique needs of each client.
-</p>
+      <p> We provide expert industrial consultancy services to businesses in mechanical engineering, offering tailored solutions to enhance processes and productivity. Our faculty members, with extensive academic and industry experience, assist companies with technical challenges, process optimization, product design, and system integration. Whether it's optimizing production lines, developing efficient mechanical systems, or addressing design issues, our consultancy services are customized to meet the specific needs of each organization, helping them stay competitive and innovative.
+
+      </p>
     </div>
   </div>
       

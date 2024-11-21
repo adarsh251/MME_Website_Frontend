@@ -1,87 +1,264 @@
-.outerres {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center; /* Center the content horizontally */
+
+
+  .research-publication {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
 }
 
-.equipment-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid layout */
-  gap: 20px;
+.research-publication h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+    text-transform: capitalize;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 8px;
+}
+
+/* Section styles */
+.research-publication section {
+    margin-bottom: 20px;
+}
+
+.research-publication section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.research-publication section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.research-publication section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.research-publication section ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Styling for the link section */
+.research-publication section a {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 15px;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.research-publication section a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .research-publication {
+        padding: 15px;
+    }
+
+    .research-publication h2 {
+        font-size: 22px;
+    }
+
+    .research-publication section h3 {
+        font-size: 18px;
+    }
+
+    .research-publication section p,
+    .research-publication section ul li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .research-publication h2 {
+        font-size: 20px;
+    }
+
+    .research-publication section h3 {
+        font-size: 16px;
+    }
+
+    .research-publication section p,
+    .research-publication section ul li {
+        font-size: 13px;
+    }
+
+    .research-publication section a {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
+
+.research-publication-abstract {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto; /* Center the container horizontally with some vertical margin */
   padding: 20px;
-  max-width: 1200px;
-  width: 100%;
-}
-
-.container21 {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
   border: 1px solid #ccc;
-  border-radius: 8px;
-  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
+  gap: 20px; /* Add space between image and text */
 }
 
-.card21 {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding: 10px;
-  transition: transform 0.3s ease-in-out;
+.image-research {
+  flex: 0 0 40%; /* Make the image container occupy 40% of the width */
+  max-width: 300px; /* Optional: limit maximum width */
 }
 
-.image21 {
+.image-research img {
   width: 100%;
-  height: 200px;
-  overflow: hidden;
+  height: auto;
+  border-radius: 8px; /* Optional: rounded corners */
+  object-fit: cover;
 }
 
-.image21 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensure the image fills the container */
-  object-position: center;
-}
-
-.description21 {
-  padding: 15px;
-  color: #000;
-  flex-grow: 1; /* Ensure description section expands to fill available space */
-}
-
-.description21 h3 {
+.research-publication-abstract h2 {
+  flex: 1; /* Allow the title to take up remaining space */
+  font-size: 20px;
+  color: #333;
   margin-bottom: 15px;
+  line-height: 1.4; /* Improve readability */
+}
+
+.research-publication-abstract button {
+    
+  padding: 10px 20px;
   font-size: 16px;
-  font-weight: bold;
-}
-
-.description21 p {
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 10px;
-}
-
-.description21 button {
-  padding: 8px 16px;
-  background-color: #007bff;
-  color: #fff;
   border: none;
-  border-radius: 4px;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-top: auto; /* Push the button to the bottom */
 }
 
-.description21 button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+.research-publication-abstract button:hover {
+    background-color: #007bff;
+    color: white; /* Darker blue on hover */
 }
 
-/* Hover effect for cards */
-.card21:hover {
-  transform: scale(1.05); /* Slightly zoom-in effect on hover */
-}
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .research-publication-abstract {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: center;
+  }
 
-.card21:active {
-  transform: scale(1); /* Remove zoom effect when clicked */
+  .image-research {
+    width: 100%; /* Make the image occupy full width */
+    max-width: none;
+  }
+
+  .research-publication-abstract h2 {
+    text-align: center; /* Center the title */
+  }
+
+  .research-publication-abstract button {
+    margin-top: 20px; /* Add spacing on smaller screens */
+  }
 }
+.research-publication-abstract {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    width: 90%;
+    margin: 20px auto; /* Center the container horizontally with some vertical margin */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px; /* Add space between image and text */
+  }
+  
+  .image-research {
+    flex: 0 0 40%; /* Image takes 40% of the width */
+    max-width: 300px; /* Optional: limit maximum width */
+  }
+  
+  .image-research img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: rounded corners */
+    object-fit:contain;
+  }
+  
+  .research-publication-abstract div {
+    flex: 1; /* Allow the text container to take up remaining space */
+    display: flex;
+    flex-direction: column; /* Stack the title and button vertically */
+    justify-content: flex-start; /* Align items at the top */
+  }
+  
+  .research-publication-abstract h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.4; /* Improve readability */
+  }
+  
+  .research-publication-abstract button {
+    align-self: flex-start; /* Align the button to the left of the text container */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #007bff;
+    border: 2px solid #007bff;
+    background-color: #fff;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Add some space between the title and button */
+  }
+  
+  .research-publication-abstract button:hover {
+    background-color: #007bff;
+    color: white; 
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .research-publication-abstract {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+      align-items: center;
+    }
+  
+    .image-research {
+      width: 100%; /* Make the image occupy full width */
+      max-width: none;
+    }
+  
+    .research-publication-abstract div {
+      width: 100%; /* Ensure text container stretches full width */
+      align-items: center; /* Center-align on smaller screens */
+    }
+  
+    .research-publication-abstract h2 {
+      text-align: center; /* Center the title */
+    }
+  
+    .research-publication-abstract button {
+      align-self: center; /* Center the button below the title */
+      margin-top: 20px; /* Add spacing */
+    }
+  }
+  
