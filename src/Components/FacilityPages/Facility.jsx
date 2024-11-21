@@ -11,12 +11,12 @@ export const EquipmentDetails = () => {
     const equipment = lab.equipments.find(e => 
       e.name.replace(/\s+/g, '-').toLowerCase() === equipmentName
     );
-  
+    console.log(equipment.image);
     return (
       <div className="facilityouter">
         <div className="container123">
           <div className="fotu123">
-            <img src={getImageURL(equipment.image)} alt="Description Image" />
+            <img src={equipment.image} alt="Description Image" />
           </div>
           <div className="description123">
             <h2>{equipment.name}</h2>
