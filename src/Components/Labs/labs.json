@@ -834,69 +834,120 @@
         "equipments": [
           {
             "name": "VCR Diesel Engine Test Rig",
-            "image": "/New BTP/Internal Combustion Engine Laboratory/VCR Diesel Engine Test Rig",
-            "description": "The VCR Diesel Engine Test Rig is designed to study the performance characteristics of a single-cylinder, four-stroke diesel engine, equipped with a Variable Compression Ratio (VCR) mechanism and an open Engine Control Unit (ECU). This setup allows for the analysis of engine behavior under different compression ratios and control strategies, making it ideal for educational and research purposes."
-          },
+            "image": "/New BTP/Internal Combustion Engine Laboratory/VCR Diesel Engine Test Rig_.jpg",
+            "description": [
+              "The VCR Diesel Engine Test Rig is designed to study the performance characteristics of a single-cylinder, four-stroke diesel engine, equipped with a Variable Compression Ratio (VCR) mechanism and an open Engine Control Unit (ECU). This setup allows for the analysis of engine behavior under different compression ratios and control strategies, making it ideal for educational and research purposes.",
+              "To use the test rig, the engine is powered by a fuel supply, and the compression ratio is adjusted by varying the position of the piston. Sensors and instruments measure key parameters such as fuel consumption, power output, exhaust emissions, temperature, and engine speed. The ECU can be programmed to control various engine functions, such as fuel injection timing and air-fuel ratio, for performance optimization.",
+              "This test rig provides valuable insights into how changes in compression ratio and ECU control influence engine efficiency, emissions, and power output, making it essential for internal combustion engine studies."
+            ]
+            },
           {
             "name": "Double Stage Air Compressor Test Rig",
-            "image": "/New BTP/Internal Combustion Engine Laboratory/Double Stage Air Compressor Test Rig",
-            "description": "The Double Stage Air Compressor Test Rig is used to study the performance characteristics of a reciprocating air compressor with two compression stages. It allows for the detailed analysis of the compressor's behavior, efficiency, and output under various operating conditions."
-          },
+            "image": "/New BTP/Internal Combustion Engine Laboratory/Double Stage Air Compressor Test Rig.jpg",
+            "description": [
+              "The Double Stage Air Compressor Test Rig is used to study the performance characteristics of a reciprocating air compressor with two compression stages. It allows for the detailed analysis of the compressor's behavior, efficiency, and output under various operating conditions.",
+              "To use the rig, air is drawn into the compressor, compressed in two stages—first at a low pressure and then at a higher pressure—before being discharged. The rig is equipped with instruments to measure parameters such as inlet and discharge pressures, temperature at various stages, air flow rate, and power consumption. The performance data helps in analyzing factors such as volumetric efficiency, mechanical efficiency, and overall compressor performance.",
+              "This test rig is valuable for understanding the thermodynamic processes involved in multi-stage compression, as well as for assessing the compressor's efficiency, heat generation, and power consumption. It is commonly used in academic settings, mechanical engineering research, and for compressor design optimization."
+            ]
+            },
           {
             "name": "Mini Oil Expeller",
-            "image": "/New BTP/Internal Combustion Engine Laboratory/Mini Oil Expeller",
-            "description": "The Mini Oil Expeller is a compact machine used for extracting oil from various seeds, nuts, and algae. It operates on the principle of mechanical pressing, using a screw conveyor (also known as an auger) to press the raw material to extract oil."
-          },
+            "image": "/New BTP/Internal Combustion Engine Laboratory/Mini oil-expeller.webp",
+            "description": [
+              "The Mini Oil Expeller is a compact machine used for extracting oil from various seeds, nuts, and algae. It operates on the principle of mechanical pressing, using a screw conveyor (also known as an auger) to press the raw material to extract oil.",
+              "To use the Mini Oil Expeller, the seeds or nuts are fed into the hopper. As the material moves through the expeller, the screw presses it against a perforated cage, applying high pressure to separate the oil from the solid components (cake). The extracted oil is collected in a container, while the remaining cake is discharged from the machine. The oil expeller is typically equipped with a heating element to warm the material, facilitating better oil extraction and improving efficiency.",
+              "This equipment is ideal for small-scale oil production, such as for producing edible oils from sunflower seeds, peanuts, or mustard seeds. It is commonly used in small industries, research labs, and for educational purposes."
+            ]
+            },
           {
             "name": "Cut Section Single Cylinder 4 Stroke Diesel Engine",
-            "image": "/New BTP/Internal Combustion Engine Laboratory/Cut Section Single Cylinder 4 Stroke Diesel Engine",
-            "description": "The Cut Section Single Cylinder 4-Stroke Diesel Engine is a specially designed model used for educational and demonstration purposes. It features a transparent cut section of a single-cylinder, four-stroke diesel engine, allowing for a clear view of the internal components in motion."
-          },
+            "image": "/New BTP/Internal Combustion Engine Laboratory/Cut Section Single Cylinder 4 Stroke Diesel Engine.jpg",
+            "description": [
+              "The Cut Section Single Cylinder 4-Stroke Diesel Engine is a specially designed model used for educational and demonstration purposes. It features a transparent cut section of a single-cylinder, four-stroke diesel engine, allowing for a clear view of the internal components in motion. This setup is primarily used to study the operation and working of the engine, particularly the valve timing, and other critical aspects like fuel injection, combustion, and exhaust processes.",
+              "To use the engine, students or researchers observe the engine's internal operation as the engine runs, with the cut section revealing the intake, compression, power, and exhaust strokes in action. The valve timing can be determined by analyzing the movement of the intake and exhaust valves during each stroke. This model is ideal for understanding the relationship between valve timing and engine performance, helping students visualize the mechanical processes in a real diesel engine."
+            ]
+            },
           {
             "name": "Multi Cylinder 4 Stroke Petrol Engine",
-            "image": "/New BTP/Internal Combustion Engine Laboratory/Multi Cylinder 4 Stroke Petrol Engine",
-            "description": "The Multi Cylinder 4 Stroke Petrol Engine is used to study the performance characteristics of a multi-cylinder, four-stroke petrol engine. This engine is commonly employed in research and educational settings to understand the working principles, efficiency, and dynamics of modern internal combustion engines."
-          },
+            "image": "/New BTP/Internal Combustion Engine Laboratory/Multi Cylinder 4 Stroke Petrol Engine.jpg",
+            "description": [
+              "The Multi Cylinder 4 Stroke Petrol Engine is used to study the performance characteristics of a multi-cylinder, four-stroke petrol engine. This engine is commonly employed in research and educational settings to understand the working principles, efficiency, and dynamics of modern internal combustion engines.",
+              "To use the engine, fuel is supplied to the cylinders, and it operates in a four-stroke cycle: intake, compression, power, and exhaust. The engine is equipped with various sensors to measure key parameters such as fuel consumption, engine speed, power output, exhaust emissions, and temperature at different points. Performance characteristics, such as volumetric efficiency, thermal efficiency, and specific fuel consumption, can be analyzed under different load and speed conditions.",
+              "This test rig is essential for teaching students about engine mechanics, thermodynamics, and combustion processes. It is also valuable for conducting experiments to optimize engine performance, improve fuel efficiency, and reduce emissions."
+            ]
+            },
           {
             "name": "Single Cylinder Diesel Engine",
-            "image": "/New BTP/Internal Combustion Engine Laboratory/Single Cylinder Diesel Engine",
-            "description": "The Single Cylinder Diesel Engine is used to study the performance characteristics of a single-cylinder, four-stroke manual diesel engine. This engine setup provides hands-on learning for understanding the operation, fuel efficiency, and emissions of a diesel engine."
-          },
+            "image": "/New BTP/Internal Combustion Engine Laboratory/Single Cylinder Diesel Engine.jpg",
+            "description": [
+              "The Single Cylinder Diesel Engine is used to study the performance characteristics of a single-cylinder, four-stroke manual diesel engine. This engine setup provides hands-on learning for understanding the operation, fuel efficiency, and emissions of a diesel engine.",
+              "To use the engine, it is started manually, and the fuel is supplied to the single cylinder, which operates in a four-stroke cycle: intake, compression, power, and exhaust. Key performance parameters such as engine speed, torque, fuel consumption, and exhaust temperature are measured during the operation. The engine is typically equipped with instrumentation to measure exhaust emissions, helping in the analysis of combustion efficiency and environmental impact.",
+              "This equipment is crucial for studying engine mechanics, analyzing fuel efficiency under various load conditions, and investigating the effects of different operating parameters on engine performance. It is commonly used in educational institutions for training and research in internal combustion engine technology."
+            ]
+            },
           {
             "name": "Automatic Bomb Calorimeter with Built-in Printer",
-            "image": "/New BTP/Internal Combustion Engine Laboratory/Automatic Bomb Calorimeter with Built-in Printer",
-            "description": "The Automatic Bomb Calorimeter with Built-in Printer is used to measure the standard enthalpy of combustion of substances, typically benzoic acid, and to determine the heat capacity of the bomb calorimeter. It is an essential tool for studying the energy content of fuels and other materials by determining the heat released during combustion."
-          },
+            "image": "/New BTP/Internal Combustion Engine Laboratory/Automatic Bomb Calorimeter with Built-in Printer.jpg",
+            "description": [
+              "The Automatic Bomb Calorimeter with Built-In Printer is used to measure the standard enthalpy of combustion of substances, typically benzoic acid, and to determine the heat capacity of the bomb calorimeter. It is an essential tool for studying the energy content of fuels and other materials by determining the heat released during combustion.",
+              "To use the calorimeter, a sample of the substance (e.g., benzoic acid) is placed in a sealed container known as a bomb, which is filled with oxygen. The bomb is then immersed in a known amount of water, and the sample is ignited electrically. The heat released from the combustion raises the temperature of the surrounding water. The temperature change is recorded, and with the known heat of combustion of the benzoic acid, the heat capacity of the bomb calorimeter can be determined.",
+              "This device is widely used in laboratories for precise calorimetry experiments, fuel testing, and thermodynamic studies."
+            ]
+            },
           {
             "name": "Electronic Balance",
-            "image": "/New BTP/Internal Combustion Engine Laboratory/Electronic Balance",
-            "description": "The Electronic Balance, with a capacity of 220 grams, is used to measure the weight or mass of an item with high precision. It is equipped with a digital display that provides a quick and accurate reading of the mass of the object placed on its weighing pan."
-          },
+            "image": "/New BTP/Internal Combustion Engine Laboratory/Electronic Balance.jfif",
+            "description": [
+              "The Electronic Balance, with a capacity of 220 grams, is used to measure the weight or mass of an item with high precision. It is equipped with a digital display that provides a quick and accurate reading of the mass of the object placed on its weighing pan.",
+              "To use the electronic balance, the item to be weighed is placed carefully on the balance's platform. The balance automatically measures the force exerted by the item due to gravity and converts this into a mass reading, displayed on the digital screen. The balance is often equipped with features such as tare functions to zero out the weight of containers, making it ideal for weighing small objects or substances.",
+              "This equipment is commonly used in laboratories, workshops, and educational settings where precise measurement of small items, chemicals, or components is necessary for experiments, quality control, or research. It offers quick, reliable, and accurate measurements."
+            ]
+            },
           {
             "name": "5 Gas Analyzer",
-            "image": "/New BTP/Internal Combustion Engine Laboratory/5 Gas Analyzer",
-            "description": "The 5 Gas Analyzer is used to measure the concentration of various gases in exhaust emissions, including carbon monoxide (CO), carbon dioxide (CO2), oxygen (O2), nitrogen oxides (NOx), and hydrocarbons (HC). This equipment is essential for analyzing the environmental impact of combustion processes and ensuring compliance with emission standards."
-          },
+            "image": "/New BTP/Internal Combustion Engine Laboratory/5 Gas Analyzer.jfif",
+            "description": [
+              "The 5 Gas Analyzer is used to measure the concentration of various gases in exhaust emissions, including carbon monoxide (CO), carbon dioxide (CO2), oxygen (O2), nitrogen oxides (NOx), and hydrocarbons (HC). This equipment is essential for analyzing the environmental impact of combustion processes and ensuring compliance with emission standards.",
+              "To use the analyzer, a sample of exhaust gas is drawn into the analyzer from the emission source, such as a vehicle or industrial engine. The instrument uses various sensing technologies, such as electrochemical cells or infrared sensors, to detect and quantify the gases present in the sample. The analyzer then provides real-time measurements of each gas, typically displayed digitally.",
+              "This equipment is widely used in research, automotive testing, and environmental monitoring to assess engine performance, fuel efficiency, and emissions. It helps in optimizing combustion processes, improving air quality, and adhering to regulatory standards for emissions control."
+            ]
+            },
           {
             "name": "Smoke Meter",
-            "image": "/New BTP/Internal Combustion Engine Laboratory/Smoke Meter",
-            "description": "The Smoke Meter is used to measure the soot content in the exhaust gases of diesel and Gasoline Direct Injection (GDI) engines. It helps determine the level of particulate matter (PM) or smoke emitted, which is crucial for assessing engine performance and compliance with environmental standards."
-          },
+            "image": "/New BTP/Internal Combustion Engine Laboratory/Smoke-Meter.jpg",
+            "description": [
+              "The Smoke Meter is used to measure the soot content in the exhaust gases of diesel and Gasoline Direct Injection (GDI) engines. It helps determine the level of particulate matter (PM) or smoke emitted, which is crucial for assessing engine performance and compliance with environmental standards.",
+              "To use the smoke meter, exhaust gases are drawn into the meter through a sampling probe connected to the engine's exhaust system. The instrument measures the opacity (density of the smoke) of the exhaust, which correlates with the soot or particulate matter concentration. The results are typically displayed as a smoke number or opacity percentage.",
+              "This equipment is essential for conducting emission tests in automotive and industrial applications. It allows for evaluating the efficiency of combustion, identifying incomplete combustion issues, and ensuring adherence to environmental regulations related to air quality. It is commonly used in engine testing, maintenance, and regulatory inspections."
+            ]
+            },
           {
             "name": "Data Acquisition Switch Unit",
-            "image": "/New BTP/Internal Combustion Engine Laboratory/Data Acquisition Switch Unit",
-            "description": "The Data Acquisition Switch Unit is used to measure and monitor a variety of functions in experimental and testing setups, typically in laboratories or industrial environments. This unit can measure one of 11 different functions, such as temperature, pressure, voltage, current, humidity, force, or displacement, depending on the sensors and probes connected to it."
-          },
+            "image": "/New BTP/Internal Combustion Engine Laboratory/Data Acquisition Switch Unit.jfif",
+            "description": [
+              "The Data Acquisition Switch Unit is used to measure and monitor a variety of functions in experimental and testing setups, typically in laboratories or industrial environments. This unit can measure one of 11 different functions, such as temperature, pressure, voltage, current, humidity, force, or displacement, depending on the sensors and probes connected to it.",
+              "To use the unit, the appropriate sensor or transducer is connected to the switch unit, which then converts the raw data into readable output. The data acquisition system allows the user to switch between different types of measurements, making it versatile for different applications. The unit typically interfaces with a computer or display system for data visualization and analysis.",
+              "This equipment is widely used in research, testing, and quality control processes where continuous monitoring and accurate measurement of various physical parameters are required. It is key in ensuring precise data collection for analysis, testing, and decision-making."
+            ]
+            },
           {
             "name": "Diesel Injector Tester",
-            "image": "/New BTP/Internal Combustion Engine Laboratory/Diesel Injector Tester",
-            "description": "The Diesel Injector Tester is used to test and adjust the injector opening pressure of diesel fuel injectors. This ensures that the injectors function efficiently and deliver fuel at the correct pressure for optimal engine performance and fuel combustion."
-          },
+            "image": "/New BTP/Internal Combustion Engine Laboratory/Diesel Injector Tester.jfif",
+            "description": [
+              "The Diesel Injector Tester is used to test and adjust the injector opening pressure of diesel fuel injectors. This ensures that the injectors function efficiently and deliver fuel at the correct pressure for optimal engine performance and fuel combustion.",
+              "To use the tester, the diesel injector is mounted securely on the device. The tester is then powered on, and pressure is gradually applied to the injector. The unit measures the pressure at which the injector opens, ensuring it meets the specified standards for the engine type. If necessary, the pressure can be adjusted by modifying the injector components, ensuring proper spray pattern and fuel atomization for efficient combustion.",
+              "The Diesel Injector Tester is commonly used in automotive workshops, engine maintenance, and testing facilities. It plays a critical role in maintaining engine performance, reducing emissions, and improving fuel efficiency by ensuring that diesel injectors are functioning within their required specifications."
+            ]
+            },
           {
             "name": "Portable Hand Held Biogas Analyzer",
-            "image": "/New BTP/Internal Combustion Engine Laboratory/Portable Hand Held Biogas Analyzer",
-            "description": "The Portable Hand-Held Biogas Analyzer is used to measure the concentration of various gases in biogas, including methane (CH4), carbon dioxide (CO2), oxygen (O2), hydrogen sulfide (H2S), and optional gases like hydrogen (H2) and carbon monoxide (CO). This tool is essential for monitoring the composition of biogas in real-time, ensuring its quality for use in energy production or other applications."
-          }
+            "image": "/New BTP/Internal Combustion Engine Laboratory/Portable Hand Held Biogas Analyzer.jpg",
+            "description": [
+              "The Portable Hand-Held Biogas Analyzer is used to measure the concentration of various gases in biogas, including methane (CH4), carbon dioxide (CO2), oxygen (O2), hydrogen sulfide (H2S), and optional gases like hydrogen (H2) and carbon monoxide (CO). This tool is essential for monitoring the composition of biogas in real-time, ensuring its quality for use in energy production or other applications.",
+              "To use the analyzer, the device is equipped with a probe that is inserted into the gas sample or biogas stream. The analyzer then detects and measures the gas concentrations using sensors specific to each gas. The results are displayed on the screen, and data can be recorded for analysis.",
+              "This portable device is commonly used in biogas plants, environmental monitoring, and research settings. It helps ensure the safe and efficient use of biogas by monitoring gas quality and composition, which is critical for combustion efficiency and regulatory compliance."
+            ]
+            }
         ]
       },
       {
