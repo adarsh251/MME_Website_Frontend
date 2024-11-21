@@ -22,7 +22,6 @@
 
 .hero-text{
     text-align: center;
-    max-width: 1000px;
 }
 
 .hero-text h1{
@@ -31,7 +30,7 @@
 
 }
 .hero-text p{
-    max-width: 710px;
+    max-width: 1025px;
     margin: 10px auto 30px;
     line-height: 1.4;
     font-size: 24px;
@@ -40,10 +39,10 @@
 
 
 .typing-container {
-  overflow: hidden;
+  overflow:hidden;
   white-space:nowrap;
   border-right: .15em solid #c7dd99; /* Typing cursor */
-  animation: typing 5s steps(50) infinite;
+  animation: typing 10s steps(80) infinite alternate;
  
 }
 
@@ -55,14 +54,16 @@
 
 /* Typing animation */
 @keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
+  0% { width: 0; }
+  45% { width: 100%; } /* The text is fully typed out */
+  55% { width: 100%; } /* Hold position for a moment to allow reading */
+  100% { width: 0; } /* Erase the text */
 }
 
 /* Blinking animation for the cursor */
 @keyframes blink-caret {
   from, to { border-color: transparent; }
-  50% { border-color: #c7dd99; }
+  0% { border-color: #c7dd99; }
 }
 
 

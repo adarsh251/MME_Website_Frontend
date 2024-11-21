@@ -46,12 +46,12 @@ Mechanical-Mechatronics Engineering</p>
 
 
     <div className="faculty-member">
-        <img src={hod} alt="Faculty 1"/>
-        <h3>Dr.Mohit Makkar</h3>
+        <img src={fac6} alt="Faculty 1"/>
+        <h3>Dr.Deepak Rajendra Unune</h3>
         <p>Head of Department <br />Assistant Professor
 
 Mechanical-Mechatronics Engineering <br />
-(Speciality in Robotics And Automation)</p>
+(Speciality in Material Science and Engineering)</p>
  
       </div>
 
@@ -120,14 +120,14 @@ Mechanical-Mechatronics Engineering
       
 
       <div className="faculty-member">
-        <img src={fac6} alt="Faculty 1"/>
-        <h3>Dr.Deepak Rajendra Unune</h3>
+        <img src={hod} alt="Faculty 1"/>
+        <h3>Dr. Mohit Makkar</h3>
         <p>Assistant Professor
 
 Mechanical-Mechatronics Engineering
 
-<br />
-(Speciality in Material Science and Engineering)</p>
+<br />(Speciality in Robotics And Automation)
+</p>
       </div>
       
       

@@ -43,15 +43,6 @@ const Admission = () => {
 
       <br />
       
-      <h3>Welding related Courses:</h3>
-      <ul>
-        <div style={{marginLeft:'13px'}}>
-        <li>Workshop Practices</li>
-        <li>Manufacturing Technology(Welding and Foundry)</li>
-        <li>Industrial Welding</li>
-        </div>
-        
-      </ul>
 
 
   <br />

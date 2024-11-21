@@ -12,20 +12,18 @@ const About = () => {
        </div>
 
        <div className="about-right">
-        <h3>ABOUT WELDING RESEARCH AT LNMIIT</h3>
+        <h3>About MME Department at LNMIIT</h3>
        
 
 
 
 
 
-        <p> Welcome to the Welding Research at LNMIIT! We're a dedicated team of researchers and educators committed to advancing welding technology through innovative research and hands-on training.</p>
+        <p>Welcome to the Department of Mechanical-Mechatronics Engineering (MME) at LNMIIT! Our department offers a broad understanding of mechanical engineering while focusing on advanced fields like mechatronics, automotive engineering, nanotechnology, and more. We aim to equip students with the knowledge and practical skills necessary to thrive in diverse industries such as aerospace, automotive, biomedical engineering, and energy.</p>
 
-        <p>Our mission is to push the boundaries of traditional welding practices by exploring new techniques, materials, and processes. We collaborate with industry partners and fellow academics to solve real-world challenges and drive innovation in the field.</p>
-        <p>Through our curriculum and workshops, we empower students with the skills and knowledge needed to excel in welding. We're passionate about nurturing the next generation of welders, engineers, and researchers.
-Thank you for visiting our website. Join us in shaping the future of welding technology!
-</p>
+        <p>We offer B.Tech and Ph.D. programs, with future plans for expansion. Our dedicated faculty, with strong academic and industrial backgrounds, ensures a rigorous and flexible curriculum that prepares students for successful careers and research opportunities globally.</p>
 
+        <p>At MME, we are committed to nurturing the next generation of engineers, researchers, and entrepreneurs, fostering innovation, leadership, and excellence in engineering education.</p>
        </div>
               
       

@@ -9,6 +9,12 @@ import car4 from'../../assets/car4.jpg'
 import car5 from'../../assets/car5.jpg'
 import car6 from'../../assets/car6.jpg'
 import car7 from'../../assets/car7.jpg'
+import Manufacture from '../../assets/Manufacturing Engineer.jpg'
+import Aerospace from '../../assets/Aerospace Engineer.jpg'
+import Automotive from '../../assets/Automotive Engineer.jpg'
+import Design from '../../assets/Design Engineer.jpg'
+import Marine from '../../assets/Marine Engineer.jpg'
+import Energy from '../../assets/Energy Engineer.jpg'
 import Title from '../Title/Title'
 
 const Career = () => {
@@ -107,7 +113,7 @@ const Career = () => {
     </div>
     <div className="card10">
       <div className="image10">
-        <img src={car7} alt="Image 1"/>
+        <img src={Manufacture} alt="Image 1"/>
       </div>
       <div className="description10">
         <h2>Manufacturing Engineer:</h2>
@@ -118,7 +124,7 @@ const Career = () => {
     </div>
     <div className="card10">
       <div className="image10">
-        <img src={car7} alt="Image 1"/>
+        <img src={Aerospace} alt="Image 1"/>
       </div>
       <div className="description10">
         <h2>Aerospace Engineer:</h2>
@@ -128,7 +134,7 @@ const Career = () => {
     </div>
     <div className="card10">
       <div className="image10">
-        <img src={car7} alt="Image 1"/>
+        <img src={Automotive} alt="Image 1"/>
       </div>
       <div className="description10">
         <h2>Automotive Engineer:</h2>
@@ -138,7 +144,7 @@ const Career = () => {
     </div>
     <div className="card10">
       <div className="image10">
-        <img src={car7} alt="Image 1"/>
+        <img src={Design} alt="Image 1"/>
       </div>
       <div className="description10">
         <h2>Design Engineer:</h2>
@@ -148,7 +154,7 @@ const Career = () => {
     </div>
     <div className="card10">
       <div className="image10">
-        <img src={car7} alt="Image 1"/>
+        <img src={Energy} alt="Image 1"/>
       </div>
       <div className="description10">
         <h2>Energy Engineer
@@ -160,7 +166,7 @@ const Career = () => {
     </div>
     <div className="card10">
       <div className="image10">
-        <img src={car7} alt="Image 1"/>
+        <img src={Marine} alt="Image 1"/>
       </div>
       <div className="description10">
         <h2>Marine Engineer:</h2>

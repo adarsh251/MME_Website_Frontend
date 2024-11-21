@@ -1,5 +1,68 @@
 {
     "labs": [
+      {"name":"Welding and Foundry Lab (Mechanical Workshop)",
+    "equipments":[
+      {
+        "name": "SAW (Submerge Arc Welding) with CPRA 800 (s) + SAW Tractor (CPRA-S)",
+        "image": "/New BTP/Welding and Foundry Lab (Mechanical Workshop)/SAW (Submerge Arc Welding) with CPRA 800 (s) + SAW Tractor (CPRA-S)",
+        "description": []
+      },
+      {
+        "name": "MIG welding 0700301302 con set feed 402",
+        "image": "/New BTP/Welding and Foundry Lab (Mechanical Workshop)/MIG welding 0700301302 con set feed 402",
+        "description": []
+      },
+      {
+        "name": "Capstan lathe",
+        "image": "/New BTP/Welding and Foundry Lab (Mechanical Workshop)/Capstan lathe",
+        "description": []
+      },
+      {
+        "name": "Lathe machine (Norton gear)",
+        "image": "/New BTP/Welding and Foundry Lab (Mechanical Workshop)/Lathe machine (Norton gear)",
+        "description": []
+      },
+      {
+        "name": "Milling machine",
+        "image": "/New BTP/Welding and Foundry Lab (Mechanical Workshop)/Milling machine",
+        "description": []
+      },
+      {
+        "name": "Shaper machine",
+        "image": "/New BTP/Welding and Foundry Lab (Mechanical Workshop)/Shaper machine",
+        "description": []
+      },
+      {
+        "name": "Surface grinding machine",
+        "image": "/New BTP/Welding and Foundry Lab (Mechanical Workshop)/Surface grinding machine",
+        "description": []
+      },
+      {
+        "name": "Semi-automatic polishing machine",
+        "image": "/New BTP/Welding and Foundry Lab (Mechanical Workshop)/Semi-automatic polishing machine",
+        "description": []
+      },
+      {
+        "name": "Hydraulic specimen mounting press",
+        "image": "/New BTP/Welding and Foundry Lab (Mechanical Workshop)/Hydraulic specimen mounting press",
+        "description": []
+      },
+      {
+        "name": "Metallurgical microscope with software",
+        "image": "/New BTP/Welding and Foundry Lab (Mechanical Workshop)/Metallurgical microscope with software",
+        "description": []
+      },
+      {
+        "name": "Robotic arm",
+        "image": "/New BTP/Welding and Foundry Lab (Mechanical Workshop)/Robotic arm",
+        "description": []
+      },
+      {
+        "name": "Plasma cutting machine",
+        "image": "/New BTP/Welding and Foundry Lab (Mechanical Workshop)/Plasma cutting machine",
+        "description": []
+      }
+    ]},
       {
         "name": "Mechatronics Laboratory",
   "equipments": [

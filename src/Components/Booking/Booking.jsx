@@ -19,20 +19,20 @@ const LabBookingForm = () => {
   const [success, setSuccess] = useState('');
 
   const labsData = {
-    "Automotive Engineering Lab": ["Prof. Kamal Kishore Khatri", "Mr. Rajnish Maithani", "Mr. Mandeep Singh"],
-    "CAD - CAM Lab": ["Prof. Deepak Unune", "Mr. Satyanarayan Prajapat"],
-    "Computer Integrated Manufacturing(CIM) Lab": ["Prof. Deepak Unune", "Mr. Pravin P. Harane"],
-    "Fluid Mechanics & Machinery(Hydraulics) Lab": ["Dr.Praveen Kumar Sharma", "Mr. Mandeep Singh", "Mr. Sandeep Saxena"],
-    "Heat Transfer Lab": ["Dr.Praveen Kumar Sharma", "Mr. Sandeep Saxena"],
-    "Internal Combustion Engine Lab": ["Prof. Kamal Kishore Khatri", "Mr. Gajendra Kumawat"],
+    "Automotive Engineering Lab": ["Dr. Vikas Sharma", "Mr. Gajendra Kumawat"],
+    "CAD - CAM Lab": ["Dr. Servesh kumar Agnihotri", "Mr. Satyanarayan Prajapat"],
+    "Computer Integrated Manufacturing(CIM) Lab": ["Dr. Deepak Rajendra Unune", "Mr. Satish Yadav"],
+    "Fluid Mechanics & Machinery(Hydraulics) Lab": ["Dr. Kamal Kishore Khatri", "Mr. Sandeep Saxena"],
+    "Heat Transfer Lab": ["Dr. Praveen Kumar Sharma", "Mr. Sandeep Saxena"],
+    "Internal Combustion Engine Lab": ["Prof. Kamal Kishore Khatri", "Mr. Sandeep Saxena"],
     "Kinematics & Dynamics Lab": ["Dr. Servesh Kumar Agnihotri", "Mr. Satyanarayan Prajapat"],
-    "Material Characterization (Strength of Materials) Lab": ["Prof. Ashok Dargar", "Mr. Satyanarayan Prajapat", "Mr. Sandeep Saxena"],
-    "Mechatronics Lab": ["Mr. Udayveer Singh"],
+    "Material Characterization (Strength of Materials) Lab": ["Dr. Ashok Kumar Dargar", "Mr. Satyanarayan Prajapat"],
+    "Mechatronics Lab": ["Dr. Mohit Makkar", "Mr. Udayveer Singh"],
     "Metrology, Instrumentation and Control (METIC) Lab": ["Prof. Vikram Sharma", "Mr. Udayveer Singh", "Mr. Bhagwan Singh"],
-    "Robotics & Industrial Automation Lab": ["Dr. Mohit Makkar", "Dr. Atul Mishra", "Mr. Udayveer Singh"],
-    "Thermodynamics Lab": ["Prof. Kamal Kishore Khatri", "Mr. Shiv Prakash Dadhich"],
-    "Welding and Foundry Lab (Mechanical Workshop)": ["Prof. Sunil Pandey", "Dr. Manoj Kumar", "Mr. Satish Yadav", "Mr. Bhagwan Singh", "Mr. Ritesh Shrimali", "Mr. Ayush Kumar Singh"]
-  };
+    "Robotics & Industrial Automation Lab": ["Dr. Atul Mishra", "Mr. Gajendra Kumawat"],
+    "Thermodynamics Lab": ["Dr. Praveen Kumar Sharma", "Mr. Sandeep Saxena"],
+    "Welding and Foundry Lab (Mechanical Workshop)": ["Prof. Sunil Pandey", "Dr. Manoj Kumar", "Mr. Satish Yadav", "Mr. Bhagwan Singh"]
+};
   const equipmentsData = {
     "Automotive Engineering Lab": [
       "Flex ECU Application Software (Rate: INR 200/hr)",
