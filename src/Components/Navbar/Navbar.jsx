@@ -72,8 +72,9 @@ const Navbar = () => {
               </ul>
             )}
           </li>
-          {/* <li><NavLink to="/facility">Facility</NavLink></li>
-          <li><NavLink to="/research">Research</NavLink></li>  */}
+          {/* <li><NavLink to="/facility">Facility</NavLink></li>*/}
+          <li><NavLink to="/research">Research</NavLink></li>  
+
           <li><NavLink to="/blog">Blogs</NavLink></li> 
           <li><NavLink to="/booking">Booking</NavLink></li>
 
@@ -93,7 +94,6 @@ const Navbar = () => {
                   <li><NavLink to="/">Home</NavLink></li>
                   <li><NavLink to="/admission">Admission</NavLink></li>
                   <li><NavLink to="/faculty">Faculty &amp; Staff</NavLink></li>
-                  <li><NavLink to="/facility">Facilities</NavLink></li>
                   <li><NavLink to="/research">Research</NavLink></li>
                   <li><NavLink to="/booking">Booking</NavLink></li>
                   <li><NavLink to="/blog">Blogs</NavLink></li>

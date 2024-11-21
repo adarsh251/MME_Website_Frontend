@@ -174,13 +174,6 @@ Mechanical-Mechatronics Engineering</p>
 Mechanical-Mechatronics Engineering</p>
       </div>
       
-      <div className="faculty-member">
-        <img src={fac12} alt="Faculty 1"/>
-        <h3>Dr.Bharat Singh</h3>
-        <p>Assistant Professor
-
-Mechanical-Mechatronics Engineering</p>
-      </div>
       
     </div>
 
