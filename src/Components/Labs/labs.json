@@ -1109,64 +1109,136 @@
         "equipments": [
           {
             "name": "OMIBO - Omni Wheel Operated Robot",
-            "image": "/New BTP/Robotics & Industrial Automation Laboratory/OMIBO - Omni Wheel Operated Robot",
-            "description": "A robot designed to demonstrate omni-directional movement, using omni-wheels to move in any direction without changing its orientation. It is used for teaching advanced movement systems and robot programming."
-          },
+            "image": "/New BTP/Robotics & Industrial Automation Laboratory/OMIBO-Omni Wheel operated Robot.jpg",
+            "description": [
+              "The OMIBO (Omni Wheel Operated Robot) is a robot designed to demonstrate and teach the programming and design of omni-directional movement systems. Equipped with omni-wheels, the robot can move in any direction without changing its orientation, providing a highly versatile platform for robotics learning and experimentation.",
+              
+              "To use the OMIBO robot, the user programs the robot's movement using a controller or computer interface. The omni-wheels, which allow movement along both the X and Y axes simultaneously, enable the robot to travel forward, backward, sideways, or rotate while maintaining a constant heading. This makes the robot ideal for applications that require precise and flexible movement in confined spaces or complex environments.",
+              
+              "OMIBO is primarily used in robotics education and research to teach students about advanced movement systems, kinematics, and robot programming. It also provides a hands-on experience in controlling multi-degree-of-freedom robots, which are used in automated material handling and advanced robotics applications."
+            ]
+            },
           {
             "name": "Air Compressor Large",
-            "image": "/New BTP/Robotics & Industrial Automation Laboratory/Air Compressor Large",
-            "description": "A large air compressor that provides a consistent supply of compressed air for various pneumatic tools and systems, essential for industrial and automation applications."
+            "image": "/New BTP/Robotics & Industrial Automation Laboratory/Air Compressor Large.jpg",
+            "description": [
+              "A large air compressor is a machine designed to provide a consistent supply of compressed air for various pneumatic equipment and tools. It works by drawing in ambient air, compressing it to a higher pressure, and storing it in a tank for later use. This compressed air can then be used to power pneumatic systems, control valves, and other industrial applications that require pressurized air.",
+              
+              "To use a large air compressor, the system is connected to a network of pneumatic tools or machines. The compressor's pressure settings are adjusted based on the requirements of the equipment being powered. When the compressor is running, it maintains a steady supply of air to the connected tools or systems.",
+              
+              "Large air compressors are commonly used in industries such as manufacturing, construction, and automation, where they serve applications like powering pneumatic drills, conveyors, and robotics, as well as controlling machinery in automated assembly lines."
+            ]
           },
           {
             "name": "MARSian - Mars Rover Prototype",
-            "image": "/New BTP/Robotics & Industrial Automation Laboratory/MARSian - Mars Rover Prototype",
-            "description": "A Mars rover prototype robot designed to teach robot programming and design, capable of navigating terrain and performing tasks like gripping and object manipulation in harsh environments."
-          },
+            "image": "/New BTP/Robotics & Industrial Automation Laboratory/MARSian - Mars Rover Prototype.jpg",
+            "description": [
+              "MARSian, a Mars rover prototype, is a robotic platform designed to teach the programming and design of robots equipped with gripping mechanisms. Modeled after real-life Mars rovers, MARSian is used in educational settings to demonstrate how robots can navigate terrain and perform tasks, such as gripping and manipulating objects, in remote or harsh environments.",
+              
+              "The robot is equipped with wheels or tracks for mobility and a gripping mechanism (such as a claw or gripper) to pick up and move objects. Students can program MARSian to navigate obstacles, perform specific tasks like object retrieval, or interact with its environment in a controlled manner.",
+              
+              "MARSian is primarily used in robotics and engineering courses, where it provides hands-on learning in robot design, kinematics, and programming. It helps students understand the complexities of autonomous robots, grasp the principles of sensor integration, and develop skills in programming robotic movements and actuations for real-world applications like space exploration or industrial automation."
+            ]
+            },
           {
             "name": "JCBian – Pneumatic Back Hoe Loader",
-            "image": "/New BTP/Robotics & Industrial Automation Laboratory/JCBian – Pneumatic Back Hoe Loader",
-            "description": "A robotic model simulating a real-life JCB backhoe loader, utilizing pneumatic systems to control the boom, arm, and bucket. It is used for teaching the design and function of hydraulic and pneumatic systems."
-          },
+            "image": "/New BTP/Robotics & Industrial Automation Laboratory/JCBian - Pneumatic Back Hoe Loader.jpg",
+            "description":[
+              "JCBian – Pneumatic Back Hoe Loader is a robotic model designed to simulate the functions of a real-life JCB backhoe loader, specifically focusing on the use of pneumatic systems for movement and operation. This equipment is used to teach students about the design, programming, and functionality of hydraulic and pneumatic systems in construction machinery.",
+              
+              "The JCBian model consists of pneumatic cylinders and actuators that control the movement of the boom, arm, and bucket, mimicking the operations of an actual backhoe loader. The system uses compressed air to power the pneumatic actuators, which can lift, lower, and move the bucket or arm, demonstrating the basic principles of fluid power and mechanical design.",
+              
+              "To use JCBian, students program and control the movement of the loader using a controller or interface, learning to integrate sensors, actuators, and pneumatics into a functional robotic system. It serves as an educational tool for understanding the complexities of heavy machinery and the principles behind their automation in construction."
+            ]
+            },
           {
             "name": "Flexo - The Robot Hand",
-            "image": "/New BTP/Robotics & Industrial Automation Laboratory/Flexo - The Robot Hand",
-            "description": "A wireless robot hand designed to mimic human hand dexterity. It uses IoT devices for control, teaching robotic programming and wireless automation."
-          },
+            "image": "/New BTP/Robotics & Industrial Automation Laboratory/Flexo - The Robot Hand.jpg",
+            "description": [
+              "Flexo – The Robot Hand is a robotic model designed to teach the programming and design of a wireless hand mechanism robot, utilizing Internet of Things (IoT) devices for control. This robot hand mimics the dexterity and movements of a human hand, using a combination of motors, sensors, and actuators to perform various gripping and manipulation tasks.",
+              
+              "To use Flexo, students design and program the hand to perform specific actions, such as grasping, holding, and releasing objects. The robot hand is typically controlled wirelessly through IoT devices, allowing remote operation via smartphones, computers, or other wireless controllers. The system leverages sensors to provide feedback on position and force, enabling the hand to adjust its movements and grip strength in real time.",
+              
+              "Flexo is mainly used in educational settings to teach the integration of robotics, wireless communication, and IoT technologies. It provides hands-on experience with robotic control systems, programming, and the development of wireless automation for practical applications like remote handling or teleoperation."
+            ]
+            },
           {
             "name": "Mobilo - Mobile Operated Robot",
-            "image": "/New BTP/Robotics & Industrial Automation Laboratory/Mobilo - Mobile Operated Robot",
-            "description": "A mobile robot controlled via smartphone or tablet, used to teach programming, mobile communication, and autonomous navigation."
-          },
+            "image": "/New BTP/Robotics & Industrial Automation Laboratory/Mobilo - Mobile Operated Robot.jpg",
+            "description": [
+              "Mobilo – Mobile Operated Robot is a robotic platform designed to teach the programming and design of mobile robots that are controlled via a mobile phone or tablet. It is equipped with motors, sensors, and a microcontroller to enable it to move in different directions and perform specific tasks, such as obstacle avoidance or object manipulation.",
+              
+              "To use Mobilo, students program the robot’s movements using a mobile app or Bluetooth interface. The robot can be operated remotely by sending commands from a smartphone or tablet, which communicates wirelessly with the robot via Bluetooth or Wi-Fi. The programming involves coding the robot's movement patterns, response to environmental inputs, and interaction with sensors.",
+              
+              "Mobilo is widely used in educational settings, where it helps students learn about robotics, mobile communication, and programming. It offers a practical understanding of autonomous navigation, sensor integration, and mobile control, all essential skills for designing and operating mobile robots in real-world applications."
+            ]
+            },  
           {
             "name": "SMC Training Kit",
-            "image": "/New BTP/Robotics & Industrial Automation Laboratory/SMC Training Kit",
-            "description": "An educational kit for designing and implementing pneumatic and electro-pneumatic systems, helping students learn automation and fluid power."
-          },
+            "image": "/New BTP/Robotics & Industrial Automation Laboratory/SMC training Kit.jpg",
+            "description": [
+              "The SMC Training Kit is an educational tool designed to teach the design and implementation of pneumatic and electro-pneumatic systems. It includes various components such as pneumatic cylinders, valves, sensors, and actuators, along with a control unit that can be used to create and simulate pneumatic circuits and automation systems.",
+              
+              "To use the SMC Training Kit, students design and construct pneumatic circuits by connecting the components according to the desired system layout. They can program and control the system using electro-pneumatic algorithms to automate processes like controlling pressure, flow, or actuator movements. The kit is equipped with various sensors and controllers to monitor and adjust the system's performance.",
+              
+              "The SMC Training Kit is widely used in vocational training and educational settings to teach students about fluid power, automation, and control systems. It provides hands-on experience in designing and troubleshooting pneumatic systems, which are crucial in manufacturing, robotics, and industrial automation applications."
+            ]
+            },
           {
             "name": "SMC Local Manufacturing",
-            "image": "/New BTP/Robotics & Industrial Automation Laboratory/SMC Local Manufacturing",
-            "description": "A hands-on tool for learning about the internal structure and functioning of pneumatic and electro-pneumatic components by disassembling and analyzing them."
-          },
+            "image": "/New BTP/Robotics & Industrial Automation Laboratory/SMC-local-Manufacturing.jpg",
+            "description": [
+              "The SMC Training Kit is an educational tool designed to teach the design and implementation of pneumatic and electro-pneumatic systems. It includes various components such as pneumatic cylinders, valves, sensors, and actuators, along with a control unit that can be used to create and simulate pneumatic circuits and automation systems.",
+              
+              "To use the SMC Training Kit, students design and construct pneumatic circuits by connecting the components according to the desired system layout. They can program and control the system using electro-pneumatic algorithms to automate processes like controlling pressure, flow, or actuator movements. The kit is equipped with various sensors and controllers to monitor and adjust the system's performance.",
+              
+              "The SMC Training Kit is widely used in vocational training and educational settings to teach students about fluid power, automation, and control systems. It provides hands-on experience in designing and troubleshooting pneumatic systems, which are crucial in manufacturing, robotics, and industrial automation applications."
+            ]
+            },
           {
             "name": "Electro Hydraulic Trainer with LG PLC",
-            "image": "/New BTP/Robotics & Industrial Automation Laboratory/Electro Hydraulic Trainer with LG PLC",
-            "description": "A trainer combining hydraulic systems and PLC programming to teach automation processes. It integrates fluid power and electrical control for real-world applications."
-          },
+            "image": "/New BTP/Robotics & Industrial Automation Laboratory/Electro Hydraulic Trainer with LG PLC.jpg",
+            "description": [
+              "The Electro-Hydraulic Trainer with LG PLC is an educational setup designed to teach students the principles of electro-hydraulic systems and PLC (Programmable Logic Controller) programming. It combines hydraulic components with electrical control systems to simulate real-world automation processes, providing practical experience in both fluid power and automation.",
+              
+              "To use the Electro-Hydraulic Trainer, students first design and assemble hydraulic circuits, integrating components like pumps, cylinders, and valves. The system is then controlled using an LG PLC, which is programmed to automate the hydraulic functions. Students learn to write and test PLC programs that control hydraulic actuators, allowing them to control fluid flow, pressure, and actuator movements.",
+              
+              "This setup is commonly used in vocational and engineering courses to demonstrate the integration of hydraulics with electrical control systems. It helps students understand how automation is applied in industrial processes, and teaches them to program and troubleshoot PLC systems for electro-hydraulic applications in fields like manufacturing and robotics."
+            ]
+            },
           {
             "name": "AUTOSIM-200 for 8 Education License",
-            "image": "/New BTP/Robotics & Industrial Automation Laboratory/AUTOSIM-200 for 8 Education License",
-            "description": "Simulation software for designing, simulating, and testing pneumatic and electro-pneumatic circuits in a virtual environment, used to teach fluid power systems and automation."
-          },
+            "image": "/New BTP/Robotics & Industrial Automation Laboratory/AUTOSIM-200 for 8 education license.jfif",
+            "description": [
+              "AUTOSIM-200 for 8 Education License is a simulation software designed to teach the virtual logic of pneumatic and electro-pneumatic systems. This software allows students to design, simulate, and test pneumatic and electro-pneumatic circuits in a virtual environment, offering a cost-effective and safe way to learn fluid power systems without the need for physical hardware.",
+              
+              "To use AUTOSIM-200, students create virtual circuits by selecting components such as valves, cylinders, and sensors from a library, and then connect them according to the desired system layout. The software allows users to simulate the operation of these circuits, observing how the components interact in real time. It also supports programming of electro-pneumatic systems, enabling students to practice writing control algorithms and troubleshooting logic.",
+              
+              "AUTOSIM-200 is commonly used in educational settings to help students understand the principles of pneumatic and electro-pneumatic systems, while enhancing their skills in designing, programming, and troubleshooting automation systems."
+            ]
+            },
           {
             "name": "Basic Electro-Pneumatics Training Software",
-            "image": "/New BTP/Robotics & Industrial Automation Laboratory/Basic Electro-Pneumatics Training Software",
-            "description": "An educational tool that simulates electro-pneumatic circuits, teaching students the design, control, and troubleshooting of automation systems."
-          },
+            "image": "/New BTP/Robotics & Industrial Automation Laboratory/Basic Electro-Pneumatics Training Software.jfif",
+            "description": [
+              "The Basic Electro-Pneumatics Training Software is an educational tool designed to teach the fundamental concepts of electro-pneumatic systems. It allows students to learn and practice the design, simulation, and control of pneumatic circuits integrated with electrical control systems in a virtual environment.",
+              
+              "To use the software, students create and simulate electro-pneumatic circuits by selecting from a range of components, such as pneumatic cylinders, solenoid valves, sensors, and actuators. The software enables them to design control sequences and observe how the components interact under various conditions. Students can also program and troubleshoot the control logic to automate operations within the system.",
+              
+              "This software is commonly used in vocational training, technical colleges, and engineering courses to introduce students to the basics of fluid power and automation. It offers a hands-on approach to learning, allowing students to understand electro-pneumatic components and control principles without the need for physical hardware, making it a valuable tool for practical learning and skill development."
+            ]
+            },
           {
             "name": "Basic Pneumatics Training Software",
-            "image": "/New BTP/Robotics & Industrial Automation Laboratory/Basic Pneumatics Training Software",
-            "description": "A software that allows students to design and simulate pneumatic systems, helping them understand airflow, pressure, and component behavior in fluid power systems."
-          }
+            "image": "/New BTP/Robotics & Industrial Automation Laboratory/Basic Pneumatics training software.jpg",
+            "description": [
+              "The Basic Pneumatics Training Software is an educational tool designed to teach the foundational principles and applications of pneumatic systems. It provides a virtual environment for students to learn about pneumatic components, circuit design, and system operations, making it a cost-effective and safe way to practice fluid power concepts.",
+              
+              "To use the software, students can select various pneumatic components such as air compressors, cylinders, valves, and actuators from a component library and assemble them into circuits. The software allows simulation of these circuits, enabling learners to observe airflow, pressure changes, and the behavior of system components in real-time. It also includes interactive tutorials and exercises to reinforce theoretical knowledge.",
+              
+              "This software is widely used in technical and engineering education to introduce students to the design and operation of pneumatic systems. It helps them understand how pneumatic circuits function, troubleshoot system issues, and prepare for practical applications in industrial automation and machinery."
+            ]
+            }
         ]
       },
       {
