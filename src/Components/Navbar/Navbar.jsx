@@ -3,7 +3,7 @@ import './Navbar.css';
 import logo from '../../assets/logo.png';
 import menu_icon from '../../assets/menu-icon.png';
 import { NavLink, useLocation } from 'react-router-dom';
-
+import labsData from '../Labs/labs.json'
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [labsOpen, setLabsOpen] = useState(false); // State to manage Labs dropdown visibility
@@ -46,20 +46,29 @@ const Navbar = () => {
           <li className="labs-dropdown" onMouseEnter={openLabs} onMouseLeave={closeLabs}>
             <span>Labs</span>
             {labsOpen && (
+              // <ul className="labs-dropdown-menu">
+              //   <li><NavLink to="/labs/automotive-engineering">Automotive Engineering Lab</NavLink></li>
+              //   <li><NavLink to="/labs/cad-cam">CAD – CAM Lab</NavLink></li>
+              //   <li><NavLink to="/labs/cim">Computer Integrated Manufacturing(CIM) Lab</NavLink></li>
+              //   <li><NavLink to="/labs/hydraulics">Fluid Mechanics & Machinery(Hydraulics) Lab</NavLink></li>
+              //   <li><NavLink to="/labs/heat-transfer">Heat Transfer Lab</NavLink></li>
+              //   <li><NavLink to="/labs/internal-combustion">Internal Combustion Engine Lab</NavLink></li>
+              //   <li><NavLink to="/labs/kinematics-dynamics">Kinematics & Dynamics Lab</NavLink></li>
+              //   <li><NavLink to="/labs/material-characterization">Material Characterization Lab</NavLink></li>
+              //   <li><NavLink to="/labs/mechatronics">Mechatronics Lab</NavLink></li>
+              //   <li><NavLink to="/labs/metic">Metrology, Instrumentation and Control (METIC) Lab</NavLink></li>
+              //   <li><NavLink to="/labs/robotics-industrial">Robotics & Industrial Automation Lab</NavLink></li>
+              //   <li><NavLink to="/labs/thermodynamics">Thermodynamics Lab</NavLink></li>
+              //   <li><NavLink to="/labs/welding-foundry">Welding and Foundry Lab</NavLink></li>
+              // </ul>
               <ul className="labs-dropdown-menu">
-                <li><NavLink to="/labs/automotive-engineering">Automotive Engineering Lab</NavLink></li>
-                <li><NavLink to="/labs/cad-cam">CAD – CAM Lab</NavLink></li>
-                <li><NavLink to="/labs/cim">Computer Integrated Manufacturing(CIM) Lab</NavLink></li>
-                <li><NavLink to="/labs/hydraulics">Fluid Mechanics & Machinery(Hydraulics) Lab</NavLink></li>
-                <li><NavLink to="/labs/heat-transfer">Heat Transfer Lab</NavLink></li>
-                <li><NavLink to="/labs/internal-combustion">Internal Combustion Engine Lab</NavLink></li>
-                <li><NavLink to="/labs/kinematics-dynamics">Kinematics & Dynamics Lab</NavLink></li>
-                <li><NavLink to="/labs/material-characterization">Material Characterization Lab</NavLink></li>
-                <li><NavLink to="/labs/mechatronics">Mechatronics Lab</NavLink></li>
-                <li><NavLink to="/labs/metic">Metrology, Instrumentation and Control (METIC) Lab</NavLink></li>
-                <li><NavLink to="/labs/robotics-industrial">Robotics & Industrial Automation Lab</NavLink></li>
-                <li><NavLink to="/labs/thermodynamics">Thermodynamics Lab</NavLink></li>
-                <li><NavLink to="/labs/welding-foundry">Welding and Foundry Lab</NavLink></li>
+                {labsData.labs.map((lab) => (
+                  <li key={lab.name}>
+                    <NavLink to={`/${lab.name.replace(/\s+/g, '-').toLowerCase()}`}>
+                      {lab.name}
+                    </NavLink>
+                  </li>
+                ))}
               </ul>
             )}
           </li>

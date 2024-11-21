@@ -54,35 +54,41 @@ nav {
   }
   
   /* Labs dropdown menu styles */
-  .labs-dropdown-menu {
-    display: none; /* Hidden by default */
-    position: absolute;
-    top: 100%; /* Position below the Labs button */
-    left: 0;
-    background-color: #f9f9f9;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    padding: 8px 0;
-    z-index: 1;
-    min-width: 200px;
-  }
+  /* Labs dropdown menu styles */
+.labs-dropdown-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 100%; /* Position below the Labs button */
+  left: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 8px 0;
+  z-index: 1;
+  min-width: 200px;
   
-  /* Labs dropdown list items */
-  .labs-dropdown-menu li {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-  
-  /* Link styles within Labs dropdown */
-  .labs-dropdown-menu li a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  /* Hover effect for Labs dropdown links */
-  .labs-dropdown-menu li a:hover {
-    background-color: #cd3030;
-    color: white;
-  }
+  /* Add max-height and scroll behavior */
+  max-height: 70vh; /* 70% of the viewport height */
+  overflow-y: auto; /* Enables vertical scrolling if the content exceeds max height */
+}
+
+/* Labs dropdown list items */
+.labs-dropdown-menu li {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+/* Link styles within Labs dropdown */
+.labs-dropdown-menu li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Hover effect for Labs dropdown links */
+.labs-dropdown-menu li a:hover {
+  background-color: #cd3030;
+  color: white;
+}
+
   
   /* Show Labs dropdown menu on hover */
   .labs-dropdown:hover .labs-dropdown-menu {

@@ -39,6 +39,8 @@ import BlogList from './Components/Blog/BlogList'
 import BlogDetail from './Components/Blog/BlogDetail'
 import PendingBlogs from './Components/Admin/PendingBlogs'
 import Dashboard from './Components/Admin/Dashboard'
+import { LabEquipment } from './Components/Research/LabEquipment'
+import { EquipmentDetails } from './Components/FacilityPages/Facility'
 
 const App = () => {
   return (
@@ -53,6 +55,7 @@ const App = () => {
       
 
         <Route path="/" element={ <ScrollToTopLayout><Hero/></ScrollToTopLayout>}/>
+      
            <Route path="/about" element={ <ScrollToTopLayout><About/></ScrollToTopLayout>} />
            {/* <Route path="/Programs" element={<ScrollToTopLayout><Programs/></ScrollToTopLayout>} /> */}
            <Route path="/contact" element={ <ScrollToTopLayout><Contact/></ScrollToTopLayout>} />
@@ -94,7 +97,8 @@ const App = () => {
       
 
 
-
+           <Route path="/:labName" element={<LabEquipment />} />
+           <Route path="/:labName/:equipmentName" element={<EquipmentDetails />} />
      
 
       </Routes>

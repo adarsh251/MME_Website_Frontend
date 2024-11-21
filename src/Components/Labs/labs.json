@@ -1,0 +1,964 @@
+{
+    "labs": [
+      {
+        "name": "Mechatronics Lab",
+  "equipments": [
+    {
+      "name": "Compact RIO Standard 8-Slot Chassis System",
+      "image": "../../assets/New BTP/Mechatronics Lab/Compact RIO Standard 8-Slot Chassis System",
+      "description": "The Compact RIO standard 8-slot chassis system is a versatile and powerful device primarily used in mechatronics and automation systems. It serves as a platform to interface multiple drives and measure electrical parameters like current and voltage through Ethernet connectivity. Equipped with C Series modules, it provides flexibility for real-time data acquisition, control, and signal processing."
+    },
+    {
+      "name": "Autonomous Robotics System Design Platform",
+      "image": "../../assets/New BTP/Mechatronics Lab/Autonomous Robotics System Design Platform",
+      "description": "The Autonomous Robotics System Design Platform is a cutting-edge embedded deployment platform that integrates a real-time processor, reconfigurable field-programmable gate array (FPGA), and analog and digital input/output (I/O) capabilities. It supports the development and deployment of autonomous robotic systems, enabling precise control, real-time processing, and advanced computational tasks."
+    },
+    {
+      "name": "Embedded Control Platform",
+      "image": "../../assets/New BTP/Mechatronics Lab/Embedded Control Platform",
+      "description": "The Embedded Control Platform is designed for creating and testing embedded system hardware projects. It includes a microcontroller at its core, supported by multiple accessories such as sensors, actuators, communication modules, and power management units. It accelerates the development of innovative and efficient hardware solutions through rapid prototyping and testing."
+    },
+    {
+      "name": "Mechatronics System Design Platform",
+      "image": "../../assets/New BTP/Mechatronics Lab/Mechatronics System Design Platform",
+      "description": "The Mechatronics System Design Platform is used to develop and test integrated mechatronic systems by interfacing various sensors and actuators with myRIO, an embedded hardware system. It simplifies complex mechatronics projects, offering a modular and user-friendly approach to integrating hardware and software components for real-time applications."
+    },
+    {
+      "name": "Cathode Ray Oscilloscope (CRO)",
+      "image": "../../assets/New BTP/Mechatronics Lab/Cathode Ray Oscilloscope (CRO)",
+      "description": "The Cathode Ray Oscilloscope (CRO) is a vital instrument used to analyze various waveform signals in electrical and electronic systems. It provides a visual representation of voltage variations over time, allowing users to observe signal characteristics like amplitude, frequency, phase, and shape."
+    },
+    {
+      "name": "Easyport Training Kit",
+      "image": "../../assets/New BTP/Mechatronics Lab/Easyport Training Kit",
+      "description": "The Easyport Training Kit is a versatile interface device designed for educational and experimental purposes. It facilitates the measurement, open-loop control, and closed-loop control of various processes, seamlessly bridging the gap between simulation and real-world applications."
+    },
+    {
+      "name": "Modular Production System – Distributing Station",
+      "image": "../../assets/New BTP/Mechatronics Lab/Modular Production System – Distributing Station",
+      "description": "The Modular Production System-Distributing Station is a training platform designed to teach the principles of automation in manufacturing, focusing on pick-and-place operations using pneumatic cylinders (rotary and linear) and programmable logic controllers (PLCs)."
+    },
+    {
+      "name": "LME EV3 Core Set (LEGO)",
+      "image": "../../assets/New BTP/Mechatronics Lab/LME EV3 Core Set (LEGO)",
+      "description": "The LME EV3 Core Set (LEGO Mindstorms Education EV3) is an interactive educational tool designed to teach the fundamentals of building and programming robots. It fosters creativity and problem-solving skills while providing practical experience with mechanical design and programming logic."
+    },
+    {
+      "name": "TETRIX Education Base Set",
+      "image": "../../assets/New BTP/Mechatronics Lab/TETRIX Education Base Set",
+      "description": "The TETRIX Education Base Set is a robust platform designed for building metal-structured robots, primarily used in educational and competitive robotics settings. It helps students learn about mechanical assembly, structural integrity, and motion mechanics."
+    },
+    {
+      "name": "LME EV3 Expansion Set",
+      "image": "../../assets/New BTP/Mechatronics Lab/LME EV3 Expansion Set",
+      "description": "The LME EV3 Expansion Set enhances the learning experience of building and programming basic robots. It includes additional components for creating robots with enhanced mobility and sophisticated movements, ideal for fostering creativity and problem-solving skills."
+    },
+    {
+      "name": "TETRIX Resource Set",
+      "image": "../../assets/New BTP/Mechatronics Lab/TETRIX Resource Set",
+      "description": "The TETRIX Resource Set is a comprehensive collection of metal structural components, motors, sensors, and other accessories. It enables users to build and customize robots, encouraging creativity, teamwork, and problem-solving in robotics education."
+    },
+    {
+      "name": "Multipurpose PC-Based Process Control System (SCADA Software)",
+      "image": "../../assets/New BTP/Mechatronics Lab/Multipurpose PC-Based Process Control System (SCADA Software)",
+      "description": "The Multipurpose PC-Based Process Control System with SCADA software is designed to teach and demonstrate various industrial control processes. It integrates hardware and software to monitor and control real-time processes in industries like manufacturing, energy, and water treatment."
+    },
+    {
+      "name": "IMAX B6 5A Multipurpose Battery Charger",
+      "image": "../../assets/New BTP/Mechatronics Lab/IMAX B6 5A Multipurpose Battery Charger",
+      "description": "The IMAX B6 5A multipurpose battery charger is designed for charging a variety of rechargeable batteries, particularly Lithium Polymer (LiPo) batteries. It supports multiple battery types and ensures safe and efficient charging with built-in safety systems."
+    },
+    {
+      "name": "Digital Storage Oscilloscope (DSO)",
+      "image": "../../assets/New BTP/Mechatronics Lab/Digital Storage Oscilloscope (DSO)",
+      "description": "A Digital Storage Oscilloscope (DSO) is used for analyzing and measuring electrical signals by visualizing waveforms on a screen. It is essential for troubleshooting, design verification, and signal testing in various electronic applications."
+    },
+    {
+      "name": "DC Regulated Power Supply",
+      "image": "../../assets/New BTP/Mechatronics Lab/DC Regulated Power Supply",
+      "description": "A DC Regulated Power Supply provides a stable and adjustable DC voltage to electronic circuits and devices. It is widely used in testing, research, and development for powering prototypes, electronic equipment, and systems in industrial applications."
+    },
+    {
+        "name": "LabVIEW Academic Site License",
+        "image": "../../assets/New BTP/Mechatronics Lab/LabVIEW Academic Site License",
+        "description": "LabVIEW is a graphical programming environment for developing applications that interact with measurement, control, and automation hardware. The 5-year Academic Site License provides access for students, faculty, and researchers to create and design hardware projects, experiments, and simulations, supporting collaborative learning in engineering, robotics, and instrumentation fields."
+      },
+      {
+        "name": "Ciros Studio (Software)",
+        "image": "../../assets/New BTP/Mechatronics Lab/Ciros Studio",
+        "description": "Ciros Studio is a simulation software for creating virtual environments to model, optimize, and visualize manufacturing processes. It allows users to simulate and analyze complex workflows, making it ideal for educational and research settings in mechatronics and industrial engineering."
+      },
+      {
+        "name": "LME EV3 Software Site License V24",
+        "image": "../../assets/New BTP/Mechatronics Lab/LME EV3 Software Site License V24",
+        "description": "LME EV3 Software is a graphical programming tool for LEGO MINDSTORMS EV3 robots. The site license provides access for multiple users to design, test, and control robotic models, promoting collaborative learning in robotics, programming, and engineering concepts."
+      },
+      {
+        "name": "Multisim Education",
+        "image": "../../assets/New BTP/Mechatronics Lab/Multisim Education",
+        "description": "Multisim Education is an electronic circuit design and simulation tool used in teaching circuit theory and analysis. It allows users to create, test, and optimize circuits in a virtual environment, supporting the design of schematics and PCB layouts for educational purposes."
+      },
+      {
+        "name": "Ultiboard Education",
+        "image": "../../assets/New BTP/Mechatronics Lab/Ultiboard Education",
+        "description": "Ultiboard Education is a PCB design software used for creating circuit board layouts. It works with Multisim to convert circuit designs into manufacturable PCBs. The software supports collaborative learning by allowing multiple users to practice PCB design and manufacturing."
+      },
+      {
+        "name": "Step 7 Programming Software",
+        "image": "../../assets/New BTP/Mechatronics Lab/Step 7 Programming Software",
+        "description": "Step 7 is a Siemens PLC programming software for configuring, programming, and maintaining industrial automation systems. The 12-user license setup is ideal for classrooms, enabling collaborative programming, simulation, and troubleshooting of automation projects."
+      },
+      {
+        "name": "WinCC Single License",
+        "image": "../../assets/New BTP/Mechatronics Lab/WinCC Single License",
+        "description": "WinCC is a SCADA software for monitoring and controlling industrial processes. It provides real-time visualization, alarm management, and data logging for smaller applications, supporting efficient system control in industrial environments."
+      },
+      {
+        "name": "Mechatronics Assistant",
+        "image": "../../assets/New BTP/Mechatronics Lab/Mechatronics Assistant",
+        "description": "Mechatronics Assistant is a software tool for simulating automation systems in a virtual environment. It supports modeling processes involving sensors, actuators, and PLCs, enabling users to design, test, and optimize mechatronic systems without physical prototypes."
+      },
+      {
+        "name": "Proteus",
+        "image": "../../assets/New BTP/Mechatronics Lab/Proteus",
+        "description": "Proteus is a software suite for designing and simulating electronic circuits, supporting both analog and digital components. The 10-user license makes it suitable for educational and collaborative projects, enabling circuit design, PCB layout, and embedded systems simulation."
+      }
+  ]
+      },
+      {
+        "name": "Kinematics and Dynamics Lab",
+        "equipments": [
+          {
+            "name": "Cam Analysis Apparatus",
+            "image": "../../assets/Kinematics and Dynamics Lab/Cam Analysis Apparatus",
+            "description": "Used to study the working and performance characteristics of cam and follower mechanisms, demonstrating the conversion of rotary motion into linear motion. It allows analysis of displacement, velocity, and acceleration of followers with various cam profiles."
+          },
+          {
+            "name": "Moment of Inertia of Flywheel Apparatus",
+            "image": "../../assets/Kinematics and Dynamics Lab/Moment of Inertia of Flywheel Apparatus",
+            "description": "Demonstrates the concept of moment of inertia in rotational motion using a 20 cm diameter flywheel. Students can calculate the moment of inertia by observing angular acceleration under applied torque."
+          },
+          {
+            "name": "Static and Dynamic Balancing Apparatus",
+            "image": "../../assets/Kinematics and Dynamics Lab/Static and Dynamic Balancing Apparatus",
+            "description": "Helps understand principles of balancing rotating bodies by demonstrating static and dynamic balancing to reduce vibrations and ensure smooth operation."
+          },
+          {
+            "name": "Motorized Gyroscope Apparatus",
+            "image": "../../assets/Kinematics and Dynamics Lab/Motorized Gyroscope Apparatus",
+            "description": "Demonstrates the working principles of gyroscopes, including resistance to orientation changes and precession, useful in understanding stability and control in rotating systems."
+          },
+          {
+            "name": "Slip and Creep Measurement Apparatus",
+            "image": "../../assets/Kinematics and Dynamics Lab/Slip and Creep Measurement Apparatus",
+            "description": "Used to study slip and creep in mechanical systems by analyzing relative motion and material deformation under stress."
+          },
+          {
+            "name": "Universal Vibration Apparatus",
+            "image": "../../assets/Kinematics and Dynamics Lab/Universal Vibration Apparatus",
+            "description": "Demonstrates vibration principles, including free and forced vibrations, resonance, and damping effects in mechanical systems."
+          },
+          {
+            "name": "Model Board for Generation of Gear Tooth Profile",
+            "image": "../../assets/Kinematics and Dynamics Lab/Model Board for Generation of Gear Tooth Profile",
+            "description": "Shows the process of generating and analyzing gear tooth profiles, aiding in understanding gear design and manufacturing principles."
+          },
+          {
+            "name": "Crank and Connecting Rod Model",
+            "image": "../../assets/Kinematics and Dynamics Lab/Crank and Connecting Rod Model",
+            "description": "Demonstrates the conversion of rotational motion to linear motion in engines, simulating the working cycle of internal combustion engines."
+          },
+          {
+            "name": "Model of Crank & Slotted Lever Mechanism",
+            "image": "../../assets/Kinematics and Dynamics Lab/Model of Crank & Slotted Lever Mechanism",
+            "description": "Demonstrates the conversion of rotary motion into reciprocating motion, commonly used in shaping and pressing machines."
+          },
+          {
+            "name": "Model of Four Bar Link Mechanism",
+            "image": "../../assets/Kinematics and Dynamics Lab/Model of Four Bar Link Mechanism",
+            "description": "Illustrates the kinematic motion of linkages, converting rotational input into desired output motion for various applications."
+          },
+          {
+            "name": "Model of Oscillating Cylinder Mechanism",
+            "image": "../../assets/Kinematics and Dynamics Lab/Model of Oscillating Cylinder Mechanism",
+            "description": "Demonstrates oscillatory motion in systems like pumps and compressors, converting driving shaft motion into oscillation."
+          },
+          {
+            "name": "Model of Pawl and Ratchet Motion",
+            "image": "../../assets/Kinematics and Dynamics Lab/Model of Pawl and Ratchet Motion",
+            "description": "Illustrates the ratchet mechanism, allowing motion in only one direction, essential for tools and machinery requiring unidirectional control."
+          },
+          {
+            "name": "Model of Peucellier Mechanism",
+            "image": "../../assets/Kinematics and Dynamics Lab/Model of Peucellier Mechanism",
+            "description": "Demonstrates the transformation of rotary motion into precise linear motion, used in applications requiring straight-line movement."
+          },
+          {
+            "name": "Model of Reciprocating Engine Mechanism",
+            "image": "../../assets/Kinematics and Dynamics Lab/Model of Reciprocating Engine Mechanism",
+            "description": "Showcases the operation of internal combustion engines, focusing on the piston-crankshaft mechanism and energy conversion."
+          },
+          {
+            "name": "Model of Whitworth Quick Return Mechanism",
+            "image": "../../assets/Kinematics and Dynamics Lab/Model of Whitworth Quick Return Mechanism",
+            "description": "Demonstrates the quick return mechanism used in shaping machines, reducing tool return time for efficiency."
+          },
+          {
+            "name": "Model of Single Stage Spur Gears with Intermediate Gear",
+            "image": "../../assets/Kinematics and Dynamics Lab/Model of Single Stage Spur Gears with Intermediate Gear",
+            "description": "Shows the meshing and motion transfer in spur gears, highlighting the role of intermediate gears in power transmission."
+          },
+          {
+            "name": "Model of Three Stage Spur Gears",
+            "image": "../../assets/Kinematics and Dynamics Lab/Model of Three Stage Spur Gears",
+            "description": "Illustrates power transmission through multiple gear stages, demonstrating gear ratio and torque adjustments."
+          },
+          {
+            "name": "Model of Double Stage Helical Gear (Herringbone Gear BIG)",
+            "image": "../../assets/Kinematics and Dynamics Lab/Model of Double Stage Helical Gear (Herringbone Gear BIG)",
+            "description": "Demonstrates helical gears' operation in a double-stage arrangement, showcasing their efficiency, quiet operation, and torque handling."
+          },
+          {
+            "name": "Demonstrative Gear Models",
+            "image": "../../assets/Kinematics and Dynamics Lab/Demonstrative Gear Models",
+            "description": "Provides hands-on demonstrations of various gear types, including spur, bevel, worm, and epicycle gears, illustrating their applications."
+          },
+          {
+            "name": "Digital Stroboscope",
+            "image": "../../assets/Kinematics and Dynamics Lab/Digital Stroboscope",
+            "description": "Used for measuring rotational speed of objects by matching strobe light frequency to object motion, ensuring accurate RPM readings."
+          },
+          {
+            "name": "Digital Tachometer",
+            "image": "../../assets/New BTP/Kinematics and Dynamics Lab/Digital Tachometer",
+            "description": "The Digital Tachometer is a device used to measure the rotational speed of an object, typically in revolutions per minute (RPM). It operates by detecting the motion of a rotating surface or shaft, using optical, magnetic, or mechanical sensors to capture the speed. When the tachometer is pointed at a rotating object, it counts the number of revolutions and converts this information into a digital readout, displaying the RPM on its screen. This tool is commonly used in various industries for monitoring the performance of machinery, such as motors, engines, and conveyors, ensuring they operate within optimal speed ranges. Digital tachometers are preferred over analog models for their accuracy, ease of use, and ability to provide clear, precise measurements. It is widely employed in mechanical maintenance, diagnostics, and research applications where precise speed control is critical."
+          },
+          {
+            "name": "Clutch (Claw Clutch, Conical Friction Clutch, Plate Clutch, Centrifugal Clutch)",
+            "image": "../../assets/New BTP/Kinematics and Dynamics Lab/Clutch",
+            "description": "A Clutch is a mechanical device used to connect or disconnect two rotating shafts, typically in a vehicle or machinery, allowing for smooth transmission of power between them. There are several types of clutches, each serving a specific function: Claw Clutch: Uses interlocking claws or teeth to engage and disengage power transmission. It is often used in manual machinery where precise control is required. Conical Friction Clutch: Features conical surfaces that press together to create friction, enabling power transfer. It's commonly used in automotive applications. Plate Clutch: Consists of multiple friction plates that engage to transmit power. It's widely used in automotive systems for smooth gear changes. Centrifugal Clutch: Uses centrifugal force to engage the clutch when the engine speed reaches a certain point. It is commonly used in go-karts, lawnmowers, and other small engines. Clutches are essential for controlling power flow, ensuring smooth starts and stops in machinery and vehicles."
+          }
+        ]
+      },
+      {
+        "name": "Heat Transfer Lab",
+        "equipments": [
+          {
+            "name": "Heat Transfer in Natural Convection Apparatus",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Heat Transfer in Natural Convection Apparatus",
+            "description": "The Heat Transfer in Natural Convection apparatus is designed to study and analyze the process of heat transfer in natural convection. In natural convection, heat transfer occurs due to the movement of fluid (air or liquid) induced by temperature differences, without any external force like a fan or pump. The system typically consists of a heated vertical surface, around which the fluid (such as air) circulates as it is heated. This setup allows students to observe the relationship between the surface temperature, fluid temperature, and heat transfer rate. By adjusting parameters such as the surface temperature and measuring the temperature variations in the surrounding fluid, users can calculate the convective heat transfer coefficient. This experiment aids in understanding concepts like Rayleigh number, Nusselt number, and Grashof number, all critical for analyzing convective heat transfer in natural systems such as the cooling of buildings or the human body."
+          },
+          {
+            "name": "Heat Transfer in Forced Convection Apparatus",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Heat Transfer in Forced Convection Apparatus",
+            "description": "The Heat Transfer in Forced Convection apparatus is designed to study and analyze the process of heat transfer when a fluid (liquid or gas) is forced over a surface, typically using a fan or pump. In forced convection, the heat transfer rate is enhanced by the forced movement of the fluid, which increases the convective heat transfer coefficient. The setup typically consists of a heated surface or tube through which a fluid is passed at a controlled flow rate. Temperature sensors are placed along the surface and in the fluid to measure temperature gradients and determine the heat transfer rate. By adjusting parameters such as fluid velocity, surface temperature, and flow rate, users can observe the effects on heat transfer efficiency. This experiment helps in understanding the principles of forced convection and is crucial for applications such as heat exchangers, cooling systems, and air conditioning systems, where fluid movement is actively controlled to enhance heat transfer."
+          },
+          {
+            "name": "Parallel Flow/Counter Flow Heat Exchanger",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Parallel Flow/Counter Flow Heat Exchanger",
+            "description": "The Parallel Flow/Counter Flow Heat Exchanger is used to study the heat transfer phenomena in two common heat exchanger configurations: parallel flow and counterflow. In both setups, two fluids flow through separate channels, allowing for the exchange of heat between them. The key difference is the direction of fluid flow. In the parallel flow arrangement, both fluids flow in the same direction, while in the counterflow arrangement, the fluids flow in opposite directions. This experiment helps in analyzing the temperature variation and heat transfer efficiency in each type of configuration. The apparatus typically consists of two fluid loops—one for the hot fluid and the other for the cold fluid—passing through a series of tubes or plates. By measuring inlet and outlet temperatures, flow rates, and heat transfer rates, students can compare the performance of parallel and counterflow heat exchangers. This study is critical for designing efficient heat exchangers in industrial applications."
+          },
+          {
+            "name": "Stefan Boltzmann’s Apparatus",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Stefan Boltzmann’s Apparatus",
+            "description": "Stefan Boltzmann’s Apparatus is used to study radiation heat transfer, particularly focusing on the behavior of black bodies and the effect of temperature on radiation. According to the Stefan-Boltzmann law, the total energy radiated per unit surface area of a black body is proportional to the fourth power of its absolute temperature. The apparatus typically consists of a black body cavity or a hemisphere, a heat source, and sensors to measure the temperature and the radiated energy. By adjusting the temperature of the black body and measuring the emitted radiation, the apparatus allows the demonstration of the relationship between temperature and radiation intensity. The experiment involves calculating the Stefan-Boltzmann constant and analyzing how variations in the temperature of the hemisphere affect the heat radiation emitted. This helps in understanding the fundamentals of heat transfer through radiation and its importance in various engineering applications, including thermal management and energy systems."
+          },
+          {
+            "name": "Emissivity Measurement Apparatus",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Emissivity Measurement Apparatus",
+            "description": "The Emissivity Measurement Apparatus is used to study radiation heat transfer by comparing the emissivity of different materials, specifically focusing on a black plate and a test plate. Emissivity is a measure of a material's ability to emit infrared radiation, and it is a key factor in heat transfer through radiation. The apparatus typically consists of a black plate with a known high emissivity and a test plate whose emissivity is to be measured. Heat is applied to both plates, and their surface temperatures are monitored using thermocouples or infrared sensors. By measuring the radiated heat and the temperature difference, the apparatus allows for the determination of the emissivity of the test plate. This experiment helps in understanding how different materials absorb and emit radiation, which is crucial for designing efficient heat transfer systems, such as radiators, heat exchangers, and thermal insulation in various engineering applications."
+          },
+          {
+            "name": "Thermal Conductivity of Metal Rod Apparatus",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Thermal Conductivity of Metal Rod Apparatus",
+            "description": "The Thermal Conductivity of Metal Rod apparatus is used to study heat transfer through conduction in a metal rod. This experiment helps determine the thermal conductivity of different materials by observing how heat flows through them. The setup typically consists of a metal rod with known dimensions, two temperature sensors (typically thermocouples), and a heat source. One end of the metal rod is heated, and the other end is kept at a lower temperature, creating a temperature gradient along the rod. The temperature at both ends of the rod is measured, and from the observed temperature difference, the rate of heat transfer is calculated. By applying Fourier's law of heat conduction, which relates the heat transfer rate to the material’s thermal conductivity, this experiment allows for the determination of the metal rod's thermal conductivity. This information is crucial in various engineering applications, such as the design of heat exchangers and thermal management systems."
+          },
+          {
+            "name": "Thermal Conductivity of Liquids Apparatus",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Thermal Conductivity of Liquids Apparatus",
+            "description": "The Thermal Conductivity of Liquids apparatus is used to study the heat transfer properties of liquids and determine their thermal conductivity. This experiment involves heating a liquid within a controlled system and measuring how efficiently it conducts heat. The setup typically consists of a cylindrical container filled with a liquid, with a heating element at the bottom to supply heat and temperature sensors at various points in the liquid. The system is designed to maintain a steady heat input, and the temperature difference between different points in the liquid is measured. By using Fourier’s law of heat conduction, the thermal conductivity of the liquid can be calculated based on the rate of heat transfer and the observed temperature gradient. This experiment is essential for understanding how liquids transfer heat, which is crucial in the design and optimization of cooling systems, heat exchangers, and other applications involving liquid heat transfer."
+          },
+          {
+            "name": "Heat Pipe Demonstrator",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Heat Pipe Demonstrator",
+            "description": "The Heat Pipe Demonstrator is designed to showcase the exceptional thermal conductivity of heat pipes, which are highly efficient thermal transfer devices. It demonstrates how heat pipes utilize phase change materials to transfer heat over long distances with minimal temperature difference. In this apparatus, heat is applied to one end of the heat pipe, causing the working fluid inside to evaporate. The vapor then travels to the cooler end, where it condenses and releases the absorbed heat. The condensed liquid returns to the hot end through capillary action, and the cycle repeats. The system allows for the comparison of heat transfer efficiency between a heat pipe and other materials with high conductivity, such as copper. By using temperature sensors at various points along the heat pipe, the demonstrator illustrates the heat pipe’s ability to transfer heat more effectively than traditional conductors, making it ideal for use in electronics, spacecraft, and energy systems."
+          },
+          {
+            "name": "Condensation in Drop Wise/Film Wise Apparatus",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Condensation in Drop Wise/Film Wise Apparatus",
+            "description": "This equipment is used to study the condensation process in two distinct forms: dropwise and filmwise condensation. By using a mini steam boiler, the system generates steam, which is condensed on a cold surface under controlled conditions. The steam condenses either in the form of discrete drops (dropwise condensation) or as a continuous film (filmwise condensation), depending on the surface characteristics and temperature. The apparatus includes a pressure release valve to control and regulate the steam pressure, ensuring consistent experimental conditions. Temperature sensors placed along the surface measure the heat transfer rate. By analyzing the rate of condensation and the heat transferred from the steam to the cooling surface, the equipment helps determine the overall heat transfer coefficient for both dropwise and filmwise condensation. This experiment is crucial for understanding heat transfer in applications like heat exchangers, condensers, and cooling systems."
+          },
+          {
+            "name": "Test Rig to Check CHF (Critical Heat Flux)",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Test Rig to Check CHF",
+            "description": "This equipment is designed to determine the Critical Heat Flux (CHF), the point at which the boiling heat transfer rate dramatically drops, and the system shifts from nucleate boiling to film boiling. The test rig typically consists of a vertical heated surface immersed in a liquid, with a temperature control system and sensors to measure heat flux, liquid temperature, and surface temperature. As heat is applied, the liquid undergoes phase change from liquid to vapor at the surface. By incrementally increasing the heat input and measuring the temperature at various points, the system identifies the CHF, where the liquid stops efficiently cooling the surface due to the formation of a vapor film. Understanding CHF is critical for the design of boiling heat exchangers and for preventing overheating in systems like nuclear reactors, industrial boilers, and other heat exchange devices."
+          },
+          {
+            "name": "Two-Phase Heat Transfer Apparatus (Boiling Heat Transfer Unit)",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Two-Phase Heat Transfer Apparatus",
+            "description": "The Two-Phase Heat Transfer Apparatus, also known as the Boiling Heat Transfer Unit, is designed to study the two-phase heat transfer phenomena, specifically focusing on the pool boiling of Methylene Chloride. This equipment is used to analyze the behavior of heat transfer during phase changes, from liquid to vapor, in a controlled environment. In this apparatus, Methylene Chloride is heated in a pool, and its boiling characteristics are observed as heat is applied. The system monitors various parameters like temperature, pressure, and heat flux, to evaluate the efficiency of heat transfer during the boiling process. By studying the two-phase heat transfer, the apparatus helps understand the impact of factors such as surface temperature, liquid properties, and boiling regime on heat transfer efficiency. This equipment is particularly useful in industries like heat exchangers, refrigeration, and power generation, where efficient heat transfer is crucial for system performance."
+          },
+          {
+            "name": "Data Acquisition System (16 Channel)",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Data Acquisition System",
+            "description": "The 16-Channel Data Acquisition System is used to measure and record physical characteristics such as temperature, pressure, humidity, and other variables from multiple sensors simultaneously. It features 16 input channels, allowing for the monitoring of multiple parameters in real-time. This system is used in various applications like research, testing, and industrial process monitoring. Each channel can be connected to a different sensor to capture data from different locations or measurement types. The acquired data is then processed, analyzed, and stored for further interpretation. The system is widely employed in fields such as mechanical testing, environmental monitoring, and automation, where precise and continuous data collection is necessary. The 16 channels provide the advantage of simultaneous data logging from multiple sources, improving efficiency and reducing the need for multiple separate systems."
+          },
+          {
+            "name": "Flow Metering System",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Flow Metering System",
+            "description": "The Flow Metering System is designed to measure the volume or mass flow rate of a liquid passing through a pipeline or a system. It is commonly used in industries such as chemical processing, water treatment, oil and gas, and food production to ensure accurate measurement and control of fluid flow. The system typically consists of a flow meter, sensors, and controllers that continuously monitor the flow rate. Depending on the type of flow meter (e.g., turbine, ultrasonic, electromagnetic, or positive displacement), it measures either the volumetric flow rate (volume per unit time) or the mass flow rate (mass per unit time). By integrating the flow meter into a process system, operators can monitor, regulate, and record the amount of fluid moving through the system. This is crucial for maintaining product quality, ensuring operational efficiency, and meeting regulatory requirements."
+          },
+          {
+            "name": "Refrigeration Test Rig (Charged with Nano-Refrigerant)",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Refrigeration Test Rig",
+            "description": "The Refrigeration Test Rig charged with nano-refrigerant is used to conduct experiments and demonstrate the process of cooling, specifically the refrigeration cycle, using nano-enhanced refrigerants. This setup allows for the study of the cooling process of water or other fluids, while investigating the impact of nano-refrigerants on system performance. The rig includes components like a compressor, condenser, expansion valve, and evaporator, which are designed to work with nano-refrigerants that have enhanced thermal conductivity and improved heat transfer properties. By charging the system with nano-refrigerants, the rig allows users to evaluate the efficiency, cooling capacity, and energy consumption compared to conventional refrigerants. Students and researchers use this equipment to understand refrigeration cycles, the behavior of different refrigerants under varying conditions, and the potential advantages of nano-refrigerants in improving cooling performance and reducing environmental impact. The rig helps in experimenting with various system configurations and operational parameters."
+          },
+          {
+            "name": "Test Rig on Boiling Heat Transfer",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Boiling Heat Transfer Test Rig",
+            "description": "The Test Rig on Boiling Heat Transfer is designed to study and analyze the heat transfer process during boiling. This equipment allows users to investigate the boiling phenomenon, specifically the heat transfer that occurs when a liquid is heated to its boiling point. It is commonly used in research and educational settings to explore the thermal performance of liquids during phase change from liquid to vapor. The rig consists of a heated surface (typically a metal plate or tube) where the liquid is placed. As heat is applied, the liquid boils, and the heat transfer coefficient is measured. The apparatus typically includes temperature sensors, pressure gauges, and a flow meter to monitor the changes during the boiling process. This test rig is used to study factors such as heat flux, nucleate boiling, film boiling, and the effect of surface properties on heat transfer performance. It is valuable for understanding thermal management in various industrial applications like heat exchangers and cooling systems."
+          },
+          {
+            "name": "Jet Impingement Cooling Test Rig",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Jet Impingement Cooling Test Rig",
+            "description": "The Jet Impingement Cooling Test Rig is designed to study the cooling efficiency of fluid jet impingement on surfaces. It is used to enhance temperature uniformity and optimize heat dissipation in applications like electronic cooling, industrial processes, and aerospace systems. The rig operates by directing high-speed fluid jets (usually air or water) onto a heated surface, allowing for precise control of jet velocity, pressure, and flow rate. The equipment typically consists of a nozzle that directs the fluid onto the target surface, along with temperature sensors to monitor heat transfer and temperature distribution. By adjusting parameters such as jet angle, flow rate, and nozzle design, the rig helps study how these factors affect the cooling performance and uniformity of the surface temperature. This setup is commonly used in research and development for applications requiring efficient heat management, where maintaining a uniform temperature is crucial for system performance and longevity."
+          },
+          {
+            "name": "Refrigerated/Heating Circulator",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Refrigerated Heating Circulator",
+            "description": "The Refrigerated / Heating Circulator is a versatile temperature control system used to maintain precise thermal conditions for cooling or heating applications in laboratory and industrial settings. It is commonly used for experiments and processes requiring stable temperature regulation, such as in heat transfer studies, materials testing, and temperature-sensitive chemical reactions. The circulator functions by circulating a liquid through a closed loop, either heating or cooling the liquid to a desired set point. The system incorporates a refrigeration unit for cooling and a heating element for warming the liquid, allowing for accurate temperature control across a wide range of temperatures. The liquid is typically pumped through the system to ensure consistent and uniform temperature distribution. This equipment is commonly used in conjunction with other laboratory devices such as reactors, calorimeters, or heat exchangers, providing a controlled environment for thermal testing and maintaining stability in systems sensitive to temperature variations."
+          },
+          {
+            "name": "Ultrasonic Liquid Processor",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Ultrasonic Liquid Processor",
+            "description": "The Ultrasonic Liquid Processor is an advanced device used to agitate or homogenize particles in a liquid solution by utilizing high-frequency sound waves. It operates by emitting ultrasonic waves through a liquid medium, which generates high-energy sound vibrations. These vibrations create rapid pressure changes that cause cavitation, leading to the formation of microscopic bubbles that implode and produce intense shear forces. These forces help break down particles, promote mixing, and improve the dispersion of substances in the liquid. This equipment is widely used in laboratories and industries for tasks like emulsification, particle size reduction, and accelerating chemical reactions. It is also employed in processes such as sample preparation, extraction, and homogenization of suspensions or solutions. The ultrasonic liquid processor is particularly effective in breaking down tough materials, such as cells in biological applications, and in improving the efficiency of reactions and mixing in various chemical, pharmaceutical, and food processing applications."
+          },
+          {
+            "name": "Micro Pump",
+            "image": "../../assets/New BTP/Heat Transfer Lab/Micro Pump",
+            "description": "A micro pump is a miniature fluid delivery device designed to precisely control and transport small volumes of liquids or gases. These pumps are typically used in applications that require accurate, low-flow fluid movement at a micro-scale, such as in medical devices, laboratory settings, and precision manufacturing processes. Micro pumps can be used for a variety of functions including dosing, mixing, or circulating fluids in systems such as microfluidic devices, inkjet printers, fuel delivery systems, and analytical instruments. They work by using different principles, such as piezoelectric, electrostatic, or diaphragm-based mechanisms, to create the necessary pressure to move fluids. In laboratory environments, micro pumps are commonly employed in chemical analysis, biosensing, and diagnostic testing, where high precision and small fluid volumes are crucial. Due to their compact size, these pumps are also ideal for portable and wearable applications in the medical and pharmaceutical industries."
+          }
+        ]
+      },
+      {
+        "name": "Computer Aided Design (CAD) Lab",
+        "equipments": [
+          {
+            "name": "VI Rail Education License",
+            "image": "../../assets/New BTP/CAD Lab/VI Rail Education License",
+            "description": "The VI Rail Education License is a software tool used primarily for research and simulation in the area of high-speed trains and rail transport. It allows students and researchers to design, analyze, and simulate railway systems, focusing on high-speed rail networks. It supports advanced features for modeling the dynamics of trains, track infrastructure, signaling systems, and environmental interactions, enabling comprehensive analysis of performance, safety, and efficiency."
+          },
+          {
+            "name": "SolidWorks Education Edition Network (2012-13)",
+            "image": "../../assets/New BTP/CAD Lab/SolidWorks Education Edition Network (2012-13)",
+            "description": "The SolidWorks Education Edition Network 2012-13 is a CAD software used for creating 2D drawings, 3D modeling, drafting, and assembly designs. Tailored for educational use, it enables students and instructors to create precise mechanical and industrial models, design assemblies, and simulate physical behaviors like motion and stress analysis."
+          },
+          {
+            "name": "ANSYS Academic Research (Mechanical & CFD)",
+            "image": "../../assets/New BTP/CAD Lab/ANSYS Academic Research (Mechanical & CFD)",
+            "description": "ANSYS Academic Research Mechanical & CFD is a simulation software for modeling and analyzing mechanical structures and fluid dynamics. It provides tools for structural analysis and computational fluid dynamics (CFD), enabling students and researchers to simulate and optimize designs in fields like mechanical, aerospace, and civil engineering."
+          },
+          {
+            "name": "AVL BOOST",
+            "image": "../../assets/New BTP/CAD Lab/AVL BOOST",
+            "description": "AVL BOOST is a simulation software used to model and analyze the performance of internal combustion (IC) engines. It offers tools for simulating engine behavior, thermodynamics, fluid dynamics, combustion processes, and emissions, enabling the optimization of IC engines."
+          },
+          {
+            "name": "AVL CRUISE",
+            "image": "../../assets/New BTP/CAD Lab/AVL CRUISE",
+            "description": "AVL CRUISE is a simulation software for vehicle dynamics and performance, simulating powertrains, drivetrains, and vehicle chassis. It helps engineers analyze performance, fuel efficiency, emissions, and handling characteristics under various operating conditions."
+          },
+          {
+            "name": "MATLAB (MathWorks)",
+            "image": "../../assets/New BTP/CAD Lab/MATLAB (MathWorks)",
+            "description": "MATLAB is a software platform for modeling, simulation, and analysis of mechanical, mechatronics, and automotive systems. It is widely used for simulating dynamic systems, developing algorithms, and visualizing complex data."
+          },
+          {
+            "name": "AutoCAD Education Version (2018)",
+            "image": "../../assets/New BTP/CAD Lab/AutoCAD Education Version (2018)",
+            "description": "AutoCAD Education Version 2018 is a CAD and drafting software that allows the creation of precise 2D and 3D drawings. It is commonly used in architecture, mechanical engineering, and civil engineering to create blueprints, technical drawings, and models."
+          },
+          {
+            "name": "IPG CarMaker",
+            "image": "../../assets/New BTP/CAD Lab/IPG CarMaker",
+            "description": "IPG CarMaker is a simulation software used for modeling and simulating vehicle dynamics, focusing on vehicle performance under various conditions. It is used to analyze handling, ride comfort, and stability in real-world driving scenarios."
+          },
+          {
+            "name": "TRNSYS",
+            "image": "../../assets/New BTP/CAD Lab/TRNSYS",
+            "description": "TRNSYS is a simulation software for modeling energy systems, particularly in renewable energy engineering. It is used to simulate the thermal performance of buildings, energy-efficient systems, and renewable energy technologies like solar, wind, and geothermal."
+          },
+          {
+            "name": "ETAS",
+            "image": "../../assets/New BTP/CAD Lab/ETAS",
+            "description": "ETAS is a suite of tools used for automotive electronics, focusing on the development and testing of embedded systems in vehicles. It enables real-time simulation, calibration, and testing of automotive electronic systems."
+          },
+          {
+            "name": "VECTOR",
+            "image": "../../assets/New BTP/CAD Lab/VECTOR",
+            "description": "VECTOR is a software and hardware tool for embedded software testing in automotive electronics. It helps simulate, test, and validate embedded software in automotive control units (ECUs), supporting communication protocols like CAN, LIN, and Ethernet."
+          },
+          {
+            "name": "ADAMS",
+            "image": "../../assets/New BTP/CAD Lab/ADAMS",
+            "description": "ADAMS is a software used to study the dynamics of moving parts and analyze how forces and loads are distributed in mechanical systems. It is widely used in automotive, aerospace, and robotics for simulation and optimization of mechanical designs."
+          }
+        ]
+      },
+      {
+        "name": "Material Characterization Lab",
+        "equipments": [
+          {
+            "name": "Computerized Universal Testing Machine (Spec. 60T)",
+            "image": "../../assets/New BTP/Material Characterization Lab/Computerized Universal Testing Machine (Spec. 60T)",
+            "description": "The Computerised Universal Testing Machine (UTM), Specification 60T, is an advanced instrument used to determine the mechanical properties of materials, including tensile strength, compressive strength, and bending strength. With a maximum capacity of 60 tons, it is designed to handle a wide range of materials such as metals, polymers, and composites."
+          },
+          {
+            "name": "Brinell Hardness Tester",
+            "image": "../../assets/New BTP/Material Characterization Lab/Brinell Hardness Tester",
+            "description": "The Brinell Hardness Tester is a device used to measure the hardness of a material by determining its Brinell Hardness Number (BHN). It is widely used in quality control and material testing across industries such as metallurgy, automotive, and manufacturing to evaluate materials like metals, alloys, and composites."
+          },
+          {
+            "name": "Rockwell Hardness Tester",
+            "image": "../../assets/New BTP/Material Characterization Lab/Rockwell Hardness Tester",
+            "description": "The Rockwell Hardness Tester is an essential tool for determining the Rockwell hardness of a material. This method is widely used due to its speed, simplicity, and ability to test a wide range of materials like metals, plastics, and ceramics."
+          },
+          {
+            "name": "Digital Impact Testing Machine for Charpy & Izod Test (Toughness Test)",
+            "image": "../../assets/New BTP/Material Characterization Lab/Digital Impact Testing Machine for Charpy & Izod Test (Toughness Test)",
+            "description": "The Digital Impact Testing Machine for Charpy and Izod Tests is a specialized device designed to determine the toughness property of materials. It is widely used in material characterization laboratories for evaluating metals, plastics, and composites."
+          },
+          {
+            "name": "Pin-On-Disc Wear Testing Machine",
+            "image": "../../assets/New BTP/Material Characterization Lab/Pin-On-Disc Wear Testing Machine",
+            "description": "The Pin on Disc Wear Testing Machine is designed to determine the wear rate between two metal surfaces under controlled conditions, simulating metal-to-metal interaction. It is commonly used in material characterization to study wear mechanisms in metals, coatings, and composites."
+          },
+          {
+            "name": "ERICHSEN Cupping Tester Model EC",
+            "image": "../../assets/New BTP/Material Characterization Lab/ERICHSEN Cupping Tester Model EC",
+            "description": "The ERICHSEN Cupping Tester Model EC is an essential tool used to evaluate the formability of sheet metal materials. It helps assess the quality and suitability of materials for forming processes such as stamping and drawing."
+          },
+          {
+            "name": "Torsional Testing Machine",
+            "image": "../../assets/New BTP/Material Characterization Lab/Torsional Testing Machine",
+            "description": "The Torsional Testing Machine is used to determine the torsional rigidity, strength, and behavior of materials under twisting loads. It is essential for evaluating materials subjected to torque, such as shafts and structural components."
+          },
+          {
+            "name": "Digital Fatigue Testing Machine",
+            "image": "../../assets/New BTP/Material Characterization Lab/Digital Fatigue Testing Machine",
+            "description": "The Digital Fatigue Testing Machine is used to determine the fatigue characteristics of materials under cyclic loading. It is essential for evaluating the durability and life expectancy of components subjected to cyclic loading in industries like automotive, aerospace, and civil engineering."
+          }
+        ]
+      },
+      {
+        "name": "Thermodynamics Lab",
+        "equipments": [
+          {
+            "name": "Red Wood Oil Viscometer with Digital Temperature Indicator",
+            "image": "../../assets/New BTP/Thermodynamics Lab/Red Wood Oil Viscometer with Digital Temperature Indicator.jpg",
+            "description": "The Red Wood Oil Viscometer with a digital temperature indicator is used to measure the viscosity of oils and other liquids, especially in the petroleum industry. It is primarily used to compare the viscosities of different liquids at specific temperatures, which is critical for determining their flow characteristics and suitability for various applications. To use the viscometer, the liquid sample is placed in a standard test container, and the device measures the time it takes for the liquid to flow through a specified orifice under controlled temperature conditions. The digital temperature indicator ensures that the viscosity is measured at the correct temperature, as viscosity is highly temperature-dependent. The Red Wood Oil Viscometer is used in industries where oil properties need to be consistent, such as in lubricants, fuels, and other petroleum products. It provides valuable data for quality control, research, and product development by helping determine how different oils or liquids will perform under specific conditions."
+          },
+          {
+            "name": "Vapor Absorption Refrigeration Test Rig",
+            "image": "../../assets/New BTP/Thermodynamics Lab/Vapor Absorption Refrigeration Test Rig.jpg",
+            "description": "The Vapor Absorption Refrigeration Test Rig is designed to demonstrate and analyze the performance of a vapor absorption refrigeration system. It is used primarily to calculate the Coefficient of Performance (C.O.P.) of the system, which is a measure of its efficiency. To use the test rig, the system is set up to circulate the refrigerant through various components, including the generator, absorber, condenser, and evaporator. The rig allows for the monitoring and measurement of parameters such as temperatures, pressures, and flow rates at different stages of the cycle. These measurements are used to calculate the C.O.P., which is the ratio of the cooling effect produced to the energy input required. This rig is essential in understanding the working principle of absorption refrigeration systems, commonly used in applications where electrical power supply is limited, such as in remote areas or for waste heat utilization. It is also useful for students and engineers in learning about energy efficiency in refrigeration systems."
+          },
+          {
+            "name": "Pycnometer",
+            "image": "../../assets/New BTP/Thermodynamics Lab/Pycnometer.jfif",
+            "description": "A pycnometer is a precise instrument used to measure the density of solids and liquids. It works based on the principle of measuring the volume of a sample by displacement of a known volume of liquid or gas. To use a pycnometer, the sample is placed in the pycnometer flask, which is then filled with a liquid (usually water or another fluid with a known density). For solids, the pycnometer is first weighed empty, then filled with the solid sample, and the weight is measured again. For liquids, the pycnometer is filled with the liquid, and the weight difference is used to calculate the density based on the displacement.The density is calculated using the formula:Density = Mass / Volume.This device is used in laboratories for applications in materials science, chemistry, and engineering, where precise density measurements are necessary for determining material properties, quality control, and product development."
+          },
+          {
+            "name": "Transys Software",
+            "image": "../../assets/New BTP/Thermodynamics Lab/Transys Software.jfif",
+            "description": "Transys Software is used for conducting transient condition modeling and simulation studies, primarily in the fields of energy systems, building performance, and environmental engineering. It allows users to model and simulate the behavior of complex systems over time, considering transient (time-dependent) conditions. To use Transys, a user typically inputs data about the system components (e.g., heating, cooling, ventilation, energy sources, and storage systems) into the software. The software then simulates the performance of these systems under different operating conditions, taking into account factors such as thermal dynamics, energy consumption, and environmental influences. The results can be used to analyze the system's efficiency, identify potential areas for improvement, and make informed decisions about system design and optimization. Transys is widely used for studying renewable energy systems, HVAC systems, building energy management, and other applications that involve time-dependent behaviors and dynamic system interactions."
+          },
+          {
+            "name": "Solar Power Meter",
+            "image": "../../assets/New BTP/Thermodynamics Lab/Solar Power Meter.jfif",
+            "description": "A Solar Power Meter is a device used to measure the intensity of solar radiation, typically expressed in watts per square meter (W/m²). It is crucial for assessing the performance of solar energy systems and determining the amount of sunlight received at a given location. To use the Solar Power Meter, it is positioned in direct sunlight with its sensor facing the sun. The sensor detects the amount of solar radiation hitting its surface and converts this energy into an electrical signal, which is then displayed on the meter's readout. This data helps evaluate solar panel efficiency, estimate energy generation potential, and assess environmental conditions for solar energy applications. Solar Power Meters are widely used in solar energy research, installation, and maintenance, as well as for environmental monitoring and studies related to climate and weather patterns. They play a vital role in ensuring optimal performance and reliability of solar power systems. "
+          },
+          {
+            "name": "Test Rig to Study Psychometric Properties",
+            "image": "../../assets/New BTP/Thermodynamics Lab/Test Rig to Study Psychometric Properties.jpg",
+            "description": "A Test Rig to Study Psychometric Properties is a laboratory setup designed to measure and analyze the thermodynamic properties of air, such as temperature, humidity, pressure, and enthalpy. This rig is used to understand the psychrometric process, which involves the changes in air properties as it is heated, cooled, humidified, or dehumidified. To use the test rig, air is passed through different conditions like heating, cooling, or humidification. The equipment includes various sensors to measure parameters like dry bulb temperature, wet bulb temperature, relative humidity, and air pressure. These readings are used to plot psychrometric charts, which help visualize the air’s properties and the relationship between them. This rig is commonly used in HVAC (heating, ventilation, and air conditioning) studies, environmental engineering, and meteorology to evaluate the performance of air-conditioning systems, design energy-efficient buildings, and analyze air quality in various conditions."
+          }
+        ]
+      },
+      {
+        "name": "Internal Combustion Engine Laboratory",
+        "equipments": [
+          {
+            "name": "VCR Diesel Engine Test Rig",
+            "image": "../../assets/New BTP/Internal Combustion Engine Laboratory/VCR Diesel Engine Test Rig",
+            "description": "The VCR Diesel Engine Test Rig is designed to study the performance characteristics of a single-cylinder, four-stroke diesel engine, equipped with a Variable Compression Ratio (VCR) mechanism and an open Engine Control Unit (ECU). This setup allows for the analysis of engine behavior under different compression ratios and control strategies, making it ideal for educational and research purposes."
+          },
+          {
+            "name": "Double Stage Air Compressor Test Rig",
+            "image": "../../assets/New BTP/Internal Combustion Engine Laboratory/Double Stage Air Compressor Test Rig",
+            "description": "The Double Stage Air Compressor Test Rig is used to study the performance characteristics of a reciprocating air compressor with two compression stages. It allows for the detailed analysis of the compressor's behavior, efficiency, and output under various operating conditions."
+          },
+          {
+            "name": "Mini Oil Expeller",
+            "image": "../../assets/New BTP/Internal Combustion Engine Laboratory/Mini Oil Expeller",
+            "description": "The Mini Oil Expeller is a compact machine used for extracting oil from various seeds, nuts, and algae. It operates on the principle of mechanical pressing, using a screw conveyor (also known as an auger) to press the raw material to extract oil."
+          },
+          {
+            "name": "Cut Section Single Cylinder 4 Stroke Diesel Engine",
+            "image": "../../assets/New BTP/Internal Combustion Engine Laboratory/Cut Section Single Cylinder 4 Stroke Diesel Engine",
+            "description": "The Cut Section Single Cylinder 4-Stroke Diesel Engine is a specially designed model used for educational and demonstration purposes. It features a transparent cut section of a single-cylinder, four-stroke diesel engine, allowing for a clear view of the internal components in motion."
+          },
+          {
+            "name": "Multi Cylinder 4 Stroke Petrol Engine",
+            "image": "../../assets/New BTP/Internal Combustion Engine Laboratory/Multi Cylinder 4 Stroke Petrol Engine",
+            "description": "The Multi Cylinder 4 Stroke Petrol Engine is used to study the performance characteristics of a multi-cylinder, four-stroke petrol engine. This engine is commonly employed in research and educational settings to understand the working principles, efficiency, and dynamics of modern internal combustion engines."
+          },
+          {
+            "name": "Single Cylinder Diesel Engine",
+            "image": "../../assets/New BTP/Internal Combustion Engine Laboratory/Single Cylinder Diesel Engine",
+            "description": "The Single Cylinder Diesel Engine is used to study the performance characteristics of a single-cylinder, four-stroke manual diesel engine. This engine setup provides hands-on learning for understanding the operation, fuel efficiency, and emissions of a diesel engine."
+          },
+          {
+            "name": "Automatic Bomb Calorimeter with Built-in Printer",
+            "image": "../../assets/New BTP/Internal Combustion Engine Laboratory/Automatic Bomb Calorimeter with Built-in Printer",
+            "description": "The Automatic Bomb Calorimeter with Built-in Printer is used to measure the standard enthalpy of combustion of substances, typically benzoic acid, and to determine the heat capacity of the bomb calorimeter. It is an essential tool for studying the energy content of fuels and other materials by determining the heat released during combustion."
+          },
+          {
+            "name": "Electronic Balance",
+            "image": "../../assets/New BTP/Internal Combustion Engine Laboratory/Electronic Balance",
+            "description": "The Electronic Balance, with a capacity of 220 grams, is used to measure the weight or mass of an item with high precision. It is equipped with a digital display that provides a quick and accurate reading of the mass of the object placed on its weighing pan."
+          },
+          {
+            "name": "5 Gas Analyzer",
+            "image": "../../assets/New BTP/Internal Combustion Engine Laboratory/5 Gas Analyzer",
+            "description": "The 5 Gas Analyzer is used to measure the concentration of various gases in exhaust emissions, including carbon monoxide (CO), carbon dioxide (CO2), oxygen (O2), nitrogen oxides (NOx), and hydrocarbons (HC). This equipment is essential for analyzing the environmental impact of combustion processes and ensuring compliance with emission standards."
+          },
+          {
+            "name": "Smoke Meter",
+            "image": "../../assets/New BTP/Internal Combustion Engine Laboratory/Smoke Meter",
+            "description": "The Smoke Meter is used to measure the soot content in the exhaust gases of diesel and Gasoline Direct Injection (GDI) engines. It helps determine the level of particulate matter (PM) or smoke emitted, which is crucial for assessing engine performance and compliance with environmental standards."
+          },
+          {
+            "name": "Data Acquisition Switch Unit",
+            "image": "../../assets/New BTP/Internal Combustion Engine Laboratory/Data Acquisition Switch Unit",
+            "description": "The Data Acquisition Switch Unit is used to measure and monitor a variety of functions in experimental and testing setups, typically in laboratories or industrial environments. This unit can measure one of 11 different functions, such as temperature, pressure, voltage, current, humidity, force, or displacement, depending on the sensors and probes connected to it."
+          },
+          {
+            "name": "Diesel Injector Tester",
+            "image": "../../assets/New BTP/Internal Combustion Engine Laboratory/Diesel Injector Tester",
+            "description": "The Diesel Injector Tester is used to test and adjust the injector opening pressure of diesel fuel injectors. This ensures that the injectors function efficiently and deliver fuel at the correct pressure for optimal engine performance and fuel combustion."
+          },
+          {
+            "name": "Portable Hand Held Biogas Analyzer",
+            "image": "../../assets/New BTP/Internal Combustion Engine Laboratory/Portable Hand Held Biogas Analyzer",
+            "description": "The Portable Hand-Held Biogas Analyzer is used to measure the concentration of various gases in biogas, including methane (CH4), carbon dioxide (CO2), oxygen (O2), hydrogen sulfide (H2S), and optional gases like hydrogen (H2) and carbon monoxide (CO). This tool is essential for monitoring the composition of biogas in real-time, ensuring its quality for use in energy production or other applications."
+          }
+        ]
+      },
+      {
+        "name": "Fluid Mechanics and Machines Laboratory",
+        "equipments": [
+          {
+            "name": "Metacentric Height Apparatus",
+            "image": "../../assets/New BTP/Fluid Mechanics and Machines Laboratory/Metacentric Height Apparatus",
+            "description": "Used to determine the metacentric height of a floating body, a key parameter in assessing its stability in fluid mechanics."
+          },
+          {
+            "name": "Bernoulli’s Theorem Apparatus",
+            "image": "../../assets/New BTP/Fluid Mechanics and Machines Laboratory/Bernoulli’s Theorem Apparatus",
+            "description": "Used to validate Bernoulli’s principle, explaining fluid behavior by combining pressure energy, kinetic energy, and potential energy."
+          },
+          {
+            "name": "Flow Measuring Apparatus",
+            "image": "../../assets/New BTP/Fluid Mechanics and Machines Laboratory/Flow Measuring Apparatus",
+            "description": "Used to calibrate and study different types of flow meters for measuring flow rates of liquids or gases in pipes."
+          },
+          {
+            "name": "Pipe Friction Loss Apparatus",
+            "image": "../../assets/New BTP/Fluid Mechanics and Machines Laboratory/Pipe Friction Loss Apparatus",
+            "description": "Used to determine the fluid friction factor in pipes and assess energy losses due to friction during fluid flow."
+          },
+          {
+            "name": "Orifice Meter Apparatus",
+            "image": "../../assets/New BTP/Fluid Mechanics and Machines Laboratory/Orifice Meter Apparatus",
+            "description": "Used to determine the hydraulic coefficients of an orifice meter, a device employed to measure fluid flow rate through pipes."
+          },
+          {
+            "name": "Centrifugal Pump Test Rig",
+            "image": "../../assets/New BTP/Fluid Mechanics and Machines Laboratory/Centrifugal Pump Test Rig",
+            "description": "Used to study the performance of centrifugal pumps under varying operating conditions, measuring flow rate, head, and efficiency."
+          },
+          {
+            "name": "Francis Turbine Test Rig",
+            "image": "../../assets/New BTP/Fluid Mechanics and Machines Laboratory/Francis Turbine Test Rig",
+            "description": "Used to study the performance characteristics of a Francis turbine, typically used in hydroelectric power plants."
+          },
+          {
+            "name": "Kaplan Turbine Test Rig",
+            "image": "../../assets/New BTP/Fluid Mechanics and Machines Laboratory/Kaplan Turbine Test Rig",
+            "description": "Used to study the performance of Kaplan turbines in low-head hydroelectric power generation, assessing flow rate, head, and power output."
+          },
+          {
+            "name": "Pelton Wheel Turbine Test Rig",
+            "image": "../../assets/New BTP/Fluid Mechanics and Machines Laboratory/Pelton Wheel Turbine Test Rig",
+            "description": "Used to study the performance characteristics of a Pelton wheel turbine, a type of impulse turbine for high-head hydroelectric power."
+          },
+          {
+            "name": "Anemometer",
+            "image": "../../assets/New BTP/Fluid Mechanics and Machines Laboratory/Anemometer",
+            "description": "Used to measure wind speed and airflow velocity in meteorology, HVAC systems, and environmental studies."
+          },
+          {
+            "name": "Micro Processor-Based Turbidity & Temperature Meter",
+            "image": "../../assets/New BTP/Fluid Mechanics and Machines Laboratory/Micro Processor-Based Turbidity & Temperature Meter",
+            "description": "Used for precise measurement of turbidity and temperature in liquids, particularly water, to assess water quality."
+          }
+        ]
+      },
+      {
+        "name": "Computer Integrated Manufacturing (CIM) Laboratory",
+        "equipments": [
+          {
+            "name": "3D Printer (Dual Extruder)",
+            "image": "../../assets/New BTP/Computer Integrated Manufacturing (CIM) Laboratory/3D Printer (Dual Extruder)",
+            "description": "A 3D Printer with Dual Extruder, used for creating physical solid models through additive manufacturing with two materials or colors simultaneously."
+          },
+          {
+            "name": "3D Printer (Single Extruder)",
+            "image": "../../assets/New BTP/Computer Integrated Manufacturing (CIM) Laboratory/3D Printer (Single Extruder)",
+            "description": "A 3D Printer with a Single Extruder, used to create solid models by depositing material layer by layer for rapid prototyping and design validation."
+          },
+          {
+            "name": "Vertical Machining Center (VMC)",
+            "image": "../../assets/New BTP/Computer Integrated Manufacturing (CIM) Laboratory/Vertical Machining Center (VMC)",
+            "description": "A CNC machine used for milling and material removal operations, offering high-precision machining of metals, plastics, and composites."
+          },
+          {
+            "name": "Electrical Discharge Machine (EDM)",
+            "image": "../../assets/New BTP/Computer Integrated Manufacturing (CIM) Laboratory/Electrical Discharge Machine (EDM)",
+            "description": "A specialized tool used for precision machining of hard materials using electrical discharges to erode material and create complex shapes."
+          },
+          {
+            "name": "Micro Fog Oil Mist Lubrication System",
+            "image": "../../assets/New BTP/Computer Integrated Manufacturing (CIM) Laboratory/Micro Fog Oil Mist Lubrication System",
+            "description": "A high-precision lubrication system delivering minimal quantities of lubricant in a mist form to reduce friction, heat, and wear during machining operations."
+          }
+        ]
+      },
+      {
+        "name": "Robotics & Industrial Automation Laboratory",
+        "equipments": [
+          {
+            "name": "OMIBO - Omni Wheel Operated Robot",
+            "image": "../../assets/New BTP/Robotics & Industrial Automation Laboratory/OMIBO - Omni Wheel Operated Robot",
+            "description": "A robot designed to demonstrate omni-directional movement, using omni-wheels to move in any direction without changing its orientation. It is used for teaching advanced movement systems and robot programming."
+          },
+          {
+            "name": "Air Compressor Large",
+            "image": "../../assets/New BTP/Robotics & Industrial Automation Laboratory/Air Compressor Large",
+            "description": "A large air compressor that provides a consistent supply of compressed air for various pneumatic tools and systems, essential for industrial and automation applications."
+          },
+          {
+            "name": "MARSian - Mars Rover Prototype",
+            "image": "../../assets/New BTP/Robotics & Industrial Automation Laboratory/MARSian - Mars Rover Prototype",
+            "description": "A Mars rover prototype robot designed to teach robot programming and design, capable of navigating terrain and performing tasks like gripping and object manipulation in harsh environments."
+          },
+          {
+            "name": "JCBian – Pneumatic Back Hoe Loader",
+            "image": "../../assets/New BTP/Robotics & Industrial Automation Laboratory/JCBian – Pneumatic Back Hoe Loader",
+            "description": "A robotic model simulating a real-life JCB backhoe loader, utilizing pneumatic systems to control the boom, arm, and bucket. It is used for teaching the design and function of hydraulic and pneumatic systems."
+          },
+          {
+            "name": "Flexo - The Robot Hand",
+            "image": "../../assets/New BTP/Robotics & Industrial Automation Laboratory/Flexo - The Robot Hand",
+            "description": "A wireless robot hand designed to mimic human hand dexterity. It uses IoT devices for control, teaching robotic programming and wireless automation."
+          },
+          {
+            "name": "Mobilo - Mobile Operated Robot",
+            "image": "../../assets/New BTP/Robotics & Industrial Automation Laboratory/Mobilo - Mobile Operated Robot",
+            "description": "A mobile robot controlled via smartphone or tablet, used to teach programming, mobile communication, and autonomous navigation."
+          },
+          {
+            "name": "SMC Training Kit",
+            "image": "../../assets/New BTP/Robotics & Industrial Automation Laboratory/SMC Training Kit",
+            "description": "An educational kit for designing and implementing pneumatic and electro-pneumatic systems, helping students learn automation and fluid power."
+          },
+          {
+            "name": "SMC Local Manufacturing",
+            "image": "../../assets/New BTP/Robotics & Industrial Automation Laboratory/SMC Local Manufacturing",
+            "description": "A hands-on tool for learning about the internal structure and functioning of pneumatic and electro-pneumatic components by disassembling and analyzing them."
+          },
+          {
+            "name": "Electro Hydraulic Trainer with LG PLC",
+            "image": "../../assets/New BTP/Robotics & Industrial Automation Laboratory/Electro Hydraulic Trainer with LG PLC",
+            "description": "A trainer combining hydraulic systems and PLC programming to teach automation processes. It integrates fluid power and electrical control for real-world applications."
+          },
+          {
+            "name": "AUTOSIM-200 for 8 Education License",
+            "image": "../../assets/New BTP/Robotics & Industrial Automation Laboratory/AUTOSIM-200 for 8 Education License",
+            "description": "Simulation software for designing, simulating, and testing pneumatic and electro-pneumatic circuits in a virtual environment, used to teach fluid power systems and automation."
+          },
+          {
+            "name": "Basic Electro-Pneumatics Training Software",
+            "image": "../../assets/New BTP/Robotics & Industrial Automation Laboratory/Basic Electro-Pneumatics Training Software",
+            "description": "An educational tool that simulates electro-pneumatic circuits, teaching students the design, control, and troubleshooting of automation systems."
+          },
+          {
+            "name": "Basic Pneumatics Training Software",
+            "image": "../../assets/New BTP/Robotics & Industrial Automation Laboratory/Basic Pneumatics Training Software",
+            "description": "A software that allows students to design and simulate pneumatic systems, helping them understand airflow, pressure, and component behavior in fluid power systems."
+          }
+        ]
+      },
+      {
+        "name": "Automobiles Lab",
+        "equipments": [
+          {
+            "name": "Flex ECU Application Software",
+            "image": "../../assets/New BTP/Automobiles Lab/Flex ECU Application Software",
+            "description": "The Flex ECU Application Software is used for engine control unit (ECU) programming, testing, and customization. It facilitates calibration, tuning, and monitoring of vehicle ECUs to adjust parameters such as fuel injection, ignition timing, air-fuel ratios, and other critical engine functions."
+          },
+          {
+            "name": "Internal Combustion Engine Application",
+            "image": "../../assets/New BTP/Automobiles Lab/Internal Combustion Engine Application",
+            "description": "The Internal Combustion Engine (ICE) Application setup analyzes engine performance under various conditions. It includes an ICE connected to measuring instruments, sensors, and data acquisition systems to capture fuel consumption, torque, speed, emissions, and temperature."
+          },
+          {
+            "name": "Flex ECU Based On The Gasoline ECU",
+            "image": "../../assets/New BTP/Automobiles Lab/Flex ECU Based On The Gasoline ECU",
+            "description": "The Flex ECU based on a gasoline ECU enables real-time monitoring and control of engine functions like fuel injection, ignition timing, and air-fuel ratio. It collects data from various sensors for engine testing and development, optimizing performance and meeting emissions standards."
+          },
+          {
+            "name": "Raspberry Pi-3 Model B/Arduino",
+            "image": "../../assets/New BTP/Automobiles Lab/Raspberry Pi-3 Model B/Arduino",
+            "description": "Raspberry Pi 3 Model B and Arduino are used for interfacing between model-based systems like ABS, EPS, power windows, and actual hardware components. They allow simulation and real-time testing of control algorithms on embedded systems."
+          },
+          {
+            "name": "ABS Simulator",
+            "image": "../../assets/New BTP/Automobiles Lab/ABS Simulator",
+            "description": "An ABS Simulator is used to study Anti-lock Braking Systems (ABS) by generating signals simulating wheel speed, brake pressure, and other parameters, allowing engineers to test the ABS response and fine-tune its algorithms."
+          },
+          {
+            "name": "ECU Simulator",
+            "image": "../../assets/New BTP/Automobiles Lab/ECU Simulator",
+            "description": "An ECU Simulator replicates the behavior of an Electronic Control Unit, enabling testing and validation of control algorithms and sensor-actuator responses in a virtual environment."
+          },
+          {
+            "name": "Electronic Throttle Control With Accelerator Pedal Rig",
+            "image": "../../assets/New BTP/Automobiles Lab/Electronic Throttle Control With Accelerator Pedal Rig",
+            "description": "This rig simulates the interaction between the accelerator pedal and throttle body, allowing engineers to test the electronic throttle control system’s performance and response."
+          },
+          {
+            "name": "Electric Van",
+            "image": "../../assets/New BTP/Automobiles Lab/Electric Van",
+            "description": "An in-house fabricated Electric Van is used to test and optimize electric vehicle components like the battery, motor, and charging system under real-world driving conditions."
+          },
+          {
+            "name": "2 DOF Vehicle Driving Simulator",
+            "image": "../../assets/New BTP/Automobiles Lab/2 DOF Vehicle Driving Simulator",
+            "description": "A 2 DOF Vehicle Driving Simulator replicates vehicle dynamics such as pitch and roll to study driver control, handling, and safety features in a virtual environment."
+          },
+          {
+            "name": "Diffused Light Polariscope",
+            "image": "../../assets/New BTP/Automobiles Lab/Diffused Light Polariscope",
+            "description": "The Diffused Light Polariscope detects and analyzes stress patterns in materials, such as glass and plastics, by utilizing polarized light to reveal internal stresses."
+          },
+          {
+            "name": "Model of Steering System",
+            "image": "../../assets/New BTP/Automobiles Lab/Model of Steering System",
+            "description": "A steering system model simulates the key components of a vehicle's steering mechanism to study how driver input translates into wheel movement and vehicle handling."
+          },
+          {
+            "name": "Model of Passenger Car Electrical Wiring System",
+            "image": "../../assets/New BTP/Automobiles Lab/Model of Passenger Car Electrical Wiring System",
+            "description": "This model demonstrates the layout and functioning of electrical circuits in a vehicle, helping engineers understand electrical power distribution and diagnose issues."
+          },
+          {
+            "name": "Cut Section Model of Disc Brake System",
+            "image": "../../assets/New BTP/Automobiles Lab/Cut Section Model of Disc Brake System",
+            "description": "A cut section model of a disc brake system visually explains its internal components, such as the brake rotor and pads, showing how friction is used to slow down or stop a vehicle."
+          },
+          {
+            "name": "Cut Section Model of Drum Brake Unit",
+            "image": "../../assets/New BTP/Automobiles Lab/Cut Section Model of Drum Brake Unit",
+            "description": "This model illustrates the operation of a drum brake system by showing the internal components like brake shoes, wheel cylinders, and the force application to the drum."
+          },
+          {
+            "name": "Cut Section Model of Power Windows with One Door",
+            "image": "../../assets/New BTP/Automobiles Lab/Cut Section Model of Power Windows with One Door",
+            "description": "This cut section model demonstrates the inner workings of a power window system, showing how the motor, regulator, and electrical circuits control window movement."
+          },
+          {
+            "name": "Demonstration Board of Electronic Ignition System of 4 Wheeler Automobile",
+            "image": "../../assets/New BTP/Automobiles Lab/Demonstration Board of Electronic Ignition System of 4 Wheeler Automobile",
+            "description": "This demonstration board showcases the components and function of an electronic ignition system, explaining how the ECM controls ignition timing for improved performance and efficiency."
+          },
+          {
+            "name": "Cut Section Model of Complete Both Side MacPherson Suspension Strut with Drive Shaft",
+            "image": "../../assets/New BTP/Automobiles Lab/Cut Section Model of Complete Both Side MacPherson Suspension Strut with Drive Shaft",
+            "description": "This model shows the complete MacPherson suspension strut and drive shaft, demonstrating how these components absorb shocks and maintain stability in a vehicle."
+          },
+          {
+            "name": "Demonstration Board of Fuel Supply System of Diesel Engine (Working)",
+            "image": "../../assets/New BTP/Automobiles Lab/Demonstration Board of Fuel Supply System of Diesel Engine",
+            "description": "The fuel supply system model for a diesel engine demonstrates how fuel is delivered from the tank through the pump and injectors to the combustion chamber for efficient engine operation."
+          },
+          {
+            "name": "Subsonic Wind Tunnel",
+            "image": "../../assets/New BTP/Automobiles Lab/Subsonic Wind Tunnel",
+            "description": "A subsonic wind tunnel is used to study aerodynamic properties by simulating airflow over models and measuring lift, drag, and turbulence to optimize vehicle and aircraft designs."
+          },
+          {
+            "name": "Multi-Tube Manometer",
+            "image": "../../assets/New BTP/Automobiles Lab/Multi-Tube Manometer",
+            "description": "The multi-tube manometer measures pressure differences in fluids, helping engineers analyze fluid behavior and troubleshoot pressure-related issues."
+          },
+          {
+            "name": "Cut Section Model of Complete Both Side Double Wishbone Suspension Strut with Drive Shaft",
+            "image": "../../assets/New BTP/Automobiles Lab/Cut Section Model of Complete Both Side Double Wishbone Suspension Strut with Drive Shaft",
+            "description": "This model illustrates the double wishbone suspension system with a drive shaft, showcasing how this configuration enhances handling and stability in vehicles."
+          }
+        ]
+      }, 
+      {
+        "name": "Measurement Instrumentation and Control Laboratory",
+        "equipments": [
+          {
+            "name": "Surface Roughness Tester",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Surface Roughness Tester",
+            "description": "A precision instrument used to measure the roughness or texture of a material's surface. It quantifies surface irregularities or deviations from a perfectly smooth surface, which are critical for understanding the material's functionality in various applications like friction, wear, and appearance."
+          },
+          {
+            "name": "Temperature Measuring Setup",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Temperature Measuring Setup",
+            "description": "An instrument used to accurately measure the temperature of a system or environment, consisting of temperature sensors, a display or data acquisition system, and a power supply."
+          },
+          {
+            "name": "Force Measuring Setup",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Force Measuring Setup",
+            "description": "An instrument used to measure the magnitude of force applied to an object or system, consisting of a load cell or force transducer, a display unit, and necessary mounting fixtures."
+          },
+          {
+            "name": "Torque Measuring Setup",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Torque Measuring Setup",
+            "description": "An instrument used to measure the rotational force or torque applied to a shaft or mechanical component, typically consisting of a torque sensor or transducer, and a display or data acquisition system."
+          },
+          {
+            "name": "Linear Air Track Apparatus",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Linear Air Track Apparatus",
+            "description": "Used to study the principles of motion, conservation of momentum, and collisions, consisting of a long, horizontal track with a low-friction surface, typically supported by a cushion of air."
+          },
+          {
+            "name": "Dial Gauge Calibration Setup",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Dial Gauge Calibration Setup",
+            "description": "Used to accurately calibrate dial gauges with a measurement range of 0-25mm and a least count (L.C.) of 0.001mm, using a precision measuring surface such as a micrometer or standard reference block."
+          },
+          {
+            "name": "Height Gauge",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Height Gauge",
+            "description": "A precision instrument used to measure the height or vertical dimensions of objects with high accuracy, typically consisting of a vertical column, a measuring probe, and a base."
+          },
+          {
+            "name": "Profile Projector",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Profile Projector",
+            "description": "An optical measuring instrument used to project a magnified image of an object's profile onto a screen for precise measurement and inspection."
+          },
+          {
+            "name": "Floating Carriage Micrometer",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Floating Carriage Micrometer",
+            "description": "A precision instrument used for the accurate measurement of thread plug gauges, ensuring measurements are taken along the correct axis, even for irregular or tapered surfaces."
+          },
+          {
+            "name": "Sine Bar",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Sine Bar",
+            "description": "A precision measuring tool used to measure or set angles with high accuracy, typically used in conjunction with slip gauge blocks to set or measure the angles of components."
+          },
+          {
+            "name": "3-D Coordinate Measuring Machine",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/3-D Coordinate Measuring Machine",
+            "description": "A precision instrument used to measure the geometry of physical objects by sensing discrete points on the surface of the object with a probe, capturing 3D coordinates for accurate measurement."
+          },
+          {
+            "name": "Gear Tooth Vernier",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Gear Tooth Vernier",
+            "description": "A specialized measuring instrument used to precisely measure the thickness of gear teeth and dimensions of hobs, form tools, and thread tools."
+          },
+          {
+            "name": "Slip Gauge",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Slip Gauge",
+            "description": "A precision measuring tool used to establish or verify exact lengths with high accuracy, consisting of calibrated blocks that can be stacked together to achieve a desired measurement."
+          },
+          {
+            "name": "Straight Edge",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Straight Edge",
+            "description": "A simple measuring tool used to draw straight lines or check the straightness of a surface or object, typically made from metal, wood, or plastic."
+          },
+          {
+            "name": "Ring Gauge",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Ring Gauge",
+            "description": "A precision tool used to measure the external dimensions of cylindrical parts, specifically their diameter, ensuring that the outer diameter of a workpiece fits within the desired tolerance range."
+          },
+          {
+            "name": "Filler Gauge",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Filler Gauge",
+            "description": "A filler gauge, also known as a feeler gauge, is a precision measuring tool used to measure the clearance or gap between two parts. It consists of a series of thin, flat metal blades, each with a different thickness, typically marked in thousandths of an inch or millimeters."
+          },
+          {
+            "name": "Snap Gauge",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Snap Gauge",
+            "description": "A snap gauge is a precision measuring tool used to measure the external dimensions, such as the diameter or thickness, of cylindrical or flat workpieces. It consists of two adjustable arms or jaws, a set of anvils, and a measuring scale."
+          },
+          {
+            "name": "V-Block",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/V-Block",
+            "description": "A V-block is a precision tool used to securely hold cylindrical workpieces, such as shafts or rods, during machining operations like milling, drilling, or grinding. The V-shaped groove in the block is designed to accommodate the cylindrical shape of the workpiece."
+          },
+          {
+            "name": "Pitch Gauge",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Pitch Gauge",
+            "description": "A pitch gauge is a precision measuring tool used to measure the pitch of threads on screws, bolts, or other threaded components. The pitch refers to the distance between adjacent threads, which is critical for ensuring the correct fit and function of threaded parts."
+          },
+          {
+            "name": "Go & No-Go Gauge",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Go & No-Go Gauge",
+            "description": "A Go and No-Go gauge is a precision tool used to check whether a part’s dimensions are within specified tolerance limits. It consists of two parts: the 'Go' gauge to check minimum acceptable size and the 'No-Go' gauge to check maximum allowable size."
+          },
+          {
+            "name": "Surface Plate",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Surface Plate",
+            "description": "A surface plate is a solid, flat reference plane used for precision inspection, marking out, and tooling setup. Made from materials such as granite, cast iron, or steel, it provides a stable and smooth base for measuring and checking the flatness, dimensions, and geometry of components."
+          },
+          {
+            "name": "Micro Weight Balance",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Micro Weight Balance",
+            "description": "A micro weight balance, also known as a microbalance, is a highly sensitive instrument used to measure the mass of objects with extremely low weight, often in the range of milligrams or even micrograms."
+          },
+          {
+            "name": "Micrometer",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Micrometer",
+            "description": "A micrometer is a precision measuring tool used to measure the thickness, depth, or length of an object with high accuracy, typically in the range of micrometers (millionths of a meter). It consists of a spindle and anvil that form a measuring gap."
+          },
+          {
+            "name": "Vernier Caliper",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Vernier Caliper",
+            "description": "A Vernier caliper is a precision measuring instrument used to measure the internal and external dimensions of objects, as well as their depths. It consists of a main scale and a sliding Vernier scale that provides precise measurements with high accuracy."
+          },
+          {
+            "name": "Depth Gauge",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Depth Gauge",
+            "description": "A depth gauge is a precision instrument used to measure the depth of holes, recesses, or grooves in a workpiece. It consists of a probe or measuring rod that is mounted on a scale, allowing the user to measure the depth of a cavity or indentation accurately."
+          },
+          {
+            "name": "Bevel Protector",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Bevel Protector",
+            "description": "A bevel protector is a tool used to measure and protect the angles or bevels on the edges of materials, typically in machining, construction, or metalworking. It ensures that the beveled edges of components meet precise specifications."
+          },
+          {
+            "name": "Dial Gauge",
+            "image": "../../assets/New BTP/Measurement Instrumentation and Control Laboratory/Dial Gauge",
+            "description": "A dial gauge is a precision instrument used to measure small linear displacements with high accuracy, typically in the range of micrometers or thousandths of an inch. It consists of a dial face with a needle that moves in response to a mechanical probe."
+          }
+        ]
+      }
+    ]
+  }

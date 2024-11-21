@@ -30,10 +30,10 @@ const Hero = () => {
        <div className="hero-text">
           <div className="heading">
           <h1 >Department of </h1>
-           <h1> Mechanical-Mechatronics Engineering</h1> 
+           
           </div>
-        <h1 id="highlightText">Welding Research </h1>
-        <p className='typing-container'> "Forging Innovation, Igniting Progress: Explore the Frontier of Welding Research. Uncover Cutting-Edge Techniques, Materials, and Technologies Shaping Tomorrow's Welding Industry."</p>
+        <h1 id="highlightText">Mechanical-Mechatronics Engineering </h1>
+        <p className='typing-container'> "From Concept to Creation: Building the Future Through Engineering Excellence and Innovation."</p>
         
          <a href="#move" className='btn'>Explore more <img src={dark_arrow} alt="" /></a> 
         
