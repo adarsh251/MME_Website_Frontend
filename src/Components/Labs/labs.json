@@ -422,103 +422,176 @@
         ]
       },
       {
-        "name": "Heat Transfer Lab",
+        "name": "Heat Transfer Laboratory",
         "equipments": [
           {
             "name": "Heat Transfer in Natural Convection Apparatus",
-            "image": "/New BTP/Heat Transfer Lab/Heat Transfer in Natural Convection Apparatus",
-            "description": "The Heat Transfer in Natural Convection apparatus is designed to study and analyze the process of heat transfer in natural convection. In natural convection, heat transfer occurs due to the movement of fluid (air or liquid) induced by temperature differences, without any external force like a fan or pump. The system typically consists of a heated vertical surface, around which the fluid (such as air) circulates as it is heated. This setup allows students to observe the relationship between the surface temperature, fluid temperature, and heat transfer rate. By adjusting parameters such as the surface temperature and measuring the temperature variations in the surrounding fluid, users can calculate the convective heat transfer coefficient. This experiment aids in understanding concepts like Rayleigh number, Nusselt number, and Grashof number, all critical for analyzing convective heat transfer in natural systems such as the cooling of buildings or the human body."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Heat Transfer in Natural Convection Apparatus.jpg",
+            "description": [
+              "The Heat Transfer in Natural Convection apparatus is designed to study and analyze the process of heat transfer in natural convection. In natural convection, heat transfer occurs due to the movement of fluid (air or liquid) induced by temperature differences, without any external force like a fan or pump. The system typically consists of a heated vertical surface, around which the fluid (such as air) circulates as it is heated.",
+              "This setup allows students to observe the relationship between the surface temperature, fluid temperature, and heat transfer rate. By adjusting parameters such as the surface temperature and measuring the temperature variations in the surrounding fluid, users can calculate the convective heat transfer coefficient. This experiment aids in understanding concepts like Rayleigh number, Nusselt number, and Grashof number, all critical for analyzing convective heat transfer in natural systems such as the cooling of buildings or the human body."
+            ]
+            },
           {
             "name": "Heat Transfer in Forced Convection Apparatus",
-            "image": "/New BTP/Heat Transfer Lab/Heat Transfer in Forced Convection Apparatus",
-            "description": "The Heat Transfer in Forced Convection apparatus is designed to study and analyze the process of heat transfer when a fluid (liquid or gas) is forced over a surface, typically using a fan or pump. In forced convection, the heat transfer rate is enhanced by the forced movement of the fluid, which increases the convective heat transfer coefficient. The setup typically consists of a heated surface or tube through which a fluid is passed at a controlled flow rate. Temperature sensors are placed along the surface and in the fluid to measure temperature gradients and determine the heat transfer rate. By adjusting parameters such as fluid velocity, surface temperature, and flow rate, users can observe the effects on heat transfer efficiency. This experiment helps in understanding the principles of forced convection and is crucial for applications such as heat exchangers, cooling systems, and air conditioning systems, where fluid movement is actively controlled to enhance heat transfer."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Heat Transfer in Forced Convection Apparatus.jpg",
+            "description": [
+              "The Heat Transfer in Forced Convection apparatus is designed to study and analyze the process of heat transfer when a fluid (liquid or gas) is forced over a surface, typically using a fan or pump. In forced convection, the heat transfer rate is enhanced by the forced movement of the fluid, which increases the convective heat transfer coefficient.",
+              "The setup typically consists of a heated surface or tube through which a fluid is passed at a controlled flow rate. Temperature sensors are placed along the surface and in the fluid to measure temperature gradients and determine the heat transfer rate. By adjusting parameters such as fluid velocity, surface temperature, and flow rate, users can observe the effects on heat transfer efficiency. This experiment helps in understanding the principles of forced convection and is crucial for applications such as heat exchangers, cooling systems, and air conditioning systems, where fluid movement is actively controlled to enhance heat transfer."
+            ]
+            },
           {
             "name": "Parallel Flow/Counter Flow Heat Exchanger",
-            "image": "/New BTP/Heat Transfer Lab/Parallel Flow/Counter Flow Heat Exchanger",
-            "description": "The Parallel Flow/Counter Flow Heat Exchanger is used to study the heat transfer phenomena in two common heat exchanger configurations: parallel flow and counterflow. In both setups, two fluids flow through separate channels, allowing for the exchange of heat between them. The key difference is the direction of fluid flow. In the parallel flow arrangement, both fluids flow in the same direction, while in the counterflow arrangement, the fluids flow in opposite directions. This experiment helps in analyzing the temperature variation and heat transfer efficiency in each type of configuration. The apparatus typically consists of two fluid loops—one for the hot fluid and the other for the cold fluid—passing through a series of tubes or plates. By measuring inlet and outlet temperatures, flow rates, and heat transfer rates, students can compare the performance of parallel and counterflow heat exchangers. This study is critical for designing efficient heat exchangers in industrial applications."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Counter Flow Heat Exchanger.jpg",
+            "description": [
+              "The Parallel Flow/Counter Flow Heat Exchanger is used to study the heat transfer phenomena in two common heat exchanger configurations: parallel flow and counterflow. In both setups, two fluids flow through separate channels, allowing for the exchange of heat between them. The key difference is the direction of fluid flow.",
+              "In the parallel flow arrangement, both fluids flow in the same direction, while in the counterflow arrangement, the fluids flow in opposite directions. This experiment helps in analyzing the temperature variation and heat transfer efficiency in each type of configuration.",
+              "The apparatus typically consists of two fluid loops—one for the hot fluid and the other for the cold fluid—passing through a series of tubes or plates. By measuring inlet and outlet temperatures, flow rates, and heat transfer rates, students can compare the performance of parallel and counterflow heat exchangers. This study is critical for designing efficient heat exchangers in industrial applications."
+            ]
+            },
           {
             "name": "Stefan Boltzmann’s Apparatus",
-            "image": "/New BTP/Heat Transfer Lab/Stefan Boltzmann’s Apparatus",
-            "description": "Stefan Boltzmann’s Apparatus is used to study radiation heat transfer, particularly focusing on the behavior of black bodies and the effect of temperature on radiation. According to the Stefan-Boltzmann law, the total energy radiated per unit surface area of a black body is proportional to the fourth power of its absolute temperature. The apparatus typically consists of a black body cavity or a hemisphere, a heat source, and sensors to measure the temperature and the radiated energy. By adjusting the temperature of the black body and measuring the emitted radiation, the apparatus allows the demonstration of the relationship between temperature and radiation intensity. The experiment involves calculating the Stefan-Boltzmann constant and analyzing how variations in the temperature of the hemisphere affect the heat radiation emitted. This helps in understanding the fundamentals of heat transfer through radiation and its importance in various engineering applications, including thermal management and energy systems."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Stefan Boltzmann's Apparatus.jpg",
+            "description": [
+              "Stefan Boltzmann’s Apparatus is used to study radiation heat transfer, particularly focusing on the behavior of black bodies and the effect of temperature on radiation. According to the Stefan-Boltzmann law, the total energy radiated per unit surface area of a black body is proportional to the fourth power of its absolute temperature.",
+              "The apparatus typically consists of a black body cavity or a hemisphere, a heat source, and sensors to measure the temperature and the radiated energy. By adjusting the temperature of the black body and measuring the emitted radiation, the apparatus allows the demonstration of the relationship between temperature and radiation intensity.",
+              "The experiment involves calculating the Stefan-Boltzmann constant and analyzing how variations in the temperature of the hemisphere affect the heat radiation emitted. This helps in understanding the fundamentals of heat transfer through radiation and its importance in various engineering applications, including thermal management and energy systems."
+            ]
+            },
           {
             "name": "Emissivity Measurement Apparatus",
-            "image": "/New BTP/Heat Transfer Lab/Emissivity Measurement Apparatus",
-            "description": "The Emissivity Measurement Apparatus is used to study radiation heat transfer by comparing the emissivity of different materials, specifically focusing on a black plate and a test plate. Emissivity is a measure of a material's ability to emit infrared radiation, and it is a key factor in heat transfer through radiation. The apparatus typically consists of a black plate with a known high emissivity and a test plate whose emissivity is to be measured. Heat is applied to both plates, and their surface temperatures are monitored using thermocouples or infrared sensors. By measuring the radiated heat and the temperature difference, the apparatus allows for the determination of the emissivity of the test plate. This experiment helps in understanding how different materials absorb and emit radiation, which is crucial for designing efficient heat transfer systems, such as radiators, heat exchangers, and thermal insulation in various engineering applications."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Emissivity Measurement Apparatus.jpg",
+            "description": [
+              "The Emissivity Measurement Apparatus is used to study radiation heat transfer by comparing the emissivity of different materials, specifically focusing on a black plate and a test plate. Emissivity is a measure of a material's ability to emit infrared radiation, and it is a key factor in heat transfer through radiation.",
+              "The apparatus typically consists of a black plate with a known high emissivity and a test plate whose emissivity is to be measured. Heat is applied to both plates, and their surface temperatures are monitored using thermocouples or infrared sensors. By measuring the radiated heat and the temperature difference, the apparatus allows for the determination of the emissivity of the test plate.",
+              "This experiment helps in understanding how different materials absorb and emit radiation, which is crucial for designing efficient heat transfer systems, such as radiators, heat exchangers, and thermal insulation in various engineering applications."
+            ]
+            },
           {
             "name": "Thermal Conductivity of Metal Rod Apparatus",
-            "image": "/New BTP/Heat Transfer Lab/Thermal Conductivity of Metal Rod Apparatus",
-            "description": "The Thermal Conductivity of Metal Rod apparatus is used to study heat transfer through conduction in a metal rod. This experiment helps determine the thermal conductivity of different materials by observing how heat flows through them. The setup typically consists of a metal rod with known dimensions, two temperature sensors (typically thermocouples), and a heat source. One end of the metal rod is heated, and the other end is kept at a lower temperature, creating a temperature gradient along the rod. The temperature at both ends of the rod is measured, and from the observed temperature difference, the rate of heat transfer is calculated. By applying Fourier's law of heat conduction, which relates the heat transfer rate to the material’s thermal conductivity, this experiment allows for the determination of the metal rod's thermal conductivity. This information is crucial in various engineering applications, such as the design of heat exchangers and thermal management systems."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Thermal Conductivity of Metal Rod Apparatus.jpg",
+            "description": [
+              "The Thermal Conductivity of Metal Rod apparatus is used to study heat transfer through conduction in a metal rod. This experiment helps determine the thermal conductivity of different materials by observing how heat flows through them.",
+              "The setup typically consists of a metal rod with known dimensions, two temperature sensors (typically thermocouples), and a heat source. One end of the metal rod is heated, and the other end is kept at a lower temperature, creating a temperature gradient along the rod. The temperature at both ends of the rod is measured, and from the observed temperature difference, the rate of heat transfer is calculated.",
+              "By applying Fourier's law of heat conduction, which relates the heat transfer rate to the material’s thermal conductivity, this experiment allows for the determination of the metal rod's thermal conductivity. This information is crucial in various engineering applications, such as the design of heat exchangers and thermal management systems."
+            ]
+            },
           {
             "name": "Thermal Conductivity of Liquids Apparatus",
-            "image": "/New BTP/Heat Transfer Lab/Thermal Conductivity of Liquids Apparatus",
-            "description": "The Thermal Conductivity of Liquids apparatus is used to study the heat transfer properties of liquids and determine their thermal conductivity. This experiment involves heating a liquid within a controlled system and measuring how efficiently it conducts heat. The setup typically consists of a cylindrical container filled with a liquid, with a heating element at the bottom to supply heat and temperature sensors at various points in the liquid. The system is designed to maintain a steady heat input, and the temperature difference between different points in the liquid is measured. By using Fourier’s law of heat conduction, the thermal conductivity of the liquid can be calculated based on the rate of heat transfer and the observed temperature gradient. This experiment is essential for understanding how liquids transfer heat, which is crucial in the design and optimization of cooling systems, heat exchangers, and other applications involving liquid heat transfer."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Thermal Conductivity of Liquids Apparatus.jpg",
+            "description": [
+              "The Thermal Conductivity of Liquids apparatus is used to study the heat transfer properties of liquids and determine their thermal conductivity. This experiment involves heating a liquid within a controlled system and measuring how efficiently it conducts heat.",
+              "The setup typically consists of a cylindrical container filled with a liquid, with a heating element at the bottom to supply heat and temperature sensors at various points in the liquid. The system is designed to maintain a steady heat input, and the temperature difference between different points in the liquid is measured.",
+              "By using Fourier’s law of heat conduction, the thermal conductivity of the liquid can be calculated based on the rate of heat transfer and the observed temperature gradient. This experiment is essential for understanding how liquids transfer heat, which is crucial in the design and optimization of cooling systems, heat exchangers, and other applications involving liquid heat transfer."
+            ]
+            },
           {
             "name": "Heat Pipe Demonstrator",
-            "image": "/New BTP/Heat Transfer Lab/Heat Pipe Demonstrator",
-            "description": "The Heat Pipe Demonstrator is designed to showcase the exceptional thermal conductivity of heat pipes, which are highly efficient thermal transfer devices. It demonstrates how heat pipes utilize phase change materials to transfer heat over long distances with minimal temperature difference. In this apparatus, heat is applied to one end of the heat pipe, causing the working fluid inside to evaporate. The vapor then travels to the cooler end, where it condenses and releases the absorbed heat. The condensed liquid returns to the hot end through capillary action, and the cycle repeats. The system allows for the comparison of heat transfer efficiency between a heat pipe and other materials with high conductivity, such as copper. By using temperature sensors at various points along the heat pipe, the demonstrator illustrates the heat pipe’s ability to transfer heat more effectively than traditional conductors, making it ideal for use in electronics, spacecraft, and energy systems."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Heat Pipe Demonstrator.jpg",
+            "description": [
+              "The Heat Pipe Demonstrator is designed to showcase the exceptional thermal conductivity of heat pipes, which are highly efficient thermal transfer devices. It demonstrates how heat pipes utilize phase change materials to transfer heat over long distances with minimal temperature difference.",
+              "In this apparatus, heat is applied to one end of the heat pipe, causing the working fluid inside to evaporate. The vapor then travels to the cooler end, where it condenses and releases the absorbed heat. The condensed liquid returns to the hot end through capillary action, and the cycle repeats.",
+              "The system allows for the comparison of heat transfer efficiency between a heat pipe and other materials with high conductivity, such as copper. By using temperature sensors at various points along the heat pipe, the demonstrator illustrates the heat pipe’s ability to transfer heat more effectively than traditional conductors, making it ideal for use in electronics, spacecraft, and energy systems."
+            ]
+            },
           {
             "name": "Condensation in Drop Wise/Film Wise Apparatus",
-            "image": "/New BTP/Heat Transfer Lab/Condensation in Drop Wise/Film Wise Apparatus",
-            "description": "This equipment is used to study the condensation process in two distinct forms: dropwise and filmwise condensation. By using a mini steam boiler, the system generates steam, which is condensed on a cold surface under controlled conditions. The steam condenses either in the form of discrete drops (dropwise condensation) or as a continuous film (filmwise condensation), depending on the surface characteristics and temperature. The apparatus includes a pressure release valve to control and regulate the steam pressure, ensuring consistent experimental conditions. Temperature sensors placed along the surface measure the heat transfer rate. By analyzing the rate of condensation and the heat transferred from the steam to the cooling surface, the equipment helps determine the overall heat transfer coefficient for both dropwise and filmwise condensation. This experiment is crucial for understanding heat transfer in applications like heat exchangers, condensers, and cooling systems."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Condensation in Drop Wise Film Wise Apparatus.jpg",
+            "description": [
+              "This equipment is used to study the condensation process in two distinct forms: dropwise and filmwise condensation. By using a mini steam boiler, the system generates steam, which is condensed on a cold surface under controlled conditions. The steam condenses either in the form of discrete drops (dropwise condensation) or as a continuous film (filmwise condensation), depending on the surface characteristics and temperature.",
+              "The apparatus includes a pressure release valve to control and regulate the steam pressure, ensuring consistent experimental conditions. Temperature sensors placed along the surface measure the heat transfer rate.",
+              "By analyzing the rate of condensation and the heat transferred from the steam to the cooling surface, the equipment helps determine the overall heat transfer coefficient for both dropwise and filmwise condensation. This experiment is crucial for understanding heat transfer in applications like heat exchangers, condensers, and cooling systems."
+            ]
+            },
           {
             "name": "Test Rig to Check CHF (Critical Heat Flux)",
-            "image": "/New BTP/Heat Transfer Lab/Test Rig to Check CHF",
-            "description": "This equipment is designed to determine the Critical Heat Flux (CHF), the point at which the boiling heat transfer rate dramatically drops, and the system shifts from nucleate boiling to film boiling. The test rig typically consists of a vertical heated surface immersed in a liquid, with a temperature control system and sensors to measure heat flux, liquid temperature, and surface temperature. As heat is applied, the liquid undergoes phase change from liquid to vapor at the surface. By incrementally increasing the heat input and measuring the temperature at various points, the system identifies the CHF, where the liquid stops efficiently cooling the surface due to the formation of a vapor film. Understanding CHF is critical for the design of boiling heat exchangers and for preventing overheating in systems like nuclear reactors, industrial boilers, and other heat exchange devices."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Test Rig to Check CHF.jpg",
+            "description": [
+              "This equipment is designed to determine the Critical Heat Flux (CHF) point for a given metal wire, particularly when it is coated with nanostructured surfaces. The CHF is the point at which the surface experiences a dramatic drop in heat transfer efficiency, transitioning from nucleate boiling to film boiling. The test rig applies a controlled heat flux to the metal wire and gradually increases the heat input until the CHF point is reached.",
+              "The nanostructured surface of the metal wire enhances heat transfer characteristics, which can delay or shift the CHF point. By monitoring the temperature and heat flux, along with other parameters such as surface temperature and boiling behavior, the rig helps evaluate the performance of nanostructured surfaces in enhancing the heat transfer capabilities of the material.",
+              "This setup is critical for optimizing cooling systems in high-performance applications like electronics, power plants, and aerospace engineering."
+            ]
+            },
           {
             "name": "Two-Phase Heat Transfer Apparatus (Boiling Heat Transfer Unit)",
-            "image": "/New BTP/Heat Transfer Lab/Two-Phase Heat Transfer Apparatus",
-            "description": "The Two-Phase Heat Transfer Apparatus, also known as the Boiling Heat Transfer Unit, is designed to study the two-phase heat transfer phenomena, specifically focusing on the pool boiling of Methylene Chloride. This equipment is used to analyze the behavior of heat transfer during phase changes, from liquid to vapor, in a controlled environment. In this apparatus, Methylene Chloride is heated in a pool, and its boiling characteristics are observed as heat is applied. The system monitors various parameters like temperature, pressure, and heat flux, to evaluate the efficiency of heat transfer during the boiling process. By studying the two-phase heat transfer, the apparatus helps understand the impact of factors such as surface temperature, liquid properties, and boiling regime on heat transfer efficiency. This equipment is particularly useful in industries like heat exchangers, refrigeration, and power generation, where efficient heat transfer is crucial for system performance."
+            "image": "/New BTP/Heat Transfer Laboratory/Two-Phase Heat Transfer Apparatus.jpg",
+            "description": [
+              "The Two Phase Heat Transfer Apparatus, also known as the Boiling Heat Transfer Unit, is designed to study the two-phase heat transfer phenomena, specifically focusing on the pool boiling of Methylene Chloride. This equipment is used to analyze the behavior of heat transfer during phase changes, from liquid to vapor, in a controlled environment.",
+              "In this apparatus, Methylene Chloride is heated in a pool, and its boiling characteristics are observed as heat is applied. The system monitors various parameters like temperature, pressure, and heat flux, to evaluate the efficiency of heat transfer during the boiling process.",
+              "By studying the two-phase heat transfer, the apparatus helps understand the impact of factors such as surface temperature, liquid properties, and boiling regime on heat transfer efficiency. This equipment is particularly useful in industries like heat exchangers, refrigeration, and power generation, where efficient heat transfer is crucial for system performance."
+            ]
           },
           {
             "name": "Data Acquisition System (16 Channel)",
-            "image": "/New BTP/Heat Transfer Lab/Data Acquisition System",
-            "description": "The 16-Channel Data Acquisition System is used to measure and record physical characteristics such as temperature, pressure, humidity, and other variables from multiple sensors simultaneously. It features 16 input channels, allowing for the monitoring of multiple parameters in real-time. This system is used in various applications like research, testing, and industrial process monitoring. Each channel can be connected to a different sensor to capture data from different locations or measurement types. The acquired data is then processed, analyzed, and stored for further interpretation. The system is widely employed in fields such as mechanical testing, environmental monitoring, and automation, where precise and continuous data collection is necessary. The 16 channels provide the advantage of simultaneous data logging from multiple sources, improving efficiency and reducing the need for multiple separate systems."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Data Acquisition System.jfif",
+            "description": [
+              "The 16-Channel Data Acquisition System is used to measure and record physical characteristics such as temperature, pressure, humidity, and other variables from multiple sensors simultaneously. It features 16 input channels, allowing for the monitoring of multiple parameters in real-time.",
+              "This system is used in various applications like research, testing, and industrial process monitoring. Each channel can be connected to a different sensor to capture data from different locations or measurement types. The acquired data is then processed, analyzed, and stored for further interpretation.",
+              "The system is widely employed in fields such as mechanical testing, environmental monitoring, and automation, where precise and continuous data collection is necessary. The 16 channels provide the advantage of simultaneous data logging from multiple sources, improving efficiency and reducing the need for multiple separate systems."
+            ]
+            },
           {
             "name": "Flow Metering System",
-            "image": "/New BTP/Heat Transfer Lab/Flow Metering System",
-            "description": "The Flow Metering System is designed to measure the volume or mass flow rate of a liquid passing through a pipeline or a system. It is commonly used in industries such as chemical processing, water treatment, oil and gas, and food production to ensure accurate measurement and control of fluid flow. The system typically consists of a flow meter, sensors, and controllers that continuously monitor the flow rate. Depending on the type of flow meter (e.g., turbine, ultrasonic, electromagnetic, or positive displacement), it measures either the volumetric flow rate (volume per unit time) or the mass flow rate (mass per unit time). By integrating the flow meter into a process system, operators can monitor, regulate, and record the amount of fluid moving through the system. This is crucial for maintaining product quality, ensuring operational efficiency, and meeting regulatory requirements."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Flow Metering System.jpg",
+            "description": [
+              "The Flow Metering System is designed to measure the volume or mass flow rate of a liquid passing through a pipeline or a system. It is commonly used in industries such as chemical processing, water treatment, oil and gas, and food production to ensure accurate measurement and control of fluid flow.",
+              "The system typically consists of a flow meter, sensors, and controllers that continuously monitor the flow rate. Depending on the type of flow meter (e.g., turbine, ultrasonic, electromagnetic, or positive displacement), it measures either the volumetric flow rate (volume per unit time) or the mass flow rate (mass per unit time).",
+              "By integrating the flow meter into a process system, operators can monitor, regulate, and record the amount of fluid moving through the system. This is crucial for maintaining product quality, ensuring operational efficiency, and meeting regulatory requirements."
+            ]
+            },
           {
             "name": "Refrigeration Test Rig (Charged with Nano-Refrigerant)",
-            "image": "/New BTP/Heat Transfer Lab/Refrigeration Test Rig",
-            "description": "The Refrigeration Test Rig charged with nano-refrigerant is used to conduct experiments and demonstrate the process of cooling, specifically the refrigeration cycle, using nano-enhanced refrigerants. This setup allows for the study of the cooling process of water or other fluids, while investigating the impact of nano-refrigerants on system performance. The rig includes components like a compressor, condenser, expansion valve, and evaporator, which are designed to work with nano-refrigerants that have enhanced thermal conductivity and improved heat transfer properties. By charging the system with nano-refrigerants, the rig allows users to evaluate the efficiency, cooling capacity, and energy consumption compared to conventional refrigerants. Students and researchers use this equipment to understand refrigeration cycles, the behavior of different refrigerants under varying conditions, and the potential advantages of nano-refrigerants in improving cooling performance and reducing environmental impact. The rig helps in experimenting with various system configurations and operational parameters."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Refrigeration Test Rig.jpg",
+            "description": [
+              "The Refrigeration Test Rig charged with nano-refrigerant is used to conduct experiments and demonstrate the process of cooling, specifically the refrigeration cycle, using nano-enhanced refrigerants. This setup allows for the study of the cooling process of water or other fluids, while investigating the impact of nano-refrigerants on system performance.",
+              "The rig includes components like a compressor, condenser, expansion valve, and evaporator, which are designed to work with nano-refrigerants that have enhanced thermal conductivity and improved heat transfer properties. By charging the system with nano-refrigerants, the rig allows users to evaluate the efficiency, cooling capacity, and energy consumption compared to conventional refrigerants.",
+              "Students and researchers use this equipment to understand refrigeration cycles, the behavior of different refrigerants under varying conditions, and the potential advantages of nano-refrigerants in improving cooling performance and reducing environmental impact. The rig helps in experimenting with various system configurations and operational parameters."
+            ]
+            },
           {
             "name": "Test Rig on Boiling Heat Transfer",
-            "image": "/New BTP/Heat Transfer Lab/Boiling Heat Transfer Test Rig",
-            "description": "The Test Rig on Boiling Heat Transfer is designed to study and analyze the heat transfer process during boiling. This equipment allows users to investigate the boiling phenomenon, specifically the heat transfer that occurs when a liquid is heated to its boiling point. It is commonly used in research and educational settings to explore the thermal performance of liquids during phase change from liquid to vapor. The rig consists of a heated surface (typically a metal plate or tube) where the liquid is placed. As heat is applied, the liquid boils, and the heat transfer coefficient is measured. The apparatus typically includes temperature sensors, pressure gauges, and a flow meter to monitor the changes during the boiling process. This test rig is used to study factors such as heat flux, nucleate boiling, film boiling, and the effect of surface properties on heat transfer performance. It is valuable for understanding thermal management in various industrial applications like heat exchangers and cooling systems."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Boiling Heat Transfer Test Rig.jpg",
+            "description": [
+              "The Test Rig on Boiling Heat Transfer is designed to study and analyze the heat transfer process during boiling. This equipment allows users to investigate the boiling phenomenon, specifically the heat transfer that occurs when a liquid is heated to its boiling point. It is commonly used in research and educational settings to explore the thermal performance of liquids during phase change from liquid to vapor.",
+              "The rig consists of a heated surface (typically a metal plate or tube) where the liquid is placed. As heat is applied, the liquid boils, and the heat transfer coefficient is measured. The apparatus typically includes temperature sensors, pressure gauges, and a flow meter to monitor the changes during the boiling process.",
+              "This test rig is used to study factors such as heat flux, nucleate boiling, film boiling, and the effect of surface properties on heat transfer performance. It is valuable for understanding thermal management in various industrial applications like heat exchangers and cooling systems."
+            ]
+            },
           {
             "name": "Jet Impingement Cooling Test Rig",
-            "image": "/New BTP/Heat Transfer Lab/Jet Impingement Cooling Test Rig",
-            "description": "The Jet Impingement Cooling Test Rig is designed to study the cooling efficiency of fluid jet impingement on surfaces. It is used to enhance temperature uniformity and optimize heat dissipation in applications like electronic cooling, industrial processes, and aerospace systems. The rig operates by directing high-speed fluid jets (usually air or water) onto a heated surface, allowing for precise control of jet velocity, pressure, and flow rate. The equipment typically consists of a nozzle that directs the fluid onto the target surface, along with temperature sensors to monitor heat transfer and temperature distribution. By adjusting parameters such as jet angle, flow rate, and nozzle design, the rig helps study how these factors affect the cooling performance and uniformity of the surface temperature. This setup is commonly used in research and development for applications requiring efficient heat management, where maintaining a uniform temperature is crucial for system performance and longevity."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Jet Impingement Cooling Test Rig.jpg",
+            "description": [
+              "The Jet Impingement Cooling Test Rig is designed to study the cooling efficiency of fluid jet impingement on surfaces. It is used to enhance temperature uniformity and optimize heat dissipation in applications like electronic cooling, industrial processes, and aerospace systems. The rig operates by directing high-speed fluid jets (usually air or water) onto a heated surface, allowing for precise control of jet velocity, pressure, and flow rate.",
+              "The equipment typically consists of a nozzle that directs the fluid onto the target surface, along with temperature sensors to monitor heat transfer and temperature distribution. By adjusting parameters such as jet angle, flow rate, and nozzle design, the rig helps study how these factors affect the cooling performance and uniformity of the surface temperature.",
+              "This setup is commonly used in research and development for applications requiring efficient heat management, where maintaining a uniform temperature is crucial for system performance and longevity."
+            ]
+            },
           {
             "name": "Refrigerated/Heating Circulator",
-            "image": "/New BTP/Heat Transfer Lab/Refrigerated Heating Circulator",
-            "description": "The Refrigerated / Heating Circulator is a versatile temperature control system used to maintain precise thermal conditions for cooling or heating applications in laboratory and industrial settings. It is commonly used for experiments and processes requiring stable temperature regulation, such as in heat transfer studies, materials testing, and temperature-sensitive chemical reactions. The circulator functions by circulating a liquid through a closed loop, either heating or cooling the liquid to a desired set point. The system incorporates a refrigeration unit for cooling and a heating element for warming the liquid, allowing for accurate temperature control across a wide range of temperatures. The liquid is typically pumped through the system to ensure consistent and uniform temperature distribution. This equipment is commonly used in conjunction with other laboratory devices such as reactors, calorimeters, or heat exchangers, providing a controlled environment for thermal testing and maintaining stability in systems sensitive to temperature variations."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Refrigerated Heating Circulator.jpg",
+            "description": [
+              "The Refrigerated / Heating Circulator is a versatile temperature control system used to maintain precise thermal conditions for cooling or heating applications in laboratory and industrial settings. It is commonly used for experiments and processes requiring stable temperature regulation, such as in heat transfer studies, materials testing, and temperature-sensitive chemical reactions.",
+              "The circulator functions by circulating a liquid through a closed loop, either heating or cooling the liquid to a desired set point. The system incorporates a refrigeration unit for cooling and a heating element for warming the liquid, allowing for accurate temperature control across a wide range of temperatures. The liquid is typically pumped through the system to ensure consistent and uniform temperature distribution.",
+              "This equipment is commonly used in conjunction with other laboratory devices such as reactors, calorimeters, or heat exchangers, providing a controlled environment for thermal testing and maintaining stability in systems sensitive to temperature variations."
+            ]
+            },
           {
             "name": "Ultrasonic Liquid Processor",
-            "image": "/New BTP/Heat Transfer Lab/Ultrasonic Liquid Processor",
-            "description": "The Ultrasonic Liquid Processor is an advanced device used to agitate or homogenize particles in a liquid solution by utilizing high-frequency sound waves. It operates by emitting ultrasonic waves through a liquid medium, which generates high-energy sound vibrations. These vibrations create rapid pressure changes that cause cavitation, leading to the formation of microscopic bubbles that implode and produce intense shear forces. These forces help break down particles, promote mixing, and improve the dispersion of substances in the liquid. This equipment is widely used in laboratories and industries for tasks like emulsification, particle size reduction, and accelerating chemical reactions. It is also employed in processes such as sample preparation, extraction, and homogenization of suspensions or solutions. The ultrasonic liquid processor is particularly effective in breaking down tough materials, such as cells in biological applications, and in improving the efficiency of reactions and mixing in various chemical, pharmaceutical, and food processing applications."
-          },
+            "image": "/New BTP/Heat Transfer Laboratory/Ultrasonic Liquid Processor.jpg",
+            "description": [
+              "The Ultrasonic Liquid Processor is an advanced device used to agitate or homogenize particles in a liquid solution by utilizing high-frequency sound waves. It operates by emitting ultrasonic waves through a liquid medium, which generates high-energy sound vibrations. These vibrations create rapid pressure changes that cause cavitation, leading to the formation of microscopic bubbles that implode and produce intense shear forces. These forces help break down particles, promote mixing, and improve the dispersion of substances in the liquid.",
+              "This equipment is widely used in laboratories and industries for tasks like emulsification, particle size reduction, and accelerating chemical reactions. It is also employed in processes such as sample preparation, extraction, and homogenization of suspensions or solutions. The ultrasonic liquid processor is particularly effective in breaking down tough materials, such as cells in biological applications, and in improving the efficiency of reactions and mixing in various chemical, pharmaceutical, and food processing applications."
+            ]
+            },
           {
             "name": "Micro Pump",
-            "image": "/New BTP/Heat Transfer Lab/Micro Pump",
-            "description": "A micro pump is a miniature fluid delivery device designed to precisely control and transport small volumes of liquids or gases. These pumps are typically used in applications that require accurate, low-flow fluid movement at a micro-scale, such as in medical devices, laboratory settings, and precision manufacturing processes. Micro pumps can be used for a variety of functions including dosing, mixing, or circulating fluids in systems such as microfluidic devices, inkjet printers, fuel delivery systems, and analytical instruments. They work by using different principles, such as piezoelectric, electrostatic, or diaphragm-based mechanisms, to create the necessary pressure to move fluids. In laboratory environments, micro pumps are commonly employed in chemical analysis, biosensing, and diagnostic testing, where high precision and small fluid volumes are crucial. Due to their compact size, these pumps are also ideal for portable and wearable applications in the medical and pharmaceutical industries."
-          }
+            "image": "/New BTP/Heat Transfer Laboratory/Micro Pump.jpg",
+            "description": [
+              "A micro pump is a miniature fluid delivery device designed to precisely control and transport small volumes of liquids or gases. These pumps are typically used in applications that require accurate, low-flow fluid movement at a micro-scale, such as in medical devices, laboratory settings, and precision manufacturing processes.",
+              "Micro pumps can be used for a variety of functions including dosing, mixing, or circulating fluids in systems such as microfluidic devices, inkjet printers, fuel delivery systems, and analytical instruments. They work by using different principles, such as piezoelectric, electrostatic, or diaphragm-based mechanisms, to create the necessary pressure to move fluids.",
+              "In laboratory environments, micro pumps are commonly employed in chemical analysis, biosensing, and diagnostic testing, where high precision and small fluid volumes are crucial. Due to their compact size, these pumps are also ideal for portable and wearable applications in the medical and pharmaceutical industries."
+            ]
+            }
         ]
       },
       {
