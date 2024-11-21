@@ -1059,29 +1059,49 @@
         "equipments": [
           {
             "name": "3D Printer (Dual Extruder)",
-            "image": "/New BTP/Computer Integrated Manufacturing (CIM) Laboratory/3D Printer (Dual Extruder)",
-            "description": "A 3D Printer with Dual Extruder, used for creating physical solid models through additive manufacturing with two materials or colors simultaneously."
-          },
+            "image": "/New BTP/Computer integrated Manufacturing/3D Printer (Dual Extruder).jpg",
+            "description": [
+              "A 3D Printer with Dual Extruder is a cutting-edge tool for creating physical solid models through additive manufacturing, commonly used for rapid prototyping. The dual extruder setup allows the printer to work with two materials or colors simultaneously, enhancing versatility and precision in model fabrication.",
+              "To use the 3D printer, a digital 3D model is created using CAD software and then sliced into printable layers using slicing software. The printer lays down successive layers of material, typically plastic filaments like PLA or ABS, one over the other to construct the model. With dual extruders, users can combine different materials—for instance, rigid and flexible—or integrate dissolvable supports for intricate designs.",
+              "This 3D printer is essential in education, product development, and research. It helps students and professionals visualize concepts, test prototypes, and explore complex geometries, making it a vital tool for innovation in design, engineering, and manufacturing."
+            ]
+            },
           {
             "name": "3D Printer (Single Extruder)",
-            "image": "/New BTP/Computer Integrated Manufacturing (CIM) Laboratory/3D Printer (Single Extruder)",
-            "description": "A 3D Printer with a Single Extruder, used to create solid models by depositing material layer by layer for rapid prototyping and design validation."
-          },
+            "image": "/New BTP/Computer integrated Manufacturing/3D Printer (Single Extruder).jpg",
+            "description": [
+              "A 3D Printer with a Single Extruder is a device used to create physical solid models through additive manufacturing, primarily for rapid prototyping and design validation. It operates by depositing material layer by layer, building a three-dimensional object directly from a digital model.",
+              "To use the printer, a 3D design is created using CAD software and processed through slicing software to generate a layer-by-layer instruction file. The printer’s single extruder then melts and extrudes a filament, typically made of materials like PLA or ABS, depositing it precisely on the print bed. Each successive layer fuses to the previous one, gradually forming the complete model.",
+              "This printer is widely utilized in educational, industrial, and research settings to bring digital concepts to life. It is particularly useful for prototyping, allowing designers and engineers to test and refine their ideas cost-effectively and efficiently, fostering innovation and creativity in product development."
+            ]
+            },
           {
             "name": "Vertical Machining Center (VMC)",
-            "image": "/New BTP/Computer Integrated Manufacturing (CIM) Laboratory/Vertical Machining Center (VMC)",
-            "description": "A CNC machine used for milling and material removal operations, offering high-precision machining of metals, plastics, and composites."
-          },
+            "image": "/New BTP/Computer integrated Manufacturing/Vertical Machining Center .jpg",
+            "description": [
+              "A Vertical Machining Center (VMC) is a high-precision, computer numerical control (CNC) machine used for milling and various material removal operations. The vertical orientation of the spindle allows for efficient machining of a wide range of materials, including metals, plastics, and composites.",
+              "To use the VMC, a CAD model of the desired part is created and converted into a CNC program using CAM software. This program is loaded into the machine’s controller, which automates the cutting process. The workpiece is secured on the machine table, and the spindle, equipped with cutting tools, performs operations such as drilling, milling, tapping, and contouring based on the programmed instructions.",
+              "VMCs are widely used in manufacturing and educational environments to produce complex parts with high accuracy. They enhance productivity and consistency, making them essential for industries like aerospace, automotive, and tool-making, as well as for teaching advanced machining techniques."
+            ]
+            },
           {
             "name": "Electrical Discharge Machine (EDM)",
-            "image": "/New BTP/Computer Integrated Manufacturing (CIM) Laboratory/Electrical Discharge Machine (EDM)",
-            "description": "A specialized tool used for precision machining of hard materials using electrical discharges to erode material and create complex shapes."
-          },
+            "image": "/New BTP/Computer integrated Manufacturing/Electrical discharge machine.jpg",
+            "description": [
+              "An Electrical Discharge Machine (EDM) is a specialized manufacturing tool used for precision machining of hard materials and complex shapes that are difficult to machine using traditional methods. EDM operates by eroding material from a workpiece using electrical discharges (sparks) between an electrode and the workpiece, both submerged in a dielectric fluid.",
+              "To use an EDM, a conductive workpiece and an electrode are set up in close proximity. When voltage is applied, controlled electrical discharges occur, creating localized heat that vaporizes and removes material from the workpiece. The dielectric fluid cools the material and flushes away debris, ensuring precise and clean machining.",
+              "EDM is extensively used in industries such as aerospace, automotive, and tool and die making. It is ideal for creating intricate details, fine holes, and sharp corners in hard materials like titanium, carbide, and hardened steel, achieving high accuracy and smooth surface finishes."
+            ]
+            },
           {
             "name": "Micro Fog Oil Mist Lubrication System",
-            "image": "/New BTP/Computer Integrated Manufacturing (CIM) Laboratory/Micro Fog Oil Mist Lubrication System",
-            "description": "A high-precision lubrication system delivering minimal quantities of lubricant in a mist form to reduce friction, heat, and wear during machining operations."
-          }
+            "image": "/New BTP/Computer integrated Manufacturing/Micro fog oil mist lubrication system.jpg",
+            "description": [
+              "The Micro Fog Oil Mist Lubrication System is a high-precision lubrication setup designed to deliver a minimal quantity of high-quality lubricant directly to the cutting tool and workpiece interface. This system ensures efficient lubrication while reducing waste, making it a sustainable and cost-effective solution in machining processes.",
+              "To use the system, the lubricant is atomized into a fine mist using compressed air and directed precisely to the machining area. The micro-level lubrication reduces friction, minimizes heat generation, and improves the lifespan of cutting tools. Additionally, it enhances the surface finish of the workpiece and maintains dimensional accuracy by preventing thermal deformation.",
+              "This system is widely employed in CNC machining, milling, and drilling operations where precision and efficiency are critical. It reduces environmental impact by minimizing lubricant consumption and waste, making it an ideal choice for modern manufacturing facilities focusing on sustainability and operational excellence."
+            ]
+            }
         ]
       },
       {
