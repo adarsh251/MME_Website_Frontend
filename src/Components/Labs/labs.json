@@ -599,64 +599,102 @@
         "equipments": [
           {
             "name": "VI Rail Education License",
-            "image": "/New BTP/CAD Lab/VI Rail Education License",
-            "description": "The VI Rail Education License is a software tool used primarily for research and simulation in the area of high-speed trains and rail transport. It allows students and researchers to design, analyze, and simulate railway systems, focusing on high-speed rail networks. It supports advanced features for modeling the dynamics of trains, track infrastructure, signaling systems, and environmental interactions, enabling comprehensive analysis of performance, safety, and efficiency."
-          },
-          {
+            "image": "/New BTP/Computer Aided Design (CAD) Laboratory/VI Rail education license.jfif",
+            "description": ["The VI Rail Education License is a software tool used primarily for research and simulation in the area of high-speed trains and rail transport. It allows students and researchers to design, analyze, and simulate railway systems, with a focus on high-speed rail networks. The software offers advanced features for modeling the dynamics of trains, track infrastructure, signaling systems, and environmental interactions, enabling comprehensive analysis of performance, safety, and efficiency. It supports various parameters such as speed, braking distance, and track geometry, making it essential for optimizing rail system designs. By using the VI Rail Education License, users can conduct experiments, perform simulations under different conditions, and evaluate the impact of modifications to train and rail systems. This helps in advancing research in rail transportation and developing safer and more efficient high-speed train technologies."
+        ]},
+            {
             "name": "SolidWorks Education Edition Network (2012-13)",
-            "image": "/New BTP/CAD Lab/SolidWorks Education Edition Network (2012-13)",
-            "description": "The SolidWorks Education Edition Network 2012-13 is a CAD software used for creating 2D drawings, 3D modeling, drafting, and assembly designs. Tailored for educational use, it enables students and instructors to create precise mechanical and industrial models, design assemblies, and simulate physical behaviors like motion and stress analysis."
-          },
+            "image": "/New BTP/Computer Aided Design (CAD) Laboratory/SolidWorks Education Edition Network (2012-13).jfif",
+            "description": [
+              "The SolidWorks Education Edition Network 2012-13 is a comprehensive CAD software used for creating 2D drawings, 3D modeling, drafting, and assembly designs. It is specifically tailored for educational purposes, offering students and instructors access to powerful design tools commonly used in engineering and product development. The software enables users to create precise mechanical and industrial models, design assemblies, and simulate real-world physical behaviors, such as motion and stress analysis. It also facilitates the creation of detailed technical drawings with annotations, dimensions, and tolerances, which are crucial for manufacturing.",
+              "The network version allows multiple users to access the software simultaneously across different workstations in an educational institution, making it ideal for classroom and lab environments. SolidWorks helps students develop skills in product design, visualization, and simulation, providing a hands-on learning experience in CAD and engineering design principles."
+            ]
+            },
           {
             "name": "ANSYS Academic Research (Mechanical & CFD)",
-            "image": "/New BTP/CAD Lab/ANSYS Academic Research (Mechanical & CFD)",
-            "description": "ANSYS Academic Research Mechanical & CFD is a simulation software for modeling and analyzing mechanical structures and fluid dynamics. It provides tools for structural analysis and computational fluid dynamics (CFD), enabling students and researchers to simulate and optimize designs in fields like mechanical, aerospace, and civil engineering."
-          },
+            "image": "/New BTP/Computer Aided Design (CAD) Laboratory/ANSYS Academic Research Mechanical.jfif",
+            "description": [
+              "ANSYS Academic Research Mechanical & CFD is a powerful simulation software used for modeling, analysis, and simulation of mechanical structures and fluid dynamics. It is widely used in educational and research settings to simulate and optimize designs in fields like mechanical, aerospace, and civil engineering. The software provides tools for structural analysis, including stress, strain, vibration, and thermal analysis, helping students and researchers understand material behavior under different conditions. It also offers computational fluid dynamics (CFD) capabilities, allowing users to simulate fluid flow, heat transfer, and other fluid-related phenomena in various models.",
+              "ANSYS enables the testing of complex systems and structures in a virtual environment before physical prototypes are made, saving time and resources. By using this software, students can gain hands-on experience in modeling real-world engineering problems, conduct simulations, and analyze results, enhancing their understanding of mechanics and fluid dynamics."
+            ]
+            },
           {
             "name": "AVL BOOST",
-            "image": "/New BTP/CAD Lab/AVL BOOST",
-            "description": "AVL BOOST is a simulation software used to model and analyze the performance of internal combustion (IC) engines. It offers tools for simulating engine behavior, thermodynamics, fluid dynamics, combustion processes, and emissions, enabling the optimization of IC engines."
-          },
+            "image": "/New BTP/Computer Aided Design (CAD) Laboratory/AVL BOOST.jfif",
+            "description": [
+              "AVL BOOST is a simulation software used for modeling and analyzing the performance of Internal Combustion (IC) engines. It provides advanced tools for simulating engine behavior, including thermodynamics, fluid dynamics, combustion processes, and emissions. The software allows engineers and researchers to design, optimize, and test IC engines virtually before building physical prototypes, significantly reducing development time and costs.",
+              "AVL BOOST offers detailed simulations of engine performance under various operating conditions, including fuel efficiency, power output, and pollutant emissions. It helps in analyzing and optimizing engine components such as cylinders, pistons, valves, and exhaust systems. The software also supports multi-domain modeling, allowing users to integrate engine components with other systems like vehicle dynamics and powertrains for a comprehensive analysis.",
+              "Used in both academic and industry research, AVL BOOST aids in educating students about engine design and performance while also enabling the development of more efficient, eco-friendly internal combustion engines."
+            ]
+            },
           {
             "name": "AVL CRUISE",
-            "image": "/New BTP/CAD Lab/AVL CRUISE",
-            "description": "AVL CRUISE is a simulation software for vehicle dynamics and performance, simulating powertrains, drivetrains, and vehicle chassis. It helps engineers analyze performance, fuel efficiency, emissions, and handling characteristics under various operating conditions."
-          },
+            "image": "/New BTP/Computer Aided Design (CAD) Laboratory/AVL CRUISE.jfif",
+            "description": [
+              "AVL CRUISE is a comprehensive simulation software used for modeling and analyzing vehicle dynamics and performance. It is designed to simulate various vehicle systems, including powertrains, drivetrains, and vehicle chassis, to evaluate overall performance, fuel efficiency, emissions, and handling characteristics. AVL CRUISE allows engineers and researchers to model a vehicle’s behavior under different operating conditions, providing insights into factors such as energy consumption, acceleration, top speed, and ride comfort.",
+              "The software supports multi-domain modeling, integrating mechanical, electrical, and fluid systems to simulate the interaction between the engine, transmission, suspension, and aerodynamics. This allows for optimization of the vehicle design for factors like fuel economy, performance, and emissions reduction.",
+              "AVL CRUISE is widely used in both industry and academia for designing and optimizing vehicles before physical testing, reducing development time, costs, and improving overall vehicle performance. It is also used for educational purposes to teach students about advanced vehicle systems and simulations."
+            ]
+            },
           {
             "name": "MATLAB (MathWorks)",
-            "image": "/New BTP/CAD Lab/MATLAB (MathWorks)",
-            "description": "MATLAB is a software platform for modeling, simulation, and analysis of mechanical, mechatronics, and automotive systems. It is widely used for simulating dynamic systems, developing algorithms, and visualizing complex data."
-          },
+            "image": "/New BTP/Computer Aided Design (CAD) Laboratory/MATLAB (MathWorks).jfif",
+            "description": [
+              "Matlab (MathWorks) is a powerful software platform used for modeling, simulation, and analysis of mechanical, mechatronics, and automotive systems. It combines computation, visualization, and programming within an intuitive environment, making it widely used in both research and education. Engineers and researchers use Matlab to simulate and analyze dynamic systems, develop algorithms, and visualize complex data.",
+              "In mechanical and mechatronics applications, Matlab is used to model system behaviors, including control systems, robotics, thermal systems, and vibrations. For automotive systems, Matlab supports the design and simulation of powertrains, fuel systems, and performance analysis. Its robust toolboxes, like Simulink, enhance the capability to simulate complex systems and test various scenarios without physical prototypes.",
+              "Matlab allows for iterative design and optimization, reducing development time and costs. It also integrates well with other engineering tools, making it a versatile choice for multidisciplinary applications in mechanical and automotive engineering. Its flexibility makes it ideal for both academia and industry."
+            ]
+            },
           {
             "name": "AutoCAD Education Version (2018)",
-            "image": "/New BTP/CAD Lab/AutoCAD Education Version (2018)",
-            "description": "AutoCAD Education Version 2018 is a CAD and drafting software that allows the creation of precise 2D and 3D drawings. It is commonly used in architecture, mechanical engineering, and civil engineering to create blueprints, technical drawings, and models."
-          },
+            "image": "/New BTP/Computer Aided Design (CAD) Laboratory/AutoCad Education Version2018.jfif",
+            "description": [
+              "AutoCAD Education Version 2018 is a widely used commercial software application for computer-aided design (CAD) and drafting. It allows users to create precise 2D and 3D drawings, making it an essential tool for engineers, architects, and designers. In the educational version, students and instructors can access the full functionality of AutoCAD, which includes tools for creating detailed floor plans, mechanical parts, electrical diagrams, and more.",
+              "AutoCAD is used for designing and drafting in various fields, such as architecture, mechanical engineering, civil engineering, and electrical engineering. Users can create accurate blueprints, technical drawings, and models, incorporating a range of features such as layers, dimensions, annotations, and 3D modeling capabilities.",
+              "The software’s ease of use, precision, and extensive toolset make it ideal for both beginner and advanced users. It also supports collaboration and integration with other design tools, enhancing workflow efficiency for teams working on complex projects."
+            ]
+            },
           {
             "name": "IPG CarMaker",
-            "image": "/New BTP/CAD Lab/IPG CarMaker",
-            "description": "IPG CarMaker is a simulation software used for modeling and simulating vehicle dynamics, focusing on vehicle performance under various conditions. It is used to analyze handling, ride comfort, and stability in real-world driving scenarios."
-          },
+            "image": "/New BTP/Computer Aided Design (CAD) Laboratory/IPG Car Maker.jfif",
+            "description": [
+              "IPG Car Maker is a sophisticated simulation software used for research in vehicle dynamics, focusing on the performance and behavior of vehicles under various conditions. It enables engineers and researchers to model and simulate the dynamics of vehicles in a virtual environment, allowing them to analyze factors such as handling, ride comfort, and stability.",
+              "The software is extensively used in automotive engineering for designing, testing, and optimizing vehicle systems. It simulates real-world driving scenarios, including different terrains, road conditions, and driving maneuvers, to assess how a vehicle will perform. Researchers can adjust parameters such as suspension, tire characteristics, and aerodynamics to evaluate their impact on vehicle dynamics.",
+              "IPG Car Maker is used in the development of various vehicle components, from suspension systems to advanced driver assistance systems (ADAS). It helps reduce the need for physical prototypes, saving time and costs while providing valuable insights into vehicle performance before production."
+            ]
+            },
           {
             "name": "TRNSYS",
-            "image": "/New BTP/CAD Lab/TRNSYS",
-            "description": "TRNSYS is a simulation software for modeling energy systems, particularly in renewable energy engineering. It is used to simulate the thermal performance of buildings, energy-efficient systems, and renewable energy technologies like solar, wind, and geothermal."
-          },
+            "image": "/New BTP/Computer Aided Design (CAD) Laboratory/TRNSYS.jfif",
+            "description": [
+              "TRNSYS is a versatile simulation software primarily used in renewable energy engineering and building simulation. It is widely employed to model and simulate energy systems, particularly in the context of passive and active solar design. TRNSYS allows engineers and researchers to simulate the thermal performance of buildings, energy-efficient systems, and renewable energy technologies such as solar, wind, and geothermal systems. The software can model various aspects of energy flow, including heating, cooling, and electricity generation. It is used to evaluate the effectiveness of energy-saving solutions, optimize system designs, and predict energy consumption patterns.",
+              "TRNSYS offers a modular approach, enabling users to customize simulations by combining various components such as solar collectors, storage tanks, HVAC systems, and lighting controls. It is extensively utilized in the design and analysis of sustainable buildings and energy systems to promote environmental sustainability and reduce energy costs."
+            ]
+            },
           {
             "name": "ETAS",
-            "image": "/New BTP/CAD Lab/ETAS",
-            "description": "ETAS is a suite of tools used for automotive electronics, focusing on the development and testing of embedded systems in vehicles. It enables real-time simulation, calibration, and testing of automotive electronic systems."
-          },
+            "image": "/New BTP/Computer Aided Design (CAD) Laboratory/ETAS.jfif",
+            "description": [
+              "ETAS is a comprehensive suite of tools used for automotive electronics, primarily focusing on the development and testing of embedded systems in vehicles. It is utilized for UG, PG, and research purposes in automotive engineering, specifically for systems related to engine control units (ECUs), automotive networks, and diagnostic applications. ETAS provides hardware and software solutions to model, simulate, and validate automotive electronic systems. It enables engineers to perform real-time simulation, calibration, and testing of embedded systems, ensuring the performance, reliability, and safety of vehicle electronics.",
+              "With ETAS, users can interface with ECUs, monitor their operations, and optimize performance through precise calibration. The platform is widely used in automotive electronics labs for tasks such as ECU programming, functional testing, and signal analysis, making it an essential tool for automotive research and development."
+            ]
+            },
           {
             "name": "VECTOR",
-            "image": "/New BTP/CAD Lab/VECTOR",
-            "description": "VECTOR is a software and hardware tool for embedded software testing in automotive electronics. It helps simulate, test, and validate embedded software in automotive control units (ECUs), supporting communication protocols like CAN, LIN, and Ethernet."
-          },
+            "image": "/New BTP/Computer Aided Design (CAD) Laboratory/Vector.png",
+            "description": [
+              "VECTOR is a software and hardware tool used to address the complexities of embedded software testing in automotive electronics. It provides a comprehensive suite of solutions for developing, testing, and optimizing embedded software in automotive control units (ECUs). VECTOR tools are primarily used in automotive electronics labs to simulate, test, and validate ECUs, ensuring their functionality and performance under different operating conditions. It supports the development of communication protocols like CAN, LIN, and Ethernet, which are essential for automotive systems.",
+              "VECTOR enables real-time data logging, monitoring, and diagnostics to evaluate the interaction between various electronic components within a vehicle. By facilitating the testing of embedded software, it helps engineers identify and resolve issues such as communication errors, software bugs, and performance bottlenecks. This tool is integral for improving the quality, safety, and reliability of automotive electronics in both prototype and production vehicles."
+            ]
+            },
           {
             "name": "ADAMS",
-            "image": "/New BTP/CAD Lab/ADAMS",
-            "description": "ADAMS is a software used to study the dynamics of moving parts and analyze how forces and loads are distributed in mechanical systems. It is widely used in automotive, aerospace, and robotics for simulation and optimization of mechanical designs."
-          }
+            "image": "/New BTP/Computer Aided Design (CAD) Laboratory/ADAMS.jfif",
+            "description": [
+              "ADAMS is a powerful software used by engineers to study the dynamics of moving parts and analyze how loads and forces are distributed throughout mechanical systems. This tool allows users to create simulations of mechanical assemblies, helping them understand the behavior of parts and components under various operating conditions. By using ADAMS, engineers can model the movement, forces, and interactions between parts, providing valuable insights into system performance, efficiency, and safety.",
+              "The software integrates with Finite Element Analysis (FEA) to allow detailed stress and deformation analysis of individual components within a dynamic system. It is widely used in fields like automotive, aerospace, and robotics for tasks such as optimization of mechanical designs, vibration analysis, and motion prediction. ADAMS enables faster product development by reducing the need for physical prototypes, allowing for cost-effective and efficient testing of designs before manufacturing."
+            ]
+            }
         ]
       },
       {
