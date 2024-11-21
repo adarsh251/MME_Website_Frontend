@@ -20,7 +20,13 @@ export const EquipmentDetails = () => {
           </div>
           <div className="description123">
             <h2>{equipment.name}</h2>
-            <p>{equipment.description}</p>
+            {Array.isArray(equipment.description) ? (
+              equipment.description.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))
+            ) : (
+              <p>{equipment.description}</p>
+            )}
           </div>
         </div>
       </div>
