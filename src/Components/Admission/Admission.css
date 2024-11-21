@@ -1,51 +1,122 @@
-.line {
-    width: 100%;
-    height: 3px;
-    background-color: #000; /* Change the color as needed */
-    margin-top: 2px;
-    margin-bottom: 5px;
-  }
+/* Admission.css */
 
-  .outeradmission{
-    color: #000;
-    margin-top: 100px;
-    padding:0 30px 30px 30px;
-    font-size: 15px;
-  }
+.admission-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
 
-  .beta li
-  {
-    font-weight:bold;
+.admission-title {
+  text-align: center;
+  color: #920409;
+  margin-bottom: 10px;
+}
 
-  }
+.admission-section-title {
+  color: #920409;
+  margin: 20px 0 10px;
+}
 
+.admission-subtitle {
+  margin-bottom: 10px;
+}
 
-  .anchor 
-    {
-        color: #0000ff;
-    }
+.admission-text {
+  margin: 10px 0;
+}
 
- 
-    td{
-        padding: 10px;
-         
-    }
-  
-    table{
-        border-collapse: collapse;
-    }
+.admission-line {
+  width: 100%;
+  height: 2px;
+  background-color: #920409;
+  margin: 10px 0 20px;
+}
 
-    
-    .adda
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
+.admission-program-list {
+  list-style-type: disc;
+  margin: 0;
+  padding: 0 20px;
+}
 
-    .adda a{
-        color: #0000ff;
+.admission-program-list li {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
 
-    }
+.admission-curriculum-links {
+  margin: 10px 0;
+}
+
+.admission-curriculum-link {
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.admission-curriculum-link:hover {
+  color: #003399;
+  text-decoration: underline;
+}
+
+.admission-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.admission-table, .admission-table th, .admission-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.admission-table-header {
+  background-color: #f4f4f4;
+}
+
+.admission-chapter-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.admission-research-container {
+  margin-left: 20px;
+}
+
+.admission-research-container p {
+  margin: 5px 0 15px;
+  font-style: italic;
+}
+
+.admission-modes-section {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.admission-link {
+  display: inline-block;
+  font-size: 16px;
+  color: #920409;
+  margin: 5px 0;
+  text-decoration: none;
+}
+
+.admission-link:hover {
+  text-decoration: underline;
+}
+
+.admission-credit-title, 
+.admission-research-title,
+.admission-chapter-title {
+  color: #920409;
+  margin: 20px 0;
+}

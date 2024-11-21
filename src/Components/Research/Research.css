@@ -2,6 +2,7 @@
 
   .research-publication {
     background-color: white;
+    text-align: justify;
     padding: 20px;
     margin: 20px auto;
     border-radius: 8px;
@@ -10,12 +11,16 @@
     max-width: 1200px;
 }
 
+.research-publication img {
+  display: block;
+  margin: 0 auto;
+}
 .research-publication h2 {
     font-size: 24px;
     margin-bottom: 15px;
     color: #333;
     text-transform: capitalize;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #920409;
     padding-bottom: 8px;
 }
 
@@ -27,7 +32,7 @@
 .research-publication section h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #007bff;
+    color: #920409;
 }
 
 .research-publication section p {

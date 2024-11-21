@@ -36,22 +36,28 @@ const LabBookingForm = () => {
   const equipmentsData = {
     "Automotive Engineering Lab": [
       "Flex ECU Application Software (Rate: INR 200/hr)",
-      "Desktop Housing (Rate: INR 200/hr)",
       "Internal Combustion Engine Application (Rate: INR 200/hr)",
-      "Can Card, Galv. Isolated (Rate: INR 200/hr)",
-      "Flex ECU Based On The Gasoline ECU (Rate: INR 200/hr)",
-      "Connector Set For Development ECU (Rate: INR 200/hr)",
-      "Can Bus USB Module (Rate: INR 200/hr)",
+      "Flex ECU Based on the Gasoline ECU (Rate: INR 200/hr)",
       "Raspberry Pi-3 Model B/Arduino (Rate: INR 200/hr)",
-      "Vector (Rate: INR 200/hr)",
-      "Battery Charger (Rate: INR 200/hr)",
       "ABS Simulator (Rate: INR 200/hr)",
       "ECU Simulator (Rate: INR 200/hr)",
-      "Electronic Throttle Control With Accelerator Pedal Rig (Rate: INR 200/hr)",
+      "Electronic Throttle Control with Accelerator Pedal Rig (Rate: INR 200/hr)",
       "Electric Van (Rate: INR 200/hr)",
       "2 DOF Vehicle Driving Simulator (Rate: INR 200/hr)",
-      "Maruti-Van Engine Test Rig (Rate: INR 200/hr)"
-  ],  
+      "Diffused Light Polariscope (Rate: INR 200/hr)",
+      "Model of Steering System (Rate: INR 200/hr)",
+      "Model of Passenger Car Electrical Wiring System (Rate: INR 200/hr)",
+      "Cut Section Model of Disc Brake System (Rate: INR 200/hr)",
+      "Cut Section Model of Drum Brake Unit (Rate: INR 200/hr)",
+      "Cut Section Model of Power Windows with One Door (Rate: INR 300/hr)",
+      "Demonstration Board of Electronic Ignition System of 4 Wheeler Automobile (Rate: INR 300/hr)",
+      "Cut Section Model of Complete Both Side MacPherson Suspension Strut with Drive Shaft (Rate: INR 400/hr)",
+      "Demonstration Board of Fuel Supply System of Diesel Engine (Working) (Rate: INR 400/hr)",
+      "Subsonic Wind Tunnel (Rate: INR 800/hr)",
+      "Multi-Tube Manometer (Rate: INR 200/hr)",
+      "Cut Section Model of Complete Both Side Double Wishbone Suspension Strut with Drive Shaft (Rate: INR 400/hr)"
+    ]
+    ,  
 
     "CAD - CAM Lab": [
       "VI Rail Education License: ₹200",
@@ -132,33 +138,33 @@ const LabBookingForm = () => {
       "Cam Analysis Apparatus (Rate: INR 200/hr)",
       "Moment of Inertia of Flywheel Apparatus (Wheel 20 cm diameter) (Rate: INR 200/hr)",
       "Static and Dynamic Balancing Apparatus (Rate: INR 200/hr)",
-      "Motorised Gyroscope Apparatus (Rate: INR 200/hr)",
+      "Motorised Gyroscope Apparatus (Rate: INR 300/hr)",
       "Slip and Creep measurement Apparatus (Rate: INR 200/hr)",
-      "Universal Vibration Apparatus (Rate: INR 200/hr)",
-      "Model Board for Generation of Gear Tooth Profile (Rate: INR 200/hr)",
-      "Crank and Connecting Rod Model (Rate: INR 200/hr)",
-      "Model of Crank & Slotted Lever Mechanism (Rate: INR 200/hr)",
-      "Model of Four Bar Link Mechanism (Rate: INR 200/hr)",
+      "Universal Vibration Apparatus (Rate: INR 300/hr)",
+      "Model Board for Generation of Gear Tooth Profile (Rate: INR 100/hr)",
+      "Crank and Connecting Rod Model (Rate: INR 100/hr)",
+      "Model of Crank & Slotted Lever Mechanism (Rate: INR 100/hr)",
+      "Model of Four Bar Link Mechanism (Rate: INR 100/hr)",
       "Ellipse Tracer Model Model of Four Bar Link Mechanism (Rate: INR 200/hr)",
-      "Model of Oscillating Cylinder Mechanism (Rate: INR 200/hr)",
+      "Model of Oscillating Cylinder Mechanism (Rate: INR 100/hr)",
       "Model of pantograph mechanism (Rate: INR 200/hr)",
-      "Model of Pawl and Ratchet Motion (Rate: INR 200/hr)",
-      "Model of Peucellier Mechanism (Rate: INR 200/hr)",
-      "Model of Reciprocating Engine Mechanism (Rate: INR 200/hr)",
+      "Model of Pawl and Ratchet Motion (Rate: INR 100/hr)",
+      "Model of Peucellier Mechanism (Rate: INR 100/hr)",
+      "Model of Reciprocating Engine Mechanism (Rate: INR 100/hr)",
       "Model of scotch yoke mechanism (Rate: INR 200/hr)",
       "Model of watts mechanism (Rate: INR 200/hr)",
-      "Model of Whitworth quick return mechanism (Rate: INR 200/hr)",
-      "Digital Stroboscope (Rate: INR 200/hr)",
+      "Model of Whitworth quick return mechanism (Rate: INR 100/hr)",
+      "Digital Stroboscope (Rate: INR 300/hr)",
       "Model of Single Stage Spur Gears with Intermediate Gear (Rate: INR 200/hr)",
       "Model of Three Stage Spur Gears (Rate: INR 200/hr)",
       "Model of Double Stage Helical Gear (Herringbone Gear BIG) (Rate: INR 200/hr)",
       "Digital Tachometer (Rate: INR 200/hr)",
-      "Gears (Rack and quadrant gear, Two stage spur gear, Bevel gear, Helical gear, Spiral gear, Spur gear, Worm gear, Epicycle gear(sun and planet type) (Demonstrative Models) (Rate: INR 200/hr)",
+      "Gears (Rack and quadrant gear, Two stage spur gear, Bevel gear, Helical gear, Spiral gear, Spur gear, Worm gear, Epicycle gear(sun and planet type) (Demonstrative Models) (Rate: INR 100/hr)",
       "Air lift pump (Rate: INR 200/hr)",
       "Centrifugal pump (Rate: INR 200/hr)",
       "Gear pump (Rate: INR 200/hr)",
       "Reciprocating pump cut section (Rate: INR 200/hr)",
-      "Clutch (Claw clutch, Conical friction clutch, Plate clutch, Centrifugal clutch) (Rate: INR 200/hr)",
+      "Clutch (Claw clutch, Conical friction clutch, Plate clutch, Centrifugal clutch) (Rate: INR 100/hr)",
       "Belt drive single speed (Rate: INR 200/hr)",
       "Model of belts pulley set4 (Rate: INR 200/hr)",
       "V-belt pulley (Rate: INR 200/hr)",
@@ -179,7 +185,7 @@ const LabBookingForm = () => {
       "Differential gear (Rate: INR 200/hr)",
       "Slotted link mechanism (Rate: INR 200/hr)",
       "Ackerman steering mechanism (Rate: INR 200/hr)"
-  ],
+    ],
 
     "Material Characterization (Strength of Materials) Lab": [
     "Computerized Universal Testing Machine (Spec. 60T): ₹1,000",
@@ -193,31 +199,32 @@ const LabBookingForm = () => {
 ],
 
     "Mechatronics Lab": [
-      "Compact RIO standard 8-slot chassis system service (Rate: INR 200/hr)",
-      "Autonomous Robotics System Design Platform (Rate: INR 200/hr)",
-      "Embedded control Platform (Rate: INR 200/hr)",
-      "Mechatronics System Design Platform (Rate: INR 200/hr)",
-      "Cathode Ray Oscilloscope CRO (Rate: INR 200/hr)",
+      "Compact RIO Standard 8-Slot Chassis System Service (Rate: INR 500/hr)",
+      "Autonomous Robotics System Design Platform (Rate: INR 400/hr)",
+      "Embedded Control Platform (Rate: INR 300/hr)",
+      "Mechatronics System Design Platform (Rate: INR 400/hr)",
+      "Cathode Ray Oscilloscope (CRO) (Rate: INR 200/hr)",
       "Easyport Training Kit (Rate: INR 200/hr)",
-      "Modular production System-Distributing Station (Rate: INR 200/hr)",
+      "Modular Production System – Distributing Station (Rate: INR 500/hr)",
       "LME EV3 Core Set (LEGO) (Rate: INR 200/hr)",
-      "TETRIX Education base set (Rate: INR 200/hr)",
-      "LME EV3 expansion set (Rate: INR 200/hr)",
-      "Tetrix Resource Set (Rate: INR 200/hr)",
-      "Multipurpose PC based process control system (SCADA software) (Rate: INR 200/hr)",
-      "IMAX B6 5A multipurpose battery charger (Rate: INR 200/hr)",
-      "Digital Storage Oscilloscope (DSO) (Rate: INR 200/hr)",
+      "TETRIX Education Base Set (Rate: INR 300/hr)",
+      "LME EV3 Expansion Set (Rate: INR 200/hr)",
+      "TETRIX Resource Set (Rate: INR 200/hr)",
+      "Multipurpose PC-Based Process Control System (SCADA Software) (Rate: INR 500/hr)",
+      "IMAX B6 5A Multipurpose Battery Charger (Rate: INR 100/hr)",
+      "Digital Storage Oscilloscope (DSO) (Rate: INR 300/hr)",
       "DC Regulated Power Supply (Rate: INR 200/hr)",
-      "LabVIEW Academic site License (Rate: INR 200/hr)",
-      "Ciros studio (software) (Rate: INR 200/hr)",
-      "LME EV3 software site license V24 (software) (Rate: INR 200/hr)",
-      "Multisim Education 10 User license (Rate: INR 200/hr)",
-      "Ultiboard Education 10 user license (Rate: INR 200/hr)",
-      "Step 7 Programming Software, Twelve License (software) (Rate: INR 200/hr)",
-      "WinCC single License (software) (Rate: INR 200/hr)",
-      "Mechatronics Assistant Two License (software) (Rate: INR 200/hr)",
-      "Proteus 10 User License (Rate: INR 200/hr)"
-  ],
+      "LabVIEW Academic Site License (Rate: INR 500/hr)",
+      "Ciros Studio (Software) (Rate: INR 300/hr)",
+      "LME EV3 Software Site License V24 (Rate: INR 200/hr)",
+      "Multisim Education 10 User License (Rate: INR 300/hr)",
+      "Ultiboard Education 10 User License (Rate: INR 300/hr)",
+      "Step 7 Programming Software, Twelve License (Software) (Rate: INR 400/hr)",
+      "WinCC Single License (Software) (Rate: INR 400/hr)",
+      "Mechatronics Assistant Two License (Software) (Rate: INR 200/hr)",
+      "Proteus 10 User License (Rate: INR 300/hr)"
+    ]
+    ,
 
     "Metrology, Instrumentation and Control (METIC) Lab": [
       "Surface Roughness Tester: ₹100",
@@ -274,19 +281,19 @@ const LabBookingForm = () => {
   ],
 
     "Welding and Foundry Lab (Mechanical Workshop)": [
-      "SAW (Submerge Arc Welding) with CPRA 800 (s) + SAW Tractor (CPRA-S) (Rate: INR 200/hr)",
-      "MIG WELDING 0700301302 con set feed 402 (Rate: INR 200/hr)",
-      "CAPSTAN LATHE (Rate: INR 200/hr)",
-      "LATHE MACHINE (NORTON GEAR) (Rate: INR 200/hr)",
-      "MILLING MACHINE (Rate: INR 200/hr)",
-      "SHAPER MACHINE (Rate: INR 200/hr)",
-      "SURFACE GRINDING MACHINE (Rate: INR 200/hr)",
-      "SEMI-AUTOMATIC POLISHING MACHINE (Rate: INR 200/hr)",
-      "HYDRAULIC SPECIMEN MOUNTING PRESS (Rate: INR 200/hr)",
-      "METALLURGICAL MICROSCOPE WITH SOFTWARE (Rate: INR 200/hr)",
-      "Robotic arm (Rate: INR 200/hr)",
-      "Plasma cutting machine (Rate: INR 200/hr)"
-  ]
+      "SAW (Submerge Arc Welding) with CPRA 800 (s) + SAW Tractor (CPRA-S) (Rate: INR 800/hr)",
+      "MIG Welding (0700301302 con set feed 402) (Rate: INR 500/hr)",
+      "Capstan Lathe (Rate: INR 400/hr)",
+      "Lathe Machine (Norton Gear) (Rate: INR 300/hr)",
+      "Milling Machine (Rate: INR 400/hr)",
+      "Shaper Machine (Rate: INR 300/hr)",
+      "Surface Grinding Machine (Rate: INR 400/hr)",
+      "Semi-Automatic Polishing Machine (Rate: INR 400/hr)",
+      "Hydraulic Specimen Mounting Press (Rate: INR 300/hr)",
+      "Metallurgical Microscope with Software (Rate: INR 500/hr)",
+      "Robotic Arm (Rate: INR 800/hr)",
+      "Plasma Cutting Machine (Rate: INR 500/hr)"
+    ]    
   };
 
   const handleInputChange = (field, value) => {
@@ -372,6 +379,8 @@ const LabBookingForm = () => {
     <div className="booking-card">
       <div className="card-header">
         <h2 className="card-title">Lab Booking Form</h2>
+        <br />
+        <h5 style={{ color: 'red' }}>Note: Raw Materials will not be provided.</h5>
       </div>
       <div className="card-content">
         {error && <div className="message error-message">{error}</div>}
@@ -446,7 +455,7 @@ const LabBookingForm = () => {
               </div>
               {/* Equipment Input */}
               <div className="form-group">
-                <label>Equipment Required</label>
+                <label>Equipment Required (Per Hour Rates)</label>
                 <div className="faculty-list">
                 {equipmentsData[formData.lab].map((equipment) => (
                   <div key={equipment} className="faculty-item">

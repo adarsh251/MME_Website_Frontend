@@ -6,6 +6,12 @@ import res2 from'../../assets/2new.jpg'
 import res3 from'../../assets/3new.jpg'
 import res4 from'../../assets/4new.jpg'
 import res5 from'../../assets/5new.png'
+import research1 from'../../assets/research1.png'
+import research2 from'../../assets/research2.png'
+import research3 from'../../assets/research3.png'
+import research4 from'../../assets/research4.png'
+import research5 from'../../assets/research5.png'
+import research6 from'../../assets/research6.png'
 import Title from '../Title/Title'
 
 
@@ -17,8 +23,10 @@ const Research = () => {
     
     <div>
       <Title subTitle='Research' title='Explore. Discover. Innovate.'/>
-      <div class="research-publication">
+        <div class="research-publication">
+            
         <h2>An empirical assessment of lean readiness in pharmaceutical component manufacturing SMEs</h2>
+        <img src={research1} alt="1" />
         <section>
             <h3>Objective</h3>
             <p>Examines the lean readiness of small and medium enterprises (SMEs) in the pharmaceutical component manufacturing sector across Europe.</p>
@@ -69,10 +77,9 @@ const Research = () => {
             <a href="https://www.researchgate.net/publication/382897920_An_Empirical_Assessment_of_Lean_Readiness_in_Pharmaceutical_Component_Manufacturing_SMEs" target='__blank'>Read Full Paper</a>
         </section>
     </div>
-
-    <div class="research-publication">
+    <div className="research-publication">
         <h2>Synthesis and characterization of open cell Ni-Cr foam developed using Pulse electro deposition technique for filtration applications</h2>
-        
+        <img src={research2} alt="1" />
         <section>
             <h3>Objective</h3>
             <p>Investigates the synthesis and characterization of open-cell Ni-Cr foam developed through pulse electrodeposition for filtration applications.</p>
@@ -104,9 +111,9 @@ const Research = () => {
         </section>
     </div>
 
-    <div class="research-publication">
+    <div className="research-publication">
         <h2>A comprehensive comparative review: welding and additive manufacturing</h2>
-        
+        <img src={research3} alt="1" />
         <section>
             <h3>Objective</h3>
             <p>Provides a comparative review of welding and additive manufacturing (AM), focusing on technological advancements and their applications in metal fabrication.</p>
@@ -148,9 +155,9 @@ const Research = () => {
         </section>
     </div>
 
-    <div class="research-publication">
+    <div className="research-publication">
         <h2>Amelioration of pool boiling performance using hybrid nanofluids over EDMed surfaces</h2>
-        
+        <img src={research4} alt="1" />
         <section>
             <h3>Objective</h3>
             <p>The study aims to improve pool boiling performance through hybrid nanofluids combined with electrical discharge machined (EDMed) surfaces.</p>
@@ -185,9 +192,9 @@ const Research = () => {
         </section>
     </div>
 
-    <div class="research-publication">
+    <div className="research-publication">
         <h2>Theoretical solution for thermo-mechanical crack-tip stress field for transversely graded materials</h2>
-        
+        <img src={research5} alt="1" />
         <section>
             <h3>Objective</h3>
             <p>Analyzes the thermo-mechanical stress field near crack tips in transversely graded materials, where material properties vary exponentially along the crack front.</p>
@@ -227,9 +234,9 @@ const Research = () => {
         </section>
     </div>
 
-    <div class="research-publication">
+    <div className="research-publication">
         <h2>Impact of smart sustainable value stream mapping – Fuzzy PSI decision-making framework</h2>
-        
+        <img src={research6} alt="1" />
         <section>
             <h3>Objective</h3>
             <p>Introduces Smart Sustainable Value Stream Mapping (SS-VSM) to integrate Lean, sustainability, and smart technologies for efficient waste reduction.</p>
