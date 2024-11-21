@@ -955,59 +955,103 @@
         "equipments": [
           {
             "name": "Metacentric Height Apparatus",
-            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/Metacentric Height Apparatus",
-            "description": "Used to determine the metacentric height of a floating body, a key parameter in assessing its stability in fluid mechanics."
-          },
+            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/MetacentricHeightApparatus.jpg",
+            "description": [
+              "The Metacentric Height Apparatus is used to determine the metacentric height of a floating body, a key parameter in assessing its stability in fluid mechanics. The metacentric height is the distance between the center of gravity and the metacenter, which indicates the body's ability to return to equilibrium when tilted.",
+              "To use the apparatus, the floating body (usually a rectangular or cylindrical model) is placed in a water tank. Weights are added or shifted on the body to create an angular tilt. The tilt angle is measured, and the distance of the weight shift is recorded. Using these values and the apparatus's dimensions, the metacentric height is calculated.",
+              "This apparatus is commonly employed in fluid mechanics laboratories for educational and research purposes. It helps students understand principles of buoyancy and stability, and it is essential for applications like designing ships and other floating structures to ensure their safety and balance in water."
+            ]
+            },
           {
             "name": "Bernoulli’s Theorem Apparatus",
-            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/Bernoulli’s Theorem Apparatus",
-            "description": "Used to validate Bernoulli’s principle, explaining fluid behavior by combining pressure energy, kinetic energy, and potential energy."
-          },
+            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/BernoulliTheoremApparatus.jpg",
+            "description": [
+              "The Bernoulli’s Theorem Apparatus is used to validate Bernoulli’s principle, which states that the total energy in a steady, incompressible fluid flow remains constant along a streamline. This principle combines pressure energy, kinetic energy, and potential energy to explain fluid behavior.",
+              "The apparatus typically consists of a transparent venturi tube with varying cross-sectional areas, a water flow system, and manometers or pressure sensors to measure pressure at different points. To use it, water is allowed to flow through the tube while maintaining a steady rate. The pressure readings at various points are recorded, along with the corresponding flow velocities and cross-sectional areas.",
+              "By comparing the pressure and velocity data, students can verify that the sum of pressure head, velocity head, and elevation head remains constant. This equipment is extensively used in fluid mechanics laboratories for teaching and research, providing practical insights into the fundamental principles of fluid dynamics."
+            ]
+            },
           {
             "name": "Flow Measuring Apparatus",
-            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/Flow Measuring Apparatus",
-            "description": "Used to calibrate and study different types of flow meters for measuring flow rates of liquids or gases in pipes."
-          },
+            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/FlowMeasuringApparatus.jpg",
+            "description": [
+              "The Flow Measuring Apparatus is used to calibrate and study different types of flow meters, which are essential for measuring the flow rate of liquids or gases in pipes. The apparatus typically includes a test section with various flow meters, such as orifice meters, venturi meters, and rotameters, and is designed to assess their accuracy and performance.",
+              "To use the apparatus, a known flow rate is established using a pump or other flow control devices, and the flow rate is measured with the device under test. The readings from different flow meters are compared to the actual flow rate, allowing for calibration or performance analysis.",
+              "This apparatus is widely used in fluid mechanics laboratories for educational and research purposes. It helps students understand the working principles of flow meters, their applications, and how they can be calibrated or selected for specific industrial needs, ensuring accurate flow measurement in various systems."
+            ]
+            },
           {
             "name": "Pipe Friction Loss Apparatus",
-            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/Pipe Friction Loss Apparatus",
-            "description": "Used to determine the fluid friction factor in pipes and assess energy losses due to friction during fluid flow."
-          },
+            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/PipefrictionlossApparatus.jpg",
+            "description": [
+              "The Pipe Friction Loss Apparatus is used to determine the fluid friction factor in pipes, which is crucial for understanding the energy losses due to friction when fluid flows through a pipe. The friction factor influences pressure drops and is essential for designing efficient fluid transport systems.",
+              "To use the apparatus, water or another fluid is pumped through a test pipe, and various parameters such as flow rate, pipe diameter, and fluid velocity are controlled. Pressure taps along the length of the pipe are used to measure pressure at different points, and the difference in pressure (head loss) is recorded. The fluid’s velocity is also measured to calculate the Reynolds number, which helps determine the flow regime (laminar or turbulent).",
+              "This apparatus helps students and researchers study the relationship between flow rate, pipe characteristics, and friction loss, offering insights into hydraulic performance and aiding in the design of piping systems in engineering applications."
+            ]
+            },
           {
             "name": "Orifice Meter Apparatus",
-            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/Orifice Meter Apparatus",
-            "description": "Used to determine the hydraulic coefficients of an orifice meter, a device employed to measure fluid flow rate through pipes."
-          },
+            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/OrificeMeterApparatus.jpg",
+            "description": [
+              "The Orifice Meter Apparatus is used to determine the hydraulic coefficients of an orifice meter, a device employed to measure the flow rate of fluids through pipes. The apparatus consists of a pipe section with an orifice plate, where the fluid flow passes through a precisely measured opening, causing a pressure drop.",
+              "To use the apparatus, fluid is allowed to flow through the pipe, and the flow rate is varied. Pressure taps before and after the orifice plate measure the pressure difference. The flow rate is calculated based on the pressure drop and the geometry of the orifice. The hydraulic coefficients, such as the discharge coefficient, are determined by comparing the theoretical and experimental data.",
+              "This apparatus is widely used in fluid mechanics laboratories to validate the application of orifice meters, which are commonly used in industries for flow measurement in pipes. It helps in understanding the principles of fluid dynamics and flow measurement techniques."
+            ]
+            },
           {
             "name": "Centrifugal Pump Test Rig",
-            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/Centrifugal Pump Test Rig",
-            "description": "Used to study the performance of centrifugal pumps under varying operating conditions, measuring flow rate, head, and efficiency."
-          },
+            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/CentrifugalPumpTestRig.jpg",
+            "description": [
+              "The Orifice Meter Apparatus is used to determine the hydraulic coefficients of an orifice meter, a device employed to measure the flow rate of fluids through pipes. The apparatus consists of a pipe section with an orifice plate, where the fluid flow passes through a precisely measured opening, causing a pressure drop.",
+              "To use the apparatus, fluid is allowed to flow through the pipe, and the flow rate is varied. Pressure taps before and after the orifice plate measure the pressure difference. The flow rate is calculated based on the pressure drop and the geometry of the orifice. The hydraulic coefficients, such as the discharge coefficient, are determined by comparing the theoretical and experimental data.",
+              "This apparatus is widely used in fluid mechanics laboratories to validate the application of orifice meters, which are commonly used in industries for flow measurement in pipes. It helps in understanding the principles of fluid dynamics and flow measurement techniques."
+            ]
+            },
           {
             "name": "Francis Turbine Test Rig",
-            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/Francis Turbine Test Rig",
-            "description": "Used to study the performance characteristics of a Francis turbine, typically used in hydroelectric power plants."
-          },
+            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/FrancisTurbineTestRig.jpg",
+            "description":[
+              "The Francis Turbine Test Rig is used to study the performance characteristics of a Francis turbine, a type of water turbine commonly used in hydroelectric power plants. This apparatus allows for the measurement and analysis of key parameters such as flow rate, head, power output, and efficiency under varying operating conditions.",
+              "To use the test rig, water is supplied to the turbine through a controlled system. The turbine's output shaft is connected to a dynamometer to measure power output. Pressure gauges are used to measure the pressure at different points, and flow rate is controlled and measured using flow meters. By adjusting variables such as flow rate and head, the rig enables the determination of the turbine's performance curve, which relates flow rate to power output and efficiency.",
+              "This equipment is essential in educational and research laboratories for understanding the operational principles of turbines, and it provides insights into turbine design, optimization, and performance evaluation in real-world applications."
+            ]
+            },
           {
             "name": "Kaplan Turbine Test Rig",
-            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/Kaplan Turbine Test Rig",
-            "description": "Used to study the performance of Kaplan turbines in low-head hydroelectric power generation, assessing flow rate, head, and power output."
-          },
+            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/KaplanTurbineTestRig.jpg",
+            "description": [
+              "The Kaplan Turbine Test Rig is used to study and analyze the performance of a Kaplan turbine, a type of axial-flow reaction turbine commonly used in low-head hydroelectric power generation. This test rig helps in understanding the relationship between flow rate, head, power output, and efficiency under varying operational conditions.",
+              "To use the rig, water is directed to the Kaplan turbine through a controlled flow system. The turbine's blades are adjustable, allowing for the optimization of performance at different flow rates. The rig is equipped with pressure gauges, flow meters, and a dynamometer to measure key parameters such as head, flow rate, and power output. By adjusting the flow rate and load conditions, the turbine's performance curve can be plotted, illustrating its efficiency and power generation capability.",
+              "This test rig is essential for educational purposes, helping students and researchers gain insights into turbine behavior, design, and optimization in real-world hydroelectric applications."
+            ]
+            },
           {
             "name": "Pelton Wheel Turbine Test Rig",
-            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/Pelton Wheel Turbine Test Rig",
-            "description": "Used to study the performance characteristics of a Pelton wheel turbine, a type of impulse turbine for high-head hydroelectric power."
-          },
+            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/PeltonWheelTurbine.jpg",
+            "description": [
+              "The Pelton Wheel Turbine Test Rig is used to study the performance characteristics of a Pelton wheel turbine, a type of impulse turbine commonly used for high-head hydroelectric power generation. This apparatus helps in understanding the principles of impulse turbines, including the relationship between flow rate, pressure, and power output.",
+              "To use the test rig, water is supplied under controlled conditions to the turbine through a nozzle, which converts the potential energy of water into kinetic energy. The high-speed water jet strikes the Pelton wheel's buckets, causing the wheel to rotate. A dynamometer is used to measure the power output, and flow meters measure the water flow rate. Pressure gauges at different points help assess the pressure drop.",
+              "By adjusting parameters like flow rate and head, the rig enables the creation of performance curves for the turbine, allowing students and researchers to analyze its efficiency, power generation capabilities, and operational behavior under different conditions."
+            ]
+            },
           {
             "name": "Anemometer",
-            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/Anemometer",
-            "description": "Used to measure wind speed and airflow velocity in meteorology, HVAC systems, and environmental studies."
-          },
+            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/AnemometerApparatus.jpg",
+            "description": [
+              "An anemometer is an instrument used to measure wind speed and airflow velocity. It is commonly used in meteorology, environmental studies, and HVAC systems to assess air movement in various applications.",
+              "The most common type of anemometer consists of rotating cups or blades mounted on a shaft. As wind or airflow strikes the cups, they rotate, and the speed of rotation is directly proportional to the wind velocity. Some advanced versions may use a vane or digital sensors to measure airflow more accurately. The rotational speed is converted into wind speed, which can be displayed on a digital or analog readout.",
+              "To use the anemometer, it is placed in the airflow path, either outdoors to measure wind speed or in controlled environments like air ducts or ventilation systems. It helps in determining airflow rates, monitoring weather conditions, and optimizing air distribution in buildings. It is an essential tool in studies of fluid dynamics and climate analysis."
+            ]
+            },
           {
             "name": "Micro Processor-Based Turbidity & Temperature Meter",
-            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/Micro Processor-Based Turbidity & Temperature Meter",
-            "description": "Used for precise measurement of turbidity and temperature in liquids, particularly water, to assess water quality."
-          }
+            "image": "/New BTP/Fluid Mechanics and Machines Laboratory/Micro Processor-Based Turbidity & Temperature Meter.jfif",
+            "description": [
+              "The Micro Processor-Based Turbidity & Temperature Meter is used for precise measurement of turbidity and temperature in liquids, particularly water. Turbidity is a key parameter in assessing water quality, as it indicates the presence of suspended particles, pollutants, or impurities. This meter is commonly used in environmental monitoring, water treatment, and laboratory analysis.",
+              "The equipment consists of a microprocessor that processes signals from sensors detecting light scattering due to suspended particles in the water, providing a turbidity reading, typically in Nephelometric Turbidity Units (NTU). It also measures the water's temperature using a temperature sensor, allowing for temperature compensation in turbidity readings, as temperature can affect the scattering of light.",
+              "To use the meter, a sample of the liquid is placed in a transparent container, and the meter is calibrated. The device then provides accurate real-time readings of both turbidity and temperature, helping ensure water quality meets required standards for various industrial, environmental, and research applications."
+            ]
+            }
         ]
       },
       {
