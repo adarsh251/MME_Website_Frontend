@@ -1,72 +1,139 @@
-.outercareer{
-    margin-top: 100px;
-    font-size: 13px;
+.outercareer {
+  font-size: 13px;
 }
 .container10 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 95%;
-    margin: 10px;
-  }
-  
-  .card10 {
-    width: 100%;  
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    display: flex;
-    padding: 10px;
-    transition: transform 0.3s ease-in-out;
-     
-  }
-  
-  .image10 {
-    width: 35%;
-  }
-  
-  .image10 img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .description10 {
-    width: calc(65% - 10px); /* Adjust as needed */
-    padding: 10px;
-    color: #000;
-  }
-  
-  .description10 h2 {
-    margin-top: 0;
-  }
-  
-  .description10 p {
-    margin-bottom: 10px;
-  }
-  
-  .description10 button {
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  /* Clearfix for card container */
-  .container10::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* .description10:hover{
-    transform: translateY(-10px);
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-    color: #007bff;
-    background-color: #222;
-  } */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 95%;
+  margin: 10px auto;
+}
 
-  .card10:hover {
-    transform: scale(1.02); /* Apply scale transformation on hover */
-    
+.card10 {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-wrap: wrap; /* Ensures proper wrapping on smaller screens */
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 8px; /* Smooth rounded corners */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card10:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Image Container */
+.image10 {
+  width: 35%;
+  min-width: 150px; /* Ensures images don’t shrink too much */
+  border-radius: 8px 0 0 8px; /* Smooth corners for the image side */
+  overflow: hidden; /* Ensures image stays within rounded corners */
+}
+
+.image10 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+.image10:hover img {
+  transform: scale(1.05); /* Slight zoom effect on image hover */
+}
+
+/* Description Container */
+.description10 {
+  width: calc(65% - 10px);
+  padding: 10px;
+  color: #000;
+}
+
+.description10 h2 {
+  margin-top: 0;
+  font-size: 1.2rem; /* Larger titles */
+  color: #333;
+}
+
+.description10 p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.description10 button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.description10 button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Clearfix for card container */
+.container10::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive Adjustments */
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  .card10 {
+      flex-direction: column; /* Stack image and description */
   }
- 
+
+  .image10 {
+      width: 100%;
+      border-radius: 8px 8px 0 0; /* Rounded corners for top image */
+  }
+
+  .description10 {
+      width: 100%;
+      padding: 15px 10px;
+  }
+
+  .description10 h2 {
+      font-size: 1.1rem;
+  }
+
+  .description10 p {
+      font-size: 0.95rem;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  .container10 {
+      width: 100%;
+      margin: 0;
+  }
+
+  .description10 {
+      padding: 10px;
+  }
+
+  .description10 h2 {
+      font-size: 1rem;
+  }
+
+  .description10 p {
+      font-size: 0.9rem;
+  }
+
+  .description10 button {
+      font-size: 0.85rem;
+      padding: 6px 12px;
+  }
+}
