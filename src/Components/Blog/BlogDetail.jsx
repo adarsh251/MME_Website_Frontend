@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { formatDate } from './utils';
+import defaultBlogImage from '../../assets/Blog default.jpg';
 import './BlogDetail.css';
 
 const BlogDetail = () => {
@@ -72,17 +73,18 @@ const BlogDetail = () => {
           </div>
         </div>
 
-        {/* <div className="blog-detail-image-container">
+        <div className="blog-detail-image-container">
           <img
-            src={`http://localhost:5000/api/blogs/${id}/image`}
-            alt={`Cover for ${blog.author}'s blog`}
-            className="blog-detail-image"
-            onError={(e) => {
-              e.target.src = '/api/placeholder/800/400';
-              e.target.alt = 'Blog image placeholder';
-            }}
-          />
-        </div> */}
+                  src={`${import.meta.env.VITE_BACKEND_URL}/api/blogs/${blog._id}/image`}
+                  alt={`Cover for ${blog.title} by ${blog.author}`}
+                  className="blog-image"
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = defaultBlogImage;
+                    e.target.alt = 'Blog image placeholder';
+                  }}
+                />
+        </div>
 
         <div 
           className="blog-detail-content"

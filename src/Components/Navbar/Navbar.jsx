@@ -83,7 +83,7 @@ const Navbar = () => {
             {labsData.labs.map((lab) => (
               <li key={lab.name}>
                 <NavLink 
-                  to={`/labs/${lab.name.toLowerCase().replace(/\s+/g, '-')}`}
+                  to={`/${lab.name.toLowerCase().replace(/\s+/g, '-')}`}
                   onClick={handleLinkClick}
                 >
                   {lab.name}
