@@ -1,175 +1,218 @@
-/* Navbar container */
+/* Base styles */
 nav {
-    width: 100%;
-    color: white;
-    padding: 4px 0;
-    position: sticky;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 10;
-    font-weight: bold;
-  }
-  
-  /* Logo styles */
-  .logo {
-    height: 45px;
-    width: 80px;
-    filter: brightness(150%);
-  }
-  
-  /* Navbar items */
-  nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 5px 20px;
-    font-size: 16px;
-    transition: transform 0.1s ease-in-out;
-  }
-  
-  /* Navbar item hover effect */
-  nav ul li:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Sticky navbar style */
-  .dark-nav {
-    background: #9c111a;
-    transition: 0.5s;
-  }
-  
-  /* Menu icon styles */
-  #menuIcon {
-    width: 30px;
-    cursor: pointer;
-    top: 22px;
-    right: 90px;
-  }
-  
-  /* Labs dropdown container */
-  .labs-dropdown {
-    position: relative;
-  }
-  
-  /* Labs dropdown menu styles */
-  /* Labs dropdown menu styles */
-.labs-dropdown-menu {
-  display: none; /* Hidden by default */
-  position: absolute;
-  top: 100%; /* Position below the Labs button */
-  left: 0;
-  background-color: #f9f9f9;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  padding: 8px 0;
-  z-index: 1;
-  min-width: 200px;
-  
-  /* Add max-height and scroll behavior */
-  max-height: 70vh; /* 70% of the viewport height */
-  overflow-y: auto; /* Enables vertical scrolling if the content exceeds max height */
-}
-
-/* Labs dropdown list items */
-.labs-dropdown-menu li {
-  padding: 8px 16px;
-  font-size: 14px;
-}
-
-/* Link styles within Labs dropdown */
-.labs-dropdown-menu li a {
-  color: black;
-  text-decoration: none;
-}
-
-/* Hover effect for Labs dropdown links */
-.labs-dropdown-menu li a:hover {
-  background-color: #cd3030;
+  width: 100%;
   color: white;
+  padding: 0.5rem 2rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  font-weight: bold;
 }
 
-  
-  /* Show Labs dropdown menu on hover */
-  .labs-dropdown:hover .labs-dropdown-menu {
+.dark-nav {
+  background: #9c111a;
+  transition: 0.5s;
+}
+
+/* Logo styles */
+.logo {
+  height: 45px;
+  width: 80px;
+  filter: brightness(150%);
+}
+
+/* Navigation list */
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1rem;
+  position: relative;
+}
+
+/* Navigation links */
+nav ul li a,
+.labs-trigger {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+/* Contact button */
+.btn {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #9c111a;
+}
+
+/* Labs dropdown */
+.labs-dropdown {
+  position: relative;
+}
+
+.labs-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 250px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.labs-dropdown-menu.show {
+  display: block;
+}
+
+.labs-dropdown-menu li {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.labs-dropdown-menu a {
+  color: #333;
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.labs-dropdown-menu a:hover {
+  background-color: #f5f5f5;
+  color: #9c111a;
+}
+
+/* Mobile menu icon */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.menu-icon span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 1rem;
+  }
+
+  .menu-icon {
     display: block;
   }
-  
-  /* Menubhai container (menu icon container) */
-  .menubhai {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    height: 30px;
-    width: 60px;
-  }
-  
-  /* Dropdown content styling */
-  .dropdown-content {
+
+  nav ul {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    color:#000000;
-    min-width: 160px;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    left: -80px;
-    top: 30px;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #9c111a;
+    flex-direction: column;
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   }
-  
-  .dropdown-content ul li {
-    font-size: 14px;
+
+  nav ul.show {
+    display: flex;
   }
-  
-  /* Dropdown menu link hover effect */
-  .dropdown-content a:hover {
-    background-color: #cd3030;
+
+  nav ul li {
+    margin: 0;
+    width: 100%;
+    text-align: center;
   }
-  
-  /* Show dropdown on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
+
+  .labs-dropdown {
+    position: static;
   }
-  
-  /* Media Queries for Responsiveness */
-  
-  /* Larger screens, adjust logo and list item margins */
-  @media (max-width: 1000px) {
-    .logo {
-      width: 140px;
-    }
-    nav ul li {
-      margin: 10px 15px;
-    }
+
+  .labs-dropdown-menu {
+    position: static;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #8a0f17;
   }
-  
-  /* Smaller screens (mobile menu) */
-  @media (max-width: 840px) {
-    nav {
-      padding: 15px 0;
-    }
-    nav ul {
-      position: fixed;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      background: #212ea0;
-      z-index: -1;
-      width: 200px;
-      padding-top: 70px;
-      transition: 0.5s;
-    }
-    nav ul li {
-      display: block;
-      margin: 25px 40px;
-    }
-    #menuIcon {
-      display: block;
-      width: 30px;
-      cursor: pointer;
-    }
-    .hide-mobile-menu {
-      right: -200px;
-    }
+
+  .labs-dropdown-menu.show {
+    max-height: 500px;
   }
-  
+
+  .labs-dropdown-menu a {
+    color: white;
+    padding: 0.75rem 2rem;
+  }
+
+  .labs-dropdown-menu a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+  }
+
+  /* Animate menu icon */
+  .menu-icon.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .menu-icon.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-icon.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  /* Mobile contact button */
+  .contact-button {
+    margin: 1rem 0;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
+
+/* Animations */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+nav ul.show {
+  animation: slideDown 0.3s ease-out forwards;
+}
